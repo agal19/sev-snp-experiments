@@ -1,0 +1,3375 @@
+Build started at 2022-04-27T12:15:56.808932
+Main binary: /usr/bin/python3
+Build Options: -Ddocdir=/home/anna/AMDSEV/usr/local/share/doc -Dqemu_firmwarepath=/home/anna/AMDSEV/usr/local/share/qemu-firmware -Dqemu_suffix=qemu -Doptimization=0 -Ddebug=true -Dwerror=true -Dstrip=false -Db_pie=true -Db_coverage=false -Db_lto=false -Dcfi=false -Dcfi_debug=false -Dmalloc=system -Dmalloc_trim=auto -Dsparse=auto -Dkvm=auto -Dhax=auto -Dwhpx=auto -Dhvf=auto -Dnvmm=auto -Dxen=enabled -Dxen_pci_passthrough=auto -Dtcg=enabled -Dcocoa=auto -Dgtk=auto -Dmpath=auto -Dsdl=auto -Dsdl_image=auto -Dlibusb=auto -Dsmartcard=auto -Dusb_redir=auto -Dvte=auto -Dvnc=auto -Dvnc_sasl=auto -Dvnc_jpeg=auto -Dvnc_png=auto -Dgettext=auto -Dxkbcommon=auto -Du2f=auto -Dvirtiofsd=auto -Dcapstone=auto -Dslirp=auto -Dfdt=auto -Dbrlapi=auto -Dcurl=auto -Dglusterfs=auto -Dbzip2=auto -Dlibiscsi=auto -Dlibnfs=auto -Diconv=auto -Dcurses=auto -Dlibudev=auto -Drbd=auto -Dlzo=auto -Dsnappy=auto -Dlzfse=auto -Dlibxml2=auto -Dlibdaxctl=auto -Dlibpmem=auto -Dlinux_io_uring=auto -Dgnutls=auto -Dnettle=auto -Dgcrypt=auto -Dauth_pam=auto -Dzstd=auto -Dseccomp=auto -Dvirtfs=auto -Dcap_ng=auto -Dattr=auto -Ddefault_devices=true -Dvirglrenderer=auto -Ddocs=auto -Dsphinx_build= -Dinstall_blobs=true -Dvhost_user_blk_server=auto -Dmultiprocess=auto -Dfuse=auto -Dfuse_lseek=auto -Dguest_agent_msi=auto -Dbpf=auto -Dtcg_interpreter=false -Dprefix=/home/anna/AMDSEV/usr/local -Dbindir=/home/anna/AMDSEV/usr/local/bin -Ddatadir=/home/anna/AMDSEV/usr/local/share -Dincludedir=/home/anna/AMDSEV/usr/local/include -Dlibdir=/home/anna/AMDSEV/usr/local/lib -Dlibexecdir=/home/anna/AMDSEV/usr/local/libexec -Dlocaledir=/home/anna/AMDSEV/usr/local/share/locale -Dlocalstatedir=/home/anna/AMDSEV/usr/local/var -Dmandir=/home/anna/AMDSEV/usr/local/share/man -Dsysconfdir=/home/anna/AMDSEV/usr/local/etc '--native-file config-meson.cross'
+Python system: Linux
+The Meson build system
+Version: 0.59.2
+Source dir: /home/anna/AMDSEV/qemu
+Build dir: /home/anna/AMDSEV/qemu/build
+Build type: native build
+Project name: qemu
+Project version: 6.1.50
+Sanity testing C compiler: cc -m64 -mcx16
+Is cross compiler: False.
+Sanity check compiler command line: cc -m64 -mcx16 sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/anna/AMDSEV/qemu/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc -m64 -mcx16 (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the host machine: cc -m64 -mcx16 ld.bfd 2.34
+Sanity testing C compiler: cc -m64 -mcx16
+Is cross compiler: False.
+Sanity check compiler command line: cc -m64 -mcx16 sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/anna/AMDSEV/qemu/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc -m64 -mcx16 (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the build machine: cc -m64 -mcx16 ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Program sh found: YES (/usr/bin/sh)
+Program python3 found: YES (/usr/bin/python3)
+WARNING: Broken python installation detected. Python files installed by Meson might not be found by python interpreter.
+Program bzip2 found: YES (/usr/bin/bzip2)
+Sanity testing C++ compiler: c++ -m64 -mcx16
+Is cross compiler: False.
+Sanity check compiler command line: c++ -m64 -mcx16 sanitycheckcpp.cc -o sanitycheckcpp.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/anna/AMDSEV/qemu/build/meson-private/sanitycheckcpp.exe
+C++ compiler for the host machine: c++ -m64 -mcx16 (gcc 9.4.0 "c++ (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C++ linker for the host machine: c++ -m64 -mcx16 ld.bfd 2.34
+Program cgcc found: NO
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpc6klbo7b
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpc6klbo7b/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpc6klbo7b/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lm -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library m found: YES
+Run-time dependency threads found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpr2n6gf9a
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpr2n6gf9a/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpr2n6gf9a/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lutil -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library util found: YES
+Run-time dependency appleframeworks found: NO (tried framework)
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary for 1 specified from cross file, native file, or env var as ['pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'pixman-1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion pixman-1` -> 0
+0.38.4
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags pixman-1` -> 0
+-I/usr/include/pixman-1
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs pixman-1` -> 0
+-L/usr/lib/x86_64-linux-gnu -lpixman-1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs pixman-1` -> 0
+-lpixman-1
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpzcx2xjp4
+Command line:  c++ -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpzcx2xjp4/testfile.cpp -o /home/anna/AMDSEV/qemu/build/meson-private/tmpzcx2xjp4/output.exe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp7nxgyqw6
+Command line:  c++ -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp7nxgyqw6/testfile.cpp -o /home/anna/AMDSEV/qemu/build/meson-private/tmp7nxgyqw6/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -fpermissive --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency pixman-1 found: YES 0.38.4
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpzuorlgcc
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpzuorlgcc/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpzuorlgcc/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -laio -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library aio found: YES
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'zlib' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion zlib` -> 0
+1.2.11
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags zlib` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs zlib` -> 0
+-L/usr/lib/x86_64-linux-gnu -lz
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs zlib` -> 0
+-lz
+Run-time dependency zlib found: YES 1.2.11
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'liburing' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion liburing` -> 0
+0.6
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags liburing` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs liburing` -> 0
+-L/usr/lib/x86_64-linux-gnu -luring
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs liburing` -> 0
+-luring
+Run-time dependency liburing found: YES 0.6
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libxml-2.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libxml-2.0` -> 0
+2.9.10
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libxml-2.0` -> 0
+-I/usr/include/libxml2
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libxml-2.0` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxml2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libxml-2.0` -> 0
+-lxml2
+Run-time dependency libxml-2.0 found: YES 2.9.10
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libnfs' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libnfs` -> 0
+4.0.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libnfs` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libnfs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lnfs
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libnfs` -> 0
+-lnfs
+Run-time dependency libnfs found: YES 4.0.0
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpcz7_ftqw
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpcz7_ftqw/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpcz7_ftqw/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #include <stddef.h>
+  #include <sys/types.h>
+  #ifdef CONFIG_LIBATTR
+  #include <attr/xattr.h>
+  #else
+  #include <sys/xattr.h>
+  #endif
+  int main(void) { getxattr(NULL, NULL, NULL, 0); setxattr(NULL, NULL, NULL, 0, 0); return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency appleframeworks found: NO (tried framework)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libseccomp' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libseccomp` -> 0
+2.5.1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libseccomp` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libseccomp` -> 0
+-L/usr/lib/x86_64-linux-gnu -lseccomp
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libseccomp` -> 0
+-lseccomp
+Run-time dependency libseccomp found: YES 2.5.1
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpcoua0pob
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpcoua0pob/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("cap-ng.h")
+          #error "Header 'cap-ng.h' could not be found"
+         #endif
+        #else
+         #include <cap-ng.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "cap-ng.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpkzn6ll38
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpkzn6ll38/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpkzn6ll38/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lcap-ng -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library cap-ng found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp0q8kkpw2
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp0q8kkpw2/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp0q8kkpw2/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -lcap-ng -Wl,--end-group 
+
+Code:
+ 
+   #include <cap-ng.h>
+   int main(void)
+   {
+     capng_capability_to_name(CAPNG_EFFECTIVE);
+     return 0;
+   }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xkbcommon' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion xkbcommon` -> 0
+0.10.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags xkbcommon` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xkbcommon` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxkbcommon
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs xkbcommon` -> 0
+-lxkbcommon
+Run-time dependency xkbcommon found: YES 0.10.0
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp6gat33ak
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp6gat33ak/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp6gat33ak/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rt found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpy5_2vkc3
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpy5_2vkc3/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpy5_2vkc3/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -ldl -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library dl found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp8xm1xvba
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp8xm1xvba/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp8xm1xvba/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -ldl -Wl,--end-group 
+
+Code:
+ 
+        #define dlopen meson_disable_define_of_dlopen
+        
+        #include <limits.h>
+        #undef dlopen
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char dlopen (void);
+        
+        #if defined __stub_dlopen || defined __stub___dlopen
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return dlopen ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "dlopen" with dependency -ldl: YES 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libiscsi' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libiscsi` -> 0
+1.18.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libiscsi` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libiscsi` -> 0
+-L/usr/lib/x86_64-linux-gnu -liscsi
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libiscsi` -> 0
+-liscsi
+Run-time dependency libiscsi found: YES 1.18.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libzstd' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libzstd` -> 0
+1.4.4
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libzstd` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libzstd` -> 0
+-L/usr/lib -lzstd
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libzstd` -> 0
+-lzstd
+Run-time dependency libzstd found: YES 1.4.4
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'virglrenderer' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion virglrenderer` -> 0
+0.8.2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags virglrenderer` -> 0
+-I/usr/include/virgl
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs virglrenderer` -> 0
+-L/usr/lib/x86_64-linux-gnu -lvirglrenderer
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs virglrenderer` -> 0
+-lvirglrenderer
+Run-time dependency virglrenderer found: YES 0.8.2
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libcurl' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libcurl` -> 0
+7.68.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libcurl` -> 0
+-I/usr/include/x86_64-linux-gnu
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libcurl` -> 0
+-L/usr/lib/x86_64-linux-gnu -lcurl
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libcurl` -> 0
+-lcurl
+Run-time dependency libcurl found: YES 7.68.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libudev' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libudev` -> 0
+245
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libudev` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libudev` -> 0
+-L/lib/x86_64-linux-gnu -ludev
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libudev` -> 0
+-ludev
+Run-time dependency libudev found: YES 245
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpyaio9wnu
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpyaio9wnu/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpyaio9wnu/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lmpathpersist -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library mpathpersist found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpz1hueaow
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpz1hueaow/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpz1hueaow/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lmultipath -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library multipath found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp8m1wfv07
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp8m1wfv07/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp8m1wfv07/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group /lib/x86_64-linux-gnu/libudev.so -lmpathpersist -lmultipath -Wl,--end-group 
+
+Code:
+ 
+    #include <libudev.h>
+    #include <mpath_persist.h>
+    unsigned mpath_mx_alloc_len = 1024;
+    int logsink;
+    static struct config *multipath_conf;
+    extern struct udev *udev;
+    extern struct config *get_multipath_config(void);
+    extern void put_multipath_config(struct config *conf);
+    struct udev *udev;
+    struct config *get_multipath_config(void) { return multipath_conf; }
+    void put_multipath_config(struct config *conf) { }
+    int main(void) {
+        udev = udev_new();
+        multipath_conf = mpath_lib_init();
+        return 0;
+    }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'ncursesw' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion ncursesw` -> 0
+6.2.20200212
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags ncursesw` -> 0
+-D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs ncursesw` -> 0
+-Wl,-Bsymbolic-functions -lncursesw -ltinfo
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs ncursesw` -> 0
+-Wl,-Bsymbolic-functions -lncursesw -ltinfo
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmphi7v8k6w
+Command line:  c++ -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmphi7v8k6w/testfile.cpp -o /home/anna/AMDSEV/qemu/build/meson-private/tmphi7v8k6w/output.exe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lncursesw -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpu5ibf62l
+Command line:  c++ -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpu5ibf62l/testfile.cpp -o /home/anna/AMDSEV/qemu/build/meson-private/tmpu5ibf62l/output.exe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -ltinfo -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency ncursesw found: YES 6.2.20200212
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpxh12m91d
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpxh12m91d/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpxh12m91d/output.exe -D_DEFAULT_SOURCE -D_XOPEN_SOURCE=600 -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -DNCURSES_WIDECHAR -Wl,-Bsymbolic-functions -Wl,--start-group -lncursesw -ltinfo -Wl,--end-group 
+
+Code:
+ 
+    #include <locale.h>
+    #include <curses.h>
+    #include <wchar.h>
+    int main(void) {
+      wchar_t wch = L'w';
+      setlocale(LC_ALL, "");
+      resize_term(0, 0);
+      addwstr(L"wide chars\n");
+      addnwstr(&wch, 1);
+      add_wch(WACS_DEGREE);
+      return 0;
+    }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmprjn9azth
+Command line:  cc -m64 -mcx16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /home/anna/AMDSEV/qemu/build/meson-private/tmprjn9azth/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmprjn9azth/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -pthread -Wl,--start-group -lgmodule-2.0 -lglib-2.0 -liconv -Wl,--end-group 
+
+Code:
+ 
+        #include <iconv.h>
+        int main(void) {
+          iconv_t conv = iconv_open("WCHAR_T", "UCS-2");
+          return conv != (iconv_t) -1;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -liconv
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp64n3xbp4
+Command line:  cc -m64 -mcx16 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include /home/anna/AMDSEV/qemu/build/meson-private/tmp64n3xbp4/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp64n3xbp4/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -pthread -Wl,--start-group -lgmodule-2.0 -lglib-2.0 -Wl,--end-group 
+
+Code:
+ 
+        #include <iconv.h>
+        int main(void) {
+          iconv_t conv = iconv_open("WCHAR_T", "UCS-2");
+          return conv != (iconv_t) -1;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpsizde345
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpsizde345/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("brlapi.h")
+          #error "Header 'brlapi.h' could not be found"
+         #endif
+        #else
+         #include <brlapi.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "brlapi.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpvd9847r4
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpvd9847r4/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpvd9847r4/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lbrlapi -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library brlapi found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpoh28t41j
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpoh28t41j/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpoh28t41j/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -lbrlapi -Wl,--end-group 
+
+Code:
+ 
+     #include <brlapi.h>
+     #include <stddef.h>
+     int main(void) { return brlapi__openConnection (NULL, NULL, NULL); }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'sdl2' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion sdl2` -> 0
+2.0.10
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags sdl2` -> 0
+-D_REENTRANT -I/usr/include/SDL2
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs sdl2` -> 0
+-L/usr/lib/x86_64-linux-gnu -lSDL2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs sdl2` -> 0
+-lSDL2
+Run-time dependency sdl2 found: YES 2.0.10
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'SDL2_image' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion SDL2_image` -> 0
+2.0.5
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags SDL2_image` -> 0
+-D_REENTRANT -I/usr/include/SDL2
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs SDL2_image` -> 0
+-L/usr/lib/x86_64-linux-gnu -lSDL2_image -lSDL2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs SDL2_image` -> 0
+-lSDL2_image -lSDL2
+Run-time dependency sdl2_image found: YES 2.0.5
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmptg2gxjs0
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmptg2gxjs0/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmptg2gxjs0/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrados -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rados found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp8fbmroal
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp8fbmroal/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("rbd/librbd.h")
+          #error "Header 'rbd/librbd.h' could not be found"
+         #endif
+        #else
+         #include <rbd/librbd.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "rbd/librbd.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp9_ou2fpj
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp9_ou2fpj/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp9_ou2fpj/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lrbd -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library rbd found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp4mxr94a5
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp4mxr94a5/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp4mxr94a5/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -lrbd -lrados -Wl,--end-group 
+
+Code:
+ 
+      #include <stdio.h>
+      #include <rbd/librbd.h>
+      int main(void) {
+        rados_t cluster;
+        rados_create(&cluster, NULL);
+        #if LIBRBD_VERSION_CODE < LIBRBD_VERSION(1, 12, 0)
+        #error
+        #endif
+        return 0;
+      }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'glusterfs-api' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion glusterfs-api` -> 0
+7.7.2
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags glusterfs-api` -> 0
+-D_FILE_OFFSET_BITS=64 -D__USE_FILE_OFFSET64 -D__USE_LARGEFILE64 -DUSE_POSIX_ACLS=1 -I/usr/include/uuid
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs glusterfs-api` -> 0
+-L/usr/lib/x86_64-linux-gnu -lacl -lgfapi -lglusterfs -lgfrpc -lgfxdr -luuid
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs glusterfs-api` -> 0
+-lacl -lgfapi -lglusterfs -lgfrpc -lgfxdr -luuid
+Run-time dependency glusterfs-api found: YES 7.7.2
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpgct0zeo5
+Command line:  cc -m64 -mcx16 -I/usr/include/uuid /home/anna/AMDSEV/qemu/build/meson-private/tmpgct0zeo5/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpgct0zeo5/output.exe -D__USE_FILE_OFFSET64 -D__USE_LARGEFILE64 -DUSE_POSIX_ACLS=1 -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libacl.so /usr/lib/x86_64-linux-gnu/libgfapi.so /usr/lib/x86_64-linux-gnu/libglusterfs.so /usr/lib/x86_64-linux-gnu/libgfrpc.so /usr/lib/x86_64-linux-gnu/libgfxdr.so /usr/lib/x86_64-linux-gnu/libuuid.so -Wl,--end-group 
+
+Code:
+ 
+      #include <glusterfs/api/glfs.h>
+
+      int
+      main(void)
+      {
+          /* new glfs_ftruncate() passes two additional args */
+          return glfs_ftruncate(NULL, 0, NULL, NULL);
+      }
+    
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpratakkhl
+Command line:  cc -m64 -mcx16 -I/usr/include/uuid /home/anna/AMDSEV/qemu/build/meson-private/tmpratakkhl/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpratakkhl/output.exe -D__USE_FILE_OFFSET64 -D__USE_LARGEFILE64 -DUSE_POSIX_ACLS=1 -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group /usr/lib/x86_64-linux-gnu/libacl.so /usr/lib/x86_64-linux-gnu/libgfapi.so /usr/lib/x86_64-linux-gnu/libglusterfs.so /usr/lib/x86_64-linux-gnu/libgfrpc.so /usr/lib/x86_64-linux-gnu/libgfxdr.so /usr/lib/x86_64-linux-gnu/libuuid.so -Wl,--end-group 
+
+Code:
+ 
+      #include <glusterfs/api/glfs.h>
+
+      /* new glfs_io_cbk() passes two additional glfs_stat structs */
+      static void
+      glusterfs_iocb(glfs_fd_t *fd, ssize_t ret, struct glfs_stat *prestat, struct glfs_stat *poststat, void *data)
+      {}
+
+      int
+      main(void)
+      {
+          glfs_io_cbk iocb = &glusterfs_iocb;
+          iocb(NULL, 0 , NULL, NULL, NULL);
+          return 0;
+      }
+    
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpdktugp5l
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpdktugp5l/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("bzlib.h")
+          #error "Header 'bzlib.h' could not be found"
+         #endif
+        #else
+         #include <bzlib.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "bzlib.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpakxou1sa
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpakxou1sa/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpakxou1sa/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lbz2 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library bz2 found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpb1nsphyi
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpb1nsphyi/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpb1nsphyi/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -lbz2 -Wl,--end-group 
+
+Code:
+ 
+     #include <bzlib.h>
+     int main(void) { BZ2_bzlibVersion(); return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp5h8c9p1f
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp5h8c9p1f/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("lzfse.h")
+          #error "Header 'lzfse.h' could not be found"
+         #endif
+        #else
+         #include <lzfse.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmp5h8c9p1f/testfile.c:4:12: error: #error "Header 'lzfse.h' could not be found"
+    4 |           #error "Header 'lzfse.h' could not be found"
+      |            ^~~~~
+
+Has header "lzfse.h" : NO 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gbm' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gbm` -> 1
+
+Run-time dependency gbm found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gnutls' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gnutls` -> 0
+3.6.13
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gnutls` -> 0
+-I/usr/include/p11-kit-1
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gnutls` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgnutls
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gnutls` -> 0
+-lgnutls
+Dependency gnutls found: NO found 3.6.13 but need: '>=3.6.14'
+Run-time dependency gnutls found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gnutls' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG_PATH]: 
+Run-time dependency gnutls found: YES 3.6.13
+libgcrypt-config binary missing from cross or native file, or env var undefined.
+Trying a default libgcrypt-config fallback at libgcrypt-config
+libgcrypt-config found: YES (/usr/bin/libgcrypt-config) 1.8.5
+Run-time dependency libgcrypt found: YES 1.8.5
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gtk+-3.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gtk+-3.0` -> 0
+3.24.20
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gtk+-3.0` -> 0
+-pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gtk+-3.0` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gtk+-3.0` -> 0
+-lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gtk+-3.0 found: YES 3.24.20
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gtk+-x11-3.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion gtk+-x11-3.0` -> 0
+3.24.20
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags gtk+-x11-3.0` -> 0
+-pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gtk+-x11-3.0` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs gtk+-x11-3.0` -> 0
+-lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gtk+-x11-3.0 found: YES 3.24.20
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'vte-2.91' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion vte-2.91` -> 0
+0.60.3
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags vte-2.91` -> 0
+-pthread -I/usr/include/vte-2.91 -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs vte-2.91` -> 0
+-L/usr/lib/x86_64-linux-gnu -lvte-2.91 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs vte-2.91` -> 0
+-lvte-2.91 -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency vte-2.91 found: YES 0.60.3
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'x11' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion x11` -> 0
+1.6.9
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags x11` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs x11` -> 0
+-L/usr/lib/x86_64-linux-gnu -lX11
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs x11` -> 0
+-lX11
+Run-time dependency x11 found: YES 1.6.9
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libpng' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libpng` -> 0
+1.6.37
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libpng` -> 0
+-I/usr/include/libpng16
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libpng` -> 0
+-L/usr/lib/x86_64-linux-gnu -lpng16 -lz
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libpng` -> 0
+-lpng16 -lz
+Run-time dependency libpng found: YES 1.6.37
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libjpeg' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libjpeg` -> 0
+2.0.3
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libjpeg` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libjpeg` -> 0
+-L/build/libjpeg-turbo-6HlDLQ/libjpeg-turbo-2.0.3/obj-x86_64-linux-gnu/lib/x86_64-linux-gnu -ljpeg
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libjpeg` -> 0
+-L/build/libjpeg-turbo-6HlDLQ/libjpeg-turbo-2.0.3/obj-x86_64-linux-gnu/lib/x86_64-linux-gnu -ljpeg
+Run-time dependency libjpeg found: YES 2.0.3
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpsfegdvlo
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpsfegdvlo/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sasl/sasl.h")
+          #error "Header 'sasl/sasl.h' could not be found"
+         #endif
+        #else
+         #include <sasl/sasl.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sasl/sasl.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpfo1z4mji
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpfo1z4mji/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpfo1z4mji/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lsasl2 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library sasl2 found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpc7epucsg
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpc7epucsg/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("security/pam_appl.h")
+          #error "Header 'security/pam_appl.h' could not be found"
+         #endif
+        #else
+         #include <security/pam_appl.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmpc7epucsg/testfile.c:4:12: error: #error "Header 'security/pam_appl.h' could not be found"
+    4 |           #error "Header 'security/pam_appl.h' could not be found"
+      |            ^~~~~
+
+Has header "security/pam_appl.h" : NO 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmphheyhf8c
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmphheyhf8c/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("snappy-c.h")
+          #error "Header 'snappy-c.h' could not be found"
+         #endif
+        #else
+         #include <snappy-c.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "snappy-c.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpeaopdtqp
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpeaopdtqp/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpeaopdtqp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lsnappy -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library snappy found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpxqjhjpzt
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpxqjhjpzt/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpxqjhjpzt/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -lsnappy -Wl,--end-group 
+
+Code:
+ 
+   #include <snappy-c.h>
+   int main(void) { snappy_max_compressed_length(4096); return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpgysxytzg
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpgysxytzg/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("lzo/lzo1x.h")
+          #error "Header 'lzo/lzo1x.h' could not be found"
+         #endif
+        #else
+         #include <lzo/lzo1x.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "lzo/lzo1x.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpbmvfoipp
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpbmvfoipp/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpbmvfoipp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -llzo2 -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Library lzo2 found: YES
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp2519jeba
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp2519jeba/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp2519jeba/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -llzo2 -Wl,--end-group 
+
+Code:
+ 
+   #include <lzo/lzo1x.h>
+   int main(void) { lzo_version(); return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libcacard' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libcacard` -> 0
+2.6.1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libcacard` -> 0
+-I/usr/include/cacard -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libcacard` -> 0
+-L/usr/lib/x86_64-linux-gnu -lcacard -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libcacard` -> 0
+-lcacard -lglib-2.0
+Run-time dependency libcacard found: YES 2.6.1
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'u2f-emu' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion u2f-emu` -> 1
+
+Run-time dependency u2f-emu found: NO (tried pkgconfig)
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libusbredirparser-0.5' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libusbredirparser-0.5` -> 0
+0.8.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libusbredirparser-0.5` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libusbredirparser-0.5` -> 0
+-L/usr/lib/x86_64-linux-gnu -lusbredirparser
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libusbredirparser-0.5` -> 0
+-lusbredirparser
+Run-time dependency libusbredirparser-0.5 found: YES 0.8.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libusb-1.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libusb-1.0` -> 0
+1.0.23
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libusb-1.0` -> 0
+-I/usr/include/libusb-1.0
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libusb-1.0` -> 0
+-L/usr/lib/x86_64-linux-gnu -lusb-1.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libusb-1.0` -> 0
+-lusb-1.0
+Run-time dependency libusb-1.0 found: YES 1.0.23
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libpmem' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libpmem` -> 0
+1.8
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libpmem` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libpmem` -> 0
+-L/usr/lib/x86_64-linux-gnu -lpmem
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libpmem` -> 0
+-lpmem
+Run-time dependency libpmem found: YES 1.8
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libdaxctl' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libdaxctl` -> 0
+67+
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libdaxctl` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libdaxctl` -> 0
+-L/usr/lib/x86_64-linux-gnu -ldaxctl
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libdaxctl` -> 0
+-ldaxctl
+Run-time dependency libdaxctl found: YES 67+
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libtasn1' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libtasn1` -> 0
+4.16.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libtasn1` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libtasn1` -> 0
+-L/usr/lib/x86_64-linux-gnu -ltasn1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libtasn1` -> 0
+-ltasn1
+Run-time dependency libtasn1 found: YES 4.16.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libkeyutils' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libkeyutils` -> 0
+1.6
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags libkeyutils` -> 0
+
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libkeyutils` -> 0
+-L/usr/lib/x86_64-linux-gnu -lkeyutils
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs libkeyutils` -> 0
+-lkeyutils
+Run-time dependency libkeyutils found: YES 1.6
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpc8srwgr8
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpc8srwgr8/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpc8srwgr8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define gettid meson_disable_define_of_gettid
+        
+        #include <limits.h>
+        #undef gettid
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char gettid (void);
+        
+        #if defined __stub_gettid || defined __stub___gettid
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return gettid ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "gettid" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpq2encnwq
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpq2encnwq/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpq2encnwq/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ #include <malloc.h>
+                int main(void) { malloc_trim(0); return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpbuwqqy9_
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpbuwqqy9_/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpbuwqqy9_/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+  #include <sys/stat.h>
+  int main(void) {
+    struct statx statxbuf;
+    statx(0, "", 0, STATX_BASIC_STATS, &statxbuf);
+    return 0;
+  }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'fuse3' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion fuse3` -> 0
+3.9.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags fuse3` -> 0
+-I/usr/include/fuse3
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs fuse3` -> 0
+-L/usr/lib/x86_64-linux-gnu -lfuse3 -lpthread
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs fuse3` -> 0
+-lfuse3 -lpthread
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp2waw_zoh
+Command line:  c++ -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp2waw_zoh/testfile.cpp -o /home/anna/AMDSEV/qemu/build/meson-private/tmp2waw_zoh/output.exe -D_FILE_OFFSET_BITS=64 -O0 -fpermissive -Wl,--start-group -lpthread -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Run-time dependency fuse3 found: YES 3.9.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libbpf' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion libbpf` -> 1
+
+Run-time dependency libbpf found: NO (tried pkgconfig)
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmppf02kph6
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmppf02kph6/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/epoll.h")
+          #error "Header 'sys/epoll.h' could not be found"
+         #endif
+        #else
+         #include <sys/epoll.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "sys/epoll.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpkzwueccm
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpkzwueccm/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("linux/magic.h")
+          #error "Header 'linux/magic.h' could not be found"
+         #endif
+        #else
+         #include <linux/magic.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "linux/magic.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp7je2r9_u
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp7je2r9_u/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("valgrind/valgrind.h")
+          #error "Header 'valgrind/valgrind.h' could not be found"
+         #endif
+        #else
+         #include <valgrind/valgrind.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmp7je2r9_u/testfile.c:4:12: error: #error "Header 'valgrind/valgrind.h' could not be found"
+    4 |           #error "Header 'valgrind/valgrind.h' could not be found"
+      |            ^~~~~
+
+Has header "valgrind/valgrind.h" : NO 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpt34nvh6q
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpt34nvh6q/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("linux/btrfs.h")
+          #error "Header 'linux/btrfs.h' could not be found"
+         #endif
+        #else
+         #include <linux/btrfs.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "linux/btrfs.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmppwvfp4x0
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmppwvfp4x0/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("libdrm/drm.h")
+          #error "Header 'libdrm/drm.h' could not be found"
+         #endif
+        #else
+         #include <libdrm/drm.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "libdrm/drm.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp0vvt73d1
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp0vvt73d1/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("pty.h")
+          #error "Header 'pty.h' could not be found"
+         #endif
+        #else
+         #include <pty.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "pty.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpeca96aa_
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpeca96aa_/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/disk.h")
+          #error "Header 'sys/disk.h' could not be found"
+         #endif
+        #else
+         #include <sys/disk.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmpeca96aa_/testfile.c:4:12: error: #error "Header 'sys/disk.h' could not be found"
+    4 |           #error "Header 'sys/disk.h' could not be found"
+      |            ^~~~~
+
+Has header "sys/disk.h" : NO 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpj2dghy9a
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpj2dghy9a/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/ioccom.h")
+          #error "Header 'sys/ioccom.h' could not be found"
+         #endif
+        #else
+         #include <sys/ioccom.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmpj2dghy9a/testfile.c:4:12: error: #error "Header 'sys/ioccom.h' could not be found"
+    4 |           #error "Header 'sys/ioccom.h' could not be found"
+      |            ^~~~~
+
+Has header "sys/ioccom.h" : NO 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpg7mg6fa_
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpg7mg6fa_/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("sys/kcov.h")
+          #error "Header 'sys/kcov.h' could not be found"
+         #endif
+        #else
+         #include <sys/kcov.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmpg7mg6fa_/testfile.c:4:12: error: #error "Header 'sys/kcov.h' could not be found"
+    4 |           #error "Header 'sys/kcov.h' could not be found"
+      |            ^~~~~
+
+Has header "sys/kcov.h" : NO 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpdyj4t2_h
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpdyj4t2_h/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpdyj4t2_h/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define accept4 meson_disable_define_of_accept4
+        
+        #include <limits.h>
+        #undef accept4
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char accept4 (void);
+        
+        #if defined __stub_accept4 || defined __stub___accept4
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return accept4 ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "accept4" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp3mmmw3v4
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp3mmmw3v4/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp3mmmw3v4/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define clock_adjtime meson_disable_define_of_clock_adjtime
+        
+        #include <limits.h>
+        #undef clock_adjtime
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char clock_adjtime (void);
+        
+        #if defined __stub_clock_adjtime || defined __stub___clock_adjtime
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return clock_adjtime ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "clock_adjtime" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpnqd7w5ux
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpnqd7w5ux/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpnqd7w5ux/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define dup3 meson_disable_define_of_dup3
+        
+        #include <limits.h>
+        #undef dup3
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char dup3 (void);
+        
+        #if defined __stub_dup3 || defined __stub___dup3
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return dup3 ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "dup3" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpoc_2sh07
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpoc_2sh07/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpoc_2sh07/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define fallocate meson_disable_define_of_fallocate
+        
+        #include <limits.h>
+        #undef fallocate
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char fallocate (void);
+        
+        #if defined __stub_fallocate || defined __stub___fallocate
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return fallocate ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "fallocate" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp20xt1vc8
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp20xt1vc8/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp20xt1vc8/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define posix_fallocate meson_disable_define_of_posix_fallocate
+        
+        #include <limits.h>
+        #undef posix_fallocate
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char posix_fallocate (void);
+        
+        #if defined __stub_posix_fallocate || defined __stub___posix_fallocate
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return posix_fallocate ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "posix_fallocate" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp9xp7bwu_
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp9xp7bwu_/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp9xp7bwu_/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define posix_memalign meson_disable_define_of_posix_memalign
+        
+        #include <limits.h>
+        #undef posix_memalign
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char posix_memalign (void);
+        
+        #if defined __stub_posix_memalign || defined __stub___posix_memalign
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return posix_memalign ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmp9xp7bwu_/testfile.c:10:14: warning: conflicting types for built-in function 'posix_memalign'; expected 'int(void **, long unsigned int,  long unsigned int)' [-Wbuiltin-declaration-mismatch]
+   10 |         char posix_memalign (void);
+      |              ^~~~~~~~~~~~~~
+
+Checking for function "posix_memalign" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp2ug4w47p
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp2ug4w47p/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp2ug4w47p/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define ppoll meson_disable_define_of_ppoll
+        
+        #include <limits.h>
+        #undef ppoll
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char ppoll (void);
+        
+        #if defined __stub_ppoll || defined __stub___ppoll
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return ppoll ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "ppoll" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpm4u17qti
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpm4u17qti/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpm4u17qti/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ #include <sys/uio.h>
+#include <limits.h>
+
+        #if defined __stub_preadv || defined __stub___preadv
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &preadv;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "preadv" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp0q7o9od9
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp0q7o9od9/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp0q7o9od9/output.exe -pthread -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define sem_timedwait meson_disable_define_of_sem_timedwait
+        
+        #include <limits.h>
+        #undef sem_timedwait
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char sem_timedwait (void);
+        
+        #if defined __stub_sem_timedwait || defined __stub___sem_timedwait
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return sem_timedwait ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "sem_timedwait" with dependency threads: YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp3n52b18x
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp3n52b18x/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp3n52b18x/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define sendfile meson_disable_define_of_sendfile
+        
+        #include <limits.h>
+        #undef sendfile
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char sendfile (void);
+        
+        #if defined __stub_sendfile || defined __stub___sendfile
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return sendfile ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "sendfile" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpo7v9h6y_
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpo7v9h6y_/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpo7v9h6y_/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define setns meson_disable_define_of_setns
+        
+        #include <limits.h>
+        #undef setns
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char setns (void);
+        
+        #if defined __stub_setns || defined __stub___setns
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return setns ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "setns" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpzqxbpd19
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpzqxbpd19/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpzqxbpd19/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define unshare meson_disable_define_of_unshare
+        
+        #include <limits.h>
+        #undef unshare
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char unshare (void);
+        
+        #if defined __stub_unshare || defined __stub___unshare
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return unshare ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "unshare" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpb61tt3qp
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpb61tt3qp/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpb61tt3qp/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define syncfs meson_disable_define_of_syncfs
+        
+        #include <limits.h>
+        #undef syncfs
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char syncfs (void);
+        
+        #if defined __stub_syncfs || defined __stub___syncfs
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return syncfs ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "syncfs" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpa6r4248z
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpa6r4248z/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpa6r4248z/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define sync_file_range meson_disable_define_of_sync_file_range
+        
+        #include <limits.h>
+        #undef sync_file_range
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char sync_file_range (void);
+        
+        #if defined __stub_sync_file_range || defined __stub___sync_file_range
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return sync_file_range ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "sync_file_range" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpg54clv13
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpg54clv13/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpg54clv13/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define timerfd_create meson_disable_define_of_timerfd_create
+        
+        #include <limits.h>
+        #undef timerfd_create
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char timerfd_create (void);
+        
+        #if defined __stub_timerfd_create || defined __stub___timerfd_create
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return timerfd_create ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "timerfd_create" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpvic_z8s6
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpvic_z8s6/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpvic_z8s6/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define copy_file_range meson_disable_define_of_copy_file_range
+        
+        #include <limits.h>
+        #undef copy_file_range
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char copy_file_range (void);
+        
+        #if defined __stub_copy_file_range || defined __stub___copy_file_range
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return copy_file_range ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "copy_file_range" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpg4paovtt
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpg4paovtt/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpg4paovtt/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Wl,--start-group -lutil -Wl,--end-group 
+
+Code:
+ 
+        #define openpty meson_disable_define_of_openpty
+        
+        #include <limits.h>
+        #undef openpty
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char openpty (void);
+        
+        #if defined __stub_openpty || defined __stub___openpty
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return openpty ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "openpty" with dependency -lutil: YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmprik1ornn
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmprik1ornn/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmprik1ornn/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define strchrnul meson_disable_define_of_strchrnul
+        
+        #include <limits.h>
+        #undef strchrnul
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char strchrnul (void);
+        
+        #if defined __stub_strchrnul || defined __stub___strchrnul
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return strchrnul ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "strchrnul" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpuq44srn7
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpuq44srn7/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpuq44srn7/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ #include <stdlib.h>
+#include <limits.h>
+
+        #if defined __stub_system || defined __stub___system
+        fail fail fail this function is not going to work
+        #endif
+        
+int main(void) {
+            void *a = (void*) &system;
+            long long b = (long long) a;
+            return (int) b;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "system" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpbizo00u3
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpbizo00u3/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpbizo00u3/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <byteswap.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef bswap_32
+                bswap_32;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <byteswap.h> has symbol "bswap_32" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpngs075we
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpngs075we/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpngs075we/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <sys/epoll.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef epoll_create1
+                epoll_create1;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/epoll.h> has symbol "epoll_create1" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmppvwq6xq_
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmppvwq6xq_/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmppvwq6xq_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+        #include <unistd.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef environ
+                environ;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <unistd.h> has symbol "environ" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpc2wg0ctq
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpc2wg0ctq/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpc2wg0ctq/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <linux/falloc.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef FALLOC_FL_PUNCH_HOLE
+                FALLOC_FL_PUNCH_HOLE;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <linux/falloc.h> has symbol "FALLOC_FL_PUNCH_HOLE" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpfchltnd7
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpfchltnd7/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpfchltnd7/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <linux/falloc.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef FALLOC_FL_KEEP_SIZE
+                FALLOC_FL_KEEP_SIZE;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <linux/falloc.h> has symbol "FALLOC_FL_KEEP_SIZE" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpnihfj5pa
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpnihfj5pa/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpnihfj5pa/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <linux/falloc.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef FALLOC_FL_ZERO_RANGE
+                FALLOC_FL_ZERO_RANGE;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <linux/falloc.h> has symbol "FALLOC_FL_ZERO_RANGE" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpy5r1dn85
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpy5r1dn85/testfile.c -E -P -D_FILE_OFFSET_BITS=64 -P -O0 -std=gnu11 
+
+Code:
+ 
+        #ifdef __has_include
+         #if !__has_include("linux/fiemap.h")
+          #error "Header 'linux/fiemap.h' could not be found"
+         #endif
+        #else
+         #include <linux/fiemap.h>
+        #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Has header "linux/fiemap.h" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpp_4of9ls
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpp_4of9ls/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpp_4of9ls/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <linux/fs.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef FS_IOC_FIEMAP
+                FS_IOC_FIEMAP;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <linux/fs.h> has symbol "FS_IOC_FIEMAP" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpo0kasr5w
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpo0kasr5w/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpo0kasr5w/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #define getrandom meson_disable_define_of_getrandom
+        
+        #include <limits.h>
+        #undef getrandom
+        
+        #ifdef __cplusplus
+        extern "C"
+        #endif
+        char getrandom (void);
+        
+        #if defined __stub_getrandom || defined __stub___getrandom
+        fail fail fail this function is not going to work
+        #endif
+        
+        int main(void) {
+          return getrandom ();
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking for function "getrandom" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpi1uwpg40
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpi1uwpg40/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpi1uwpg40/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <sys/random.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef GRND_NONBLOCK
+                GRND_NONBLOCK;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/random.h> has symbol "GRND_NONBLOCK" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpwt59eeqi
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpwt59eeqi/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpwt59eeqi/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <sys/inotify.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef inotify_init
+                inotify_init;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/inotify.h> has symbol "inotify_init" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp46f6gnqa
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp46f6gnqa/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp46f6gnqa/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <sys/inotify.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef inotify_init1
+                inotify_init1;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/inotify.h> has symbol "inotify_init1" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmppuydoso_
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmppuydoso_/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmppuydoso_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ #include <sys/endian.h>
+                                                     #include <sys/types.h>
+        #include <machine/bswap.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef bswap32
+                bswap32;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmppuydoso_/testfile.c:1:10: fatal error: sys/endian.h: No such file or directory
+    1 | #include <sys/endian.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+
+Header <machine/bswap.h> has symbol "bswap32" : NO 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmphf0vaes5
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmphf0vaes5/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmphf0vaes5/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <sys/prctl.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef PR_SET_TIMERSLACK
+                PR_SET_TIMERSLACK;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/prctl.h> has symbol "PR_SET_TIMERSLACK" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpto88_66n
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpto88_66n/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpto88_66n/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <linux/rtnetlink.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef IFLA_PROTO_DOWN
+                IFLA_PROTO_DOWN;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <linux/rtnetlink.h> has symbol "IFLA_PROTO_DOWN" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpwfpd5t0l
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpwfpd5t0l/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpwfpd5t0l/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <sys/sysmacros.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef makedev
+                makedev;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Header <sys/sysmacros.h> has symbol "makedev" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp2yrrbh2l
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp2yrrbh2l/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp2yrrbh2l/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <getopt.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef optreset
+                optreset;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmp2yrrbh2l/testfile.c: In function 'main':
+/home/anna/AMDSEV/qemu/build/meson-private/tmp2yrrbh2l/testfile.c:6:17: error: 'optreset' undeclared (first use in this function)
+    6 |                 optreset;
+      |                 ^~~~~~~~
+/home/anna/AMDSEV/qemu/build/meson-private/tmp2yrrbh2l/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
+
+Header <getopt.h> has symbol "optreset" : NO 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpg7bwdgvl
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpg7bwdgvl/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpg7bwdgvl/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <utmpx.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef struct utmpx
+                struct utmpx;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmpg7bwdgvl/testfile.c: In function 'main':
+/home/anna/AMDSEV/qemu/build/meson-private/tmpg7bwdgvl/testfile.c:5:28: warning: extra tokens at end of #ifndef directive
+    5 |             #ifndef struct utmpx
+      |                            ^~~~~
+
+Header <utmpx.h> has symbol "struct utmpx" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpidnky4s_
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpidnky4s_/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpidnky4s_/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+        #include <netinet/in.h>
+        int main(void) {
+            /* If it's not defined as a macro, try to use as a symbol */
+            #ifndef IPPROTO_MPTCP
+                IPPROTO_MPTCP;
+            #endif
+            return 0;
+        }
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmpidnky4s_/testfile.c: In function 'main':
+/home/anna/AMDSEV/qemu/build/meson-private/tmpidnky4s_/testfile.c:6:17: error: 'IPPROTO_MPTCP' undeclared (first use in this function); did you mean 'IPPROTO_MTP'?
+    6 |                 IPPROTO_MPTCP;
+      |                 ^~~~~~~~~~~~~
+      |                 IPPROTO_MTP
+/home/anna/AMDSEV/qemu/build/meson-private/tmpidnky4s_/testfile.c:6:17: note: each undeclared identifier is reported only once for each function it appears in
+
+Header <netinet/in.h> has symbol "IPPROTO_MPTCP" : NO 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpv78vem8s
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpv78vem8s/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpv78vem8s/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ #include <signal.h>
+        void bar(void) {
+            struct sigevent foo;
+            foo.sigev_notify_thread_id;
+
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ /home/anna/AMDSEV/qemu/build/meson-private/tmpv78vem8s/testfile.c: In function 'bar':
+/home/anna/AMDSEV/qemu/build/meson-private/tmpv78vem8s/testfile.c:4:16: error: 'struct sigevent' has no member named 'sigev_notify_thread_id'
+    4 |             foo.sigev_notify_thread_id;
+      |                ^
+
+Checking whether type "struct sigevent" has member "sigev_notify_thread_id" : NO 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpvw_hwnbt
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpvw_hwnbt/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpvw_hwnbt/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ #include <sys/stat.h>
+        void bar(void) {
+            struct stat foo;
+            foo.st_atim;
+
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking whether type "struct stat" has member "st_atim" : YES 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpn4goy9ap
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpn4goy9ap/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpn4goy9ap/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #include <sys/eventfd.h>
+  int main(void) { return eventfd(0, EFD_NONBLOCK | EFD_CLOEXEC); }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpxehe5pq9
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpxehe5pq9/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpxehe5pq9/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+  #include <unistd.h>
+  int main(void) {
+  #if defined(_POSIX_SYNCHRONIZED_IO) && _POSIX_SYNCHRONIZED_IO > 0
+  return fdatasync(0);
+  #else
+  #error Not supported
+  #endif
+  }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp5cv0t7q6
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp5cv0t7q6/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp5cv0t7q6/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+  #include <sys/types.h>
+  #include <sys/mman.h>
+  #include <stddef.h>
+  int main(void) { return madvise(NULL, 0, MADV_DONTNEED); }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp2ckpj5z2
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp2ckpj5z2/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp2ckpj5z2/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+  #include <sys/mman.h>
+  int main(void) { return memfd_create("foo", MFD_ALLOW_SEALING); }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpjmbs0f0x
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpjmbs0f0x/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpjmbs0f0x/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+  #include <fcntl.h>
+  #if !defined(AT_EMPTY_PATH)
+  # error missing definition
+  #else
+  int main(void) { struct file_handle fh; return open_by_handle_at(0, &fh, 0); }
+  #endif
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpz3dt12ej
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpz3dt12ej/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpz3dt12ej/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+  #include <unistd.h>
+  #include <fcntl.h>
+
+  int main(void)
+  {
+      int pipefd[2];
+      return pipe2(pipefd, O_CLOEXEC);
+  }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpm990t9e7
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpm990t9e7/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpm990t9e7/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+  #include <sys/mman.h>
+  #include <stddef.h>
+  int main(void) { return posix_madvise(NULL, 0, POSIX_MADV_DONTNEED); }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpjzgnvf5g
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpjzgnvf5g/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpjzgnvf5g/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+  #include <unistd.h>
+  #include <sys/syscall.h>
+  #include <signal.h>
+  int main(void) { return syscall(SYS_signalfd, -1, NULL, _NSIG / 8); }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpwx3kyde6
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpwx3kyde6/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpwx3kyde6/output.exe -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 
+
+Code:
+ 
+  #ifndef _GNU_SOURCE
+  #define _GNU_SOURCE
+  #endif
+
+  #include <unistd.h>
+  #include <fcntl.h>
+  #include <limits.h>
+
+  int main(void)
+  {
+    int len, fd = 0;
+    len = tee(STDIN_FILENO, STDOUT_FILENO, INT_MAX, SPLICE_F_NONBLOCK);
+    splice(STDIN_FILENO, NULL, fd, NULL, len, SPLICE_F_MOVE);
+    return 0;
+  }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp01iokp5m
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp01iokp5m/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp01iokp5m/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 -std=gnu11 -Werror 
+
+Code:
+ 
+    #include <stdint.h>
+    #include <stdio.h>
+    int main(int argc, char *argv[]) {
+        return printf("%zu", SIZE_MAX);
+    }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program scripts/minikconf.py found: YES (/usr/bin/python3 /home/anna/AMDSEV/qemu/scripts/minikconf.py)
+Configuring x86_64-softmmu-config-target.h using configuration
+Configuring x86_64-softmmu-config-devices.mak with command
+Running command: /usr/bin/python3 /home/anna/AMDSEV/qemu/scripts/minikconf.py --defconfig x86_64-softmmu-config-devices.mak /home/anna/AMDSEV/qemu/build/meson-private/x86_64-softmmu-config-devices.mak.d /home/anna/AMDSEV/qemu/configs/devices/x86_64-softmmu/default.mak /home/anna/AMDSEV/qemu/Kconfig CONFIG_TPM=y CONFIG_IVSHMEM=y CONFIG_OPENGL=y CONFIG_X11=y CONFIG_VHOST_USER=y CONFIG_VHOST_VDPA=y CONFIG_VHOST_KERNEL=y CONFIG_VIRTFS=y CONFIG_LINUX=y CONFIG_MULTIPROCESS_ALLOWED=y CONFIG_KVM=y CONFIG_XEN=y CONFIG_TCG=y CONFIG_X86_64=y
+--- stdout ---
+CONFIG_AC97=y
+CONFIG_ACPI=y
+CONFIG_ACPI_CPU_HOTPLUG=y
+CONFIG_ACPI_HMAT=y
+CONFIG_ACPI_HW_REDUCED=y
+CONFIG_ACPI_MEMORY_HOTPLUG=y
+CONFIG_ACPI_NVDIMM=y
+CONFIG_ACPI_PCI=y
+CONFIG_ACPI_PCIHP=y
+CONFIG_ACPI_PIIX4=y
+CONFIG_ACPI_SMBUS=y
+CONFIG_ACPI_VMGENID=y
+CONFIG_ACPI_X86=y
+CONFIG_ACPI_X86_ICH=y
+CONFIG_ADLIB=y
+CONFIG_AHCI=y
+CONFIG_AHCI_ICH9=y
+CONFIG_AMD_IOMMU=y
+CONFIG_APIC=y
+CONFIG_APM=y
+CONFIG_APPLESMC=y
+CONFIG_ATI_VGA=y
+CONFIG_BITBANG_I2C=y
+CONFIG_BOCHS_DISPLAY=y
+CONFIG_CAN_BUS=y
+CONFIG_CAN_CTUCANFD=y
+CONFIG_CAN_CTUCANFD_PCI=y
+CONFIG_CAN_PCI=y
+CONFIG_CAN_SJA1000=y
+CONFIG_CS4231A=y
+CONFIG_DDC=y
+CONFIG_DIMM=y
+CONFIG_E1000E_PCI_EXPRESS=y
+CONFIG_E1000_PCI=y
+CONFIG_EDID=y
+CONFIG_EDU=y
+CONFIG_EEPRO100_PCI=y
+CONFIG_ES1370=y
+CONFIG_ESP=y
+CONFIG_ESP_PCI=y
+CONFIG_FDC=y
+CONFIG_FDC_ISA=y
+CONFIG_FSDEV_9P=y
+CONFIG_FW_CFG_DMA=y
+CONFIG_GENERIC_LOADER=y
+CONFIG_GUEST_LOADER=y
+CONFIG_GUS=y
+CONFIG_HDA=y
+CONFIG_HPET=y
+CONFIG_HYPERV=y
+CONFIG_HYPERV_TESTDEV=y
+CONFIG_I2C=y
+CONFIG_I440FX=y
+CONFIG_I8254=y
+CONFIG_I8257=y
+CONFIG_I8259=y
+CONFIG_I82801B11=y
+CONFIG_IDE_CORE=y
+CONFIG_IDE_ISA=y
+CONFIG_IDE_PCI=y
+CONFIG_IDE_PIIX=y
+CONFIG_IDE_QDEV=y
+CONFIG_IMX_USBPHY=y
+CONFIG_IOAPIC=y
+CONFIG_IOH3420=y
+CONFIG_IPACK=y
+CONFIG_IPMI=y
+CONFIG_IPMI_EXTERN=y
+CONFIG_IPMI_LOCAL=y
+CONFIG_IPMI_SSIF=y
+CONFIG_ISAPC=y
+CONFIG_ISA_BUS=y
+CONFIG_ISA_DEBUG=y
+CONFIG_ISA_IPMI_BT=y
+CONFIG_ISA_IPMI_KCS=y
+CONFIG_ISA_TESTDEV=y
+CONFIG_IVSHMEM_DEVICE=y
+CONFIG_LPC_ICH9=y
+CONFIG_LSI_SCSI_PCI=y
+CONFIG_MC146818RTC=y
+CONFIG_MEGASAS_SCSI_PCI=y
+CONFIG_MEM_DEVICE=y
+CONFIG_MICROVM=y
+CONFIG_MPTSAS_SCSI_PCI=y
+CONFIG_MSI_NONBROKEN=y
+CONFIG_MULTIPROCESS=y
+CONFIG_NE2000_COMMON=y
+CONFIG_NE2000_ISA=y
+CONFIG_NE2000_PCI=y
+CONFIG_NMC93XX_EEPROM=y
+CONFIG_NVDIMM=y
+CONFIG_NVME_PCI=y
+CONFIG_PAM=y
+CONFIG_PARALLEL=y
+CONFIG_PC=y
+CONFIG_PCI=y
+CONFIG_PCIE_PORT=y
+CONFIG_PCI_DEVICES=y
+CONFIG_PCI_EXPRESS=y
+CONFIG_PCI_EXPRESS_GENERIC_BRIDGE=y
+CONFIG_PCI_EXPRESS_Q35=y
+CONFIG_PCI_I440FX=y
+CONFIG_PCI_IPMI_BT=y
+CONFIG_PCI_IPMI_KCS=y
+CONFIG_PCI_TESTDEV=y
+CONFIG_PCKBD=y
+CONFIG_PCNET_COMMON=y
+CONFIG_PCNET_PCI=y
+CONFIG_PCSPK=y
+CONFIG_PC_ACPI=y
+CONFIG_PC_PCI=y
+CONFIG_PFLASH_CFI01=y
+CONFIG_PIIX3=y
+CONFIG_PS2=y
+CONFIG_PVPANIC_COMMON=y
+CONFIG_PVPANIC_ISA=y
+CONFIG_PVPANIC_PCI=y
+CONFIG_PXB=y
+CONFIG_Q35=y
+CONFIG_REMOTE_PCIHOST=y
+CONFIG_ROCKER=y
+CONFIG_RTL8139_PCI=y
+CONFIG_SB16=y
+CONFIG_SCSI=y
+CONFIG_SD=y
+CONFIG_SDHCI=y
+CONFIG_SDHCI_PCI=y
+CONFIG_SERIAL=y
+CONFIG_SERIAL_ISA=y
+CONFIG_SERIAL_PCI=y
+CONFIG_SERIAL_PCI_MULTI=y
+CONFIG_SEV=y
+CONFIG_SGA=y
+CONFIG_SGX=y
+CONFIG_SMBIOS=y
+CONFIG_SMBUS=y
+CONFIG_SMBUS_EEPROM=y
+CONFIG_TEST_DEVICES=y
+CONFIG_TPM_BACKEND=y
+CONFIG_TPM_CRB=y
+CONFIG_TPM_EMULATOR=y
+CONFIG_TPM_PASSTHROUGH=y
+CONFIG_TPM_TIS=y
+CONFIG_TPM_TIS_ISA=y
+CONFIG_TULIP=y
+CONFIG_USB=y
+CONFIG_USB_AUDIO=y
+CONFIG_USB_EHCI=y
+CONFIG_USB_EHCI_PCI=y
+CONFIG_USB_NETWORK=y
+CONFIG_USB_OHCI=y
+CONFIG_USB_OHCI_PCI=y
+CONFIG_USB_SERIAL=y
+CONFIG_USB_SMARTCARD=y
+CONFIG_USB_STORAGE_BOT=y
+CONFIG_USB_STORAGE_CLASSIC=y
+CONFIG_USB_STORAGE_CORE=y
+CONFIG_USB_STORAGE_MTP=y
+CONFIG_USB_STORAGE_UAS=y
+CONFIG_USB_TABLET_WACOM=y
+CONFIG_USB_U2F=y
+CONFIG_USB_UHCI=y
+CONFIG_USB_XHCI=y
+CONFIG_USB_XHCI_NEC=y
+CONFIG_USB_XHCI_PCI=y
+CONFIG_USB_XHCI_SYSBUS=y
+CONFIG_VFIO=y
+CONFIG_VFIO_IGD=y
+CONFIG_VFIO_PCI=y
+CONFIG_VGA=y
+CONFIG_VGA_CIRRUS=y
+CONFIG_VGA_ISA=y
+CONFIG_VGA_PCI=y
+CONFIG_VHOST=y
+CONFIG_VHOST_USER_BLK=y
+CONFIG_VHOST_USER_GPU=y
+CONFIG_VHOST_USER_I2C=y
+CONFIG_VHOST_USER_INPUT=y
+CONFIG_VHOST_USER_SCSI=y
+CONFIG_VHOST_USER_VGA=y
+CONFIG_VIRTIO=y
+CONFIG_VIRTIO_9P=y
+CONFIG_VIRTIO_BALLOON=y
+CONFIG_VIRTIO_BLK=y
+CONFIG_VIRTIO_CRYPTO=y
+CONFIG_VIRTIO_GPU=y
+CONFIG_VIRTIO_INPUT=y
+CONFIG_VIRTIO_INPUT_HOST=y
+CONFIG_VIRTIO_IOMMU=y
+CONFIG_VIRTIO_MEM=y
+CONFIG_VIRTIO_MEM_SUPPORTED=y
+CONFIG_VIRTIO_MMIO=y
+CONFIG_VIRTIO_NET=y
+CONFIG_VIRTIO_PCI=y
+CONFIG_VIRTIO_PMEM=y
+CONFIG_VIRTIO_PMEM_SUPPORTED=y
+CONFIG_VIRTIO_RNG=y
+CONFIG_VIRTIO_SCSI=y
+CONFIG_VIRTIO_SERIAL=y
+CONFIG_VIRTIO_VGA=y
+CONFIG_VMBUS=y
+CONFIG_VMMOUSE=y
+CONFIG_VMPORT=y
+CONFIG_VMWARE_VGA=y
+CONFIG_VMW_PVSCSI_SCSI_PCI=y
+CONFIG_VMXNET3_PCI=y
+CONFIG_VTD=y
+CONFIG_WDT_IB6300ESB=y
+CONFIG_WDT_IB700=y
+CONFIG_X86_FW_OVMF=y
+CONFIG_X86_IOMMU=y
+CONFIG_XEN_IGD_PASSTHROUGH=y
+CONFIG_XIO3130=y
+
+--- stderr ---
+
+
+Reading depfile: /home/anna/AMDSEV/qemu/build/meson-private/x86_64-softmmu-config-devices.mak.d
+Configuring x86_64-softmmu-config-devices.h using configuration
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'capstone' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion capstone` -> 0
+3.0.5
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags capstone` -> 0
+-I/usr/include/capstone
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs capstone` -> 0
+-L/usr/lib/x86_64-linux-gnu -lcapstone
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs capstone` -> 0
+-lcapstone
+Dependency capstone found: NO found 3.0.5 but need: '>=4.0'
+Run-time dependency capstone found: NO (tried pkgconfig)
+Configuring capstone-defs.h using configuration
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'slirp' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --modversion slirp` -> 0
+4.1.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --cflags slirp` -> 0
+-I/usr/include/slirp -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs slirp` -> 0
+-L/usr/lib/x86_64-linux-gnu -lslirp -lglib-2.0
+env[PKG_CONFIG_PATH]: 
+Called `/usr/bin/pkg-config --libs slirp` -> 0
+-lslirp -lglib-2.0
+Run-time dependency slirp found: YES 4.1.0
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpxqnnhrid
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpxqnnhrid/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpxqnnhrid/output.exe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--start-group -lfdt -Wl,--end-group -Wl,--allow-shlib-undefined 
+
+Code:
+ int main(void) { return 0; }
+
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lfdt
+collect2: error: ld returned 1 exit status
+
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpi3pmowqi
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpi3pmowqi/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpi3pmowqi/output.exe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmp8ugn8194
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmp8ugn8194/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmp8ugn8194/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Library fdt found: NO
+Configuring config-host.h using configuration
+Program scripts/hxtool found: YES (/home/anna/AMDSEV/qemu/scripts/hxtool)
+Program scripts/shaderinclude.pl found: YES (/usr/bin/env perl /home/anna/AMDSEV/qemu/scripts/shaderinclude.pl)
+Program scripts/qapi-gen.py found: YES (/usr/bin/python3 /home/anna/AMDSEV/qemu/scripts/qapi-gen.py)
+Program scripts/qemu-version.sh found: YES (/home/anna/AMDSEV/qemu/scripts/qemu-version.sh)
+
+Executing subproject libvhost-user 
+
+Project name: libvhost-user
+Project version: undefined
+C compiler for the host machine: cc -m64 -mcx16 (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the host machine: cc -m64 -mcx16 ld.bfd 2.34
+C compiler for the build machine: cc -m64 -mcx16 (gcc 9.4.0 "cc (Ubuntu 9.4.0-1ubuntu1~20.04.1) 9.4.0")
+C linker for the build machine: cc -m64 -mcx16 ld.bfd 2.34
+Dependency threads found: YES unknown (cached)
+Dependency glib-2.0 found: YES 6.1.50 (overridden)
+Build targets in project: 10
+Subproject libvhost-user finished.
+
+Program dtrace found: NO
+Program cat found: YES (/usr/bin/cat)
+Program scripts/decodetree.py found: YES (/usr/bin/python3 /home/anna/AMDSEV/qemu/scripts/decodetree.py)
+Program ../scripts/modules/module_block.py found: YES (/usr/bin/python3 /home/anna/AMDSEV/qemu/block/../scripts/modules/module_block.py)
+Program ../scripts/block-coroutine-wrapper.py found: YES (/usr/bin/python3 /home/anna/AMDSEV/qemu/block/../scripts/block-coroutine-wrapper.py)
+Program scripts/modinfo-collect.py found: YES (/home/anna/AMDSEV/qemu/scripts/modinfo-collect.py)
+Program scripts/modinfo-generate.py found: YES (/home/anna/AMDSEV/qemu/scripts/modinfo-generate.py)
+Program nm found: YES
+Program scripts/undefsym.py found: YES (/usr/bin/python3 /home/anna/AMDSEV/qemu/scripts/undefsym.py)
+Program scripts/feature_to_c.sh found: YES (/bin/sh /home/anna/AMDSEV/qemu/scripts/feature_to_c.sh)
+Configuring 50-qemu-virtiofsd.json using configuration
+Configuring 50-edk2-i386-secure.json using configuration
+Configuring 50-edk2-x86_64-secure.json using configuration
+Configuring 60-edk2-aarch64.json using configuration
+Configuring 60-edk2-arm.json using configuration
+Configuring 60-edk2-i386.json using configuration
+Configuring 60-edk2-x86_64.json using configuration
+Program qemu-keymap found: NO
+Program cp found: YES (/usr/bin/cp)
+Program sphinx-build found: YES (/usr/bin/sphinx-build)
+Running command: /usr/bin/mkdir -p /home/anna/AMDSEV/qemu/build/meson-private/temp/sphinx
+--- stdout ---
+
+--- stderr ---
+
+
+Running command: /usr/bin/touch /home/anna/AMDSEV/qemu/build/meson-private/temp/sphinx/index.rst
+--- stdout ---
+
+--- stderr ---
+
+
+Running command: /usr/bin/env CONFDIR=/home/anna/AMDSEV/usr/local/etc/qemu /usr/bin/sphinx-build -q -W -c /home/anna/AMDSEV/qemu/docs -b html /home/anna/AMDSEV/qemu/build/meson-private/temp/sphinx /home/anna/AMDSEV/qemu/build/meson-private/temp/sphinx/out
+--- stdout ---
+
+--- stderr ---
+
+
+Program python3 found: YES (/usr/bin/python3)
+Adding benchmark "benchmark-crypto-cipher"
+Adding benchmark "benchmark-crypto-hash"
+Adding benchmark "benchmark-crypto-hmac"
+Adding test "decodetree"
+Adding test "fp-test-float-to-float"
+Adding test "fp-test-float-to-int"
+Adding test "fp-test-float-to-uint"
+Adding test "fp-test-int-to-float"
+Adding test "fp-test-round-to-integer"
+Adding test "fp-test-uint-to-float"
+Adding test "fp-test-add"
+Adding test "fp-test-div"
+Adding test "fp-test-eq_signaling"
+Adding test "fp-test-le"
+Adding test "fp-test-le_quiet"
+Adding test "fp-test-lt_quiet"
+Adding test "fp-test-mul"
+Adding test "fp-test-rem"
+Adding test "fp-test-sqrt"
+Adding test "fp-test-sub"
+Adding test "fp-test-mulAdd"
+Adding test "fp-test-log2"
+Adding test "check-block-qdict"
+Adding test "check-qdict"
+Adding test "check-qjson"
+Adding test "check-qlist"
+Adding test "check-qlit"
+Adding test "check-qnull"
+Adding test "check-qnum"
+Adding test "check-qobject"
+Adding test "check-qom-interface"
+Adding test "check-qom-proplist"
+Adding test "check-qstring"
+Adding test "ptimer-test"
+Adding test "rcutorture"
+Adding test "test-aio"
+Adding test "test-aio-multithread"
+Adding test "test-authz-list"
+Adding test "test-authz-listfile"
+Adding test "test-authz-simple"
+Adding test "test-base64"
+Adding test "test-bdrv-drain"
+Adding test "test-bdrv-graph-mod"
+Adding test "test-bitcnt"
+Adding test "test-bitmap"
+Adding test "test-bitops"
+Adding test "test-block-backend"
+Adding test "test-block-iothread"
+Adding test "test-blockjob"
+Adding test "test-blockjob-txn"
+Adding test "test-bufferiszero"
+Adding test "test-char"
+Adding test "test-clone-visitor"
+Adding test "test-coroutine"
+Adding test "test-crypto-afsplit"
+Adding test "test-crypto-block"
+Adding test "test-crypto-cipher"
+Adding test "test-crypto-hash"
+Adding test "test-crypto-hmac"
+Adding test "test-crypto-ivgen"
+Adding test "test-crypto-pbkdf"
+Adding test "test-crypto-secret"
+Adding test "test-crypto-tlscredsx509"
+Adding test "test-crypto-tlssession"
+Adding test "test-cutils"
+Adding test "test-forward-visitor"
+Adding test "test-hbitmap"
+Adding test "test-image-locking"
+Adding test "test-int128"
+Adding test "test-io-channel-buffer"
+Adding test "test-io-channel-command"
+Adding test "test-io-channel-file"
+Adding test "test-io-channel-socket"
+Adding test "test-io-channel-tls"
+Adding test "test-io-task"
+Adding test "test-iov"
+Adding test "test-keyval"
+Adding test "test-logging"
+Adding test "test-mul64"
+Adding test "test-opts-visitor"
+Adding test "test-qapi-util"
+Adding test "test-qdev-global-props"
+Adding test "test-qdist"
+Adding test "test-qemu-opts"
+Adding test "test-qga"
+Adding test "test-qgraph"
+Adding test "test-qht"
+Adding test "test-qmp-cmds"
+Adding test "test-qmp-event"
+Adding test "test-qobject-input-visitor"
+Adding test "test-qobject-output-visitor"
+Adding test "test-rcu-list"
+Adding test "test-rcu-simpleq"
+Adding test "test-rcu-slist"
+Adding test "test-rcu-tailq"
+Adding test "test-replication"
+Adding test "test-shift128"
+Adding test "test-string-input-visitor"
+Adding test "test-string-output-visitor"
+Adding test "test-thread-pool"
+Adding test "test-throttle"
+Adding test "test-timed-average"
+Adding test "test-util-sockets"
+Adding test "test-uuid"
+Adding test "test-visitor-serialization"
+Adding test "test-vmstate"
+Adding test "test-write-threshold"
+Adding test "test-x86-cpuid"
+Adding test "test-xbzrle"
+Adding test "test-yank"
+Adding test "QAPI schema regression tests"
+Program diff found: YES (/usr/bin/diff)
+Program perl found: YES (/usr/bin/perl)
+Program perl found: YES (/usr/bin/perl)
+Adding test "QAPI rST doc"
+Program dbus-daemon found: YES (/usr/bin/dbus-daemon)
+Program /usr/bin/gdbus-codegen found: YES (/usr/bin/gdbus-codegen)
+Adding test "qtest-x86_64/pxe-test"
+Adding test "qtest-x86_64/test-netfilter"
+Adding test "qtest-x86_64/test-filter-mirror"
+Adding test "qtest-x86_64/ahci-test"
+Adding test "qtest-x86_64/endianness-test"
+Adding test "qtest-x86_64/boot-serial-test"
+Adding test "qtest-x86_64/test-filter-redirector"
+Adding test "qtest-x86_64/ipmi-kcs-test"
+Adding test "qtest-x86_64/ipmi-bt-test"
+Adding test "qtest-x86_64/wdt_ib700-test"
+Adding test "qtest-x86_64/pvpanic-test"
+Adding test "qtest-x86_64/pvpanic-pci-test"
+Adding test "qtest-x86_64/intel-hda-test"
+Adding test "qtest-x86_64/i82801b11-test"
+Adding test "qtest-x86_64/ioh3420-test"
+Adding test "qtest-x86_64/lpc-ich9-test"
+Adding test "qtest-x86_64/usb-hcd-uhci-test"
+Adding test "qtest-x86_64/usb-hcd-ehci-test"
+Adding test "qtest-x86_64/usb-hcd-xhci-test"
+Adding test "qtest-x86_64/tpm-crb-test"
+Adding test "qtest-x86_64/tpm-crb-swtpm-test"
+Adding test "qtest-x86_64/tpm-tis-test"
+Adding test "qtest-x86_64/tpm-tis-swtpm-test"
+Adding test "qtest-x86_64/rtl8139-test"
+Adding test "qtest-x86_64/fuzz-e1000e-test"
+Adding test "qtest-x86_64/am53c974-test"
+Adding test "qtest-x86_64/bios-tables-test"
+Adding test "qtest-x86_64/display-vga-test"
+Adding test "qtest-x86_64/ivshmem-test"
+Adding test "qtest-x86_64/fdc-test"
+Adding test "qtest-x86_64/ide-test"
+Adding test "qtest-x86_64/hd-geo-test"
+Adding test "qtest-x86_64/boot-order-test"
+Adding test "qtest-x86_64/rtc-test"
+Adding test "qtest-x86_64/i440fx-test"
+Adding test "qtest-x86_64/fw_cfg-test"
+Adding test "qtest-x86_64/device-plug-test"
+Adding test "qtest-x86_64/drive_del-test"
+Adding test "qtest-x86_64/tco-test"
+Adding test "qtest-x86_64/cpu-plug-test"
+Adding test "qtest-x86_64/q35-test"
+Adding test "qtest-x86_64/vmgenid-test"
+Adding test "qtest-x86_64/migration-test"
+Adding test "qtest-x86_64/test-x86-cpuid-compat"
+Adding test "qtest-x86_64/numa-test"
+Adding test "qtest-x86_64/fuzz-megasas-test"
+Adding test "qtest-x86_64/fuzz-virtio-scsi-test"
+Adding test "qtest-x86_64/fuzz-sb16-test"
+Adding test "qtest-x86_64/fuzz-sdcard-test"
+Adding test "qtest-x86_64/cdrom-test"
+Adding test "qtest-x86_64/device-introspect-test"
+Adding test "qtest-x86_64/machine-none-test"
+Adding test "qtest-x86_64/qmp-test"
+Adding test "qtest-x86_64/qmp-cmd-test"
+Adding test "qtest-x86_64/qom-test"
+Adding test "qtest-x86_64/test-hmp"
+Adding test "qtest-x86_64/qos-test"
+Program initrd-stress.sh found: YES (/home/anna/AMDSEV/qemu/tests/migration/initrd-stress.sh)
+Program xgettext found: YES (/usr/bin/xgettext)
+Build targets in project: 481
+
+qemu 6.1.50
+
+  Directories
+    Install prefix               : /home/anna/AMDSEV/usr/local
+    BIOS directory               : share/qemu
+    firmware path                : /home/anna/AMDSEV/usr/local/share/qemu-firmware
+    binary directory             : bin
+    library directory            : lib
+    module directory             : lib/qemu
+    libexec directory            : libexec
+    include directory            : include
+    config directory             : /home/anna/AMDSEV/usr/local/etc
+    local state directory        : /home/anna/AMDSEV/usr/local/var
+    Manual directory             : share/man
+    Doc directory                : /home/anna/AMDSEV/usr/local/share/doc
+    Build directory              : /home/anna/AMDSEV/qemu/build
+    Source path                  : /home/anna/AMDSEV/qemu
+    GIT submodules               : ui/keycodemapdb meson tests/fp/berkeley-testfloat-3 tests/fp/berkeley-softfloat-3 dtc capstone slirp
+
+  Host binaries
+    git                          : git
+    make                         : make
+    python                       : /usr/bin/python3 (version: 3.8)
+    sphinx-build                 : /usr/bin/sphinx-build
+    gdb                          : /usr/bin/gdb
+    genisoimage                  : /usr/bin/genisoimage
+    smbd                         : "/usr/sbin/smbd"
+
+  Configurable features
+    Documentation                : YES
+    system-mode emulation        : YES
+    user-mode emulation          : NO
+    block layer                  : YES
+    Install blobs                : YES
+    module support               : NO
+    fuzzing support              : NO
+    Audio drivers                : pa oss
+    Trace backends               : log
+    QOM debugging                : YES
+    vhost-kernel support         : YES
+    vhost-net support            : YES
+    vhost-crypto support         : YES
+    vhost-scsi support           : YES
+    vhost-vsock support          : YES
+    vhost-user support           : YES
+    vhost-user-blk server support: YES
+    vhost-user-fs support        : YES
+    vhost-vdpa support           : YES
+    build guest agent            : YES
+
+  Compilation
+    host CPU                     : x86_64
+    host endianness              : little
+    C compiler                   : cc -m64 -mcx16
+    Host C compiler              : cc -m64 -mcx16
+    C++ compiler                 : c++ -m64 -mcx16
+    CFLAGS                       : -O0 -g
+    CXXFLAGS                     : -O0 -g
+    QEMU_CFLAGS                  : -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -Wstrict-prototypes -Wredundant-decls -Wundef -Wwrite-strings -Wmissing-prototypes -fno-strict-aliasing -fno-common -fwrapv  -Wold-style-declaration -Wold-style-definition -Wtype-limits -Wformat-security -Wformat-y2k -Winit-self -Wignored-qualifiers -Wempty-body -Wnested-externs -Wendif-labels -Wexpansion-to-defined -Wimplicit-fallthrough=2 -Wno-missing-include-dirs -Wno-shift-negative-value -Wno-psabi -fstack-protector-strong
+    QEMU_LDFLAGS                 : -Wl,--warn-common -Wl,-z,relro -Wl,-z,now -m64  -fstack-protector-strong
+    profiler                     : NO
+    link-time optimization (LTO) : NO
+    PIE                          : YES
+    static build                 : NO
+    malloc trim support          : YES
+    membarrier                   : NO
+    debug stack usage            : NO
+    mutex debugging              : YES
+    memory allocator             : system
+    avx2 optimization            : YES
+    avx512f optimization         : NO
+    gprof enabled                : NO
+    gcov                         : NO
+    thread sanitizer             : NO
+    CFI support                  : NO
+    strip binaries               : NO
+    sparse                       : NO
+    mingw32 support              : NO
+    x86_64 tests                 : cc
+
+  Targets and accelerators
+    KVM support                  : YES
+    HAX support                  : NO
+    HVF support                  : NO
+    WHPX support                 : NO
+    NVMM support                 : NO
+    Xen support                  : YES
+    xen ctrl version             : 41100
+    TCG support                  : YES
+    TCG backend                  : native (x86_64)
+    TCG plugins                  : YES
+    TCG debug enabled            : YES
+    target list                  : x86_64-softmmu
+    default devices              : YES
+    out of process emulation     : YES
+
+  Block layer support
+    coroutine backend            : ucontext
+    coroutine pool               : YES
+    Block whitelist (rw)         : 
+    Block whitelist (ro)         : 
+    Use block whitelist in tools : NO
+    VirtFS support               : YES
+    build virtiofs daemon        : YES
+    Live block migration         : YES
+    replication support          : YES
+    bochs support                : YES
+    cloop support                : YES
+    dmg support                  : YES
+    qcow v1 support              : YES
+    vdi support                  : YES
+    vvfat support                : YES
+    qed support                  : YES
+    parallels support            : YES
+    FUSE exports                 : [1;32mYES[0m [1;36m3.9.0[0m
+
+  Crypto
+    TLS priority                 : "NORMAL"
+    GNUTLS support               : [1;32mYES[0m [1;36m3.6.13[0m
+      GNUTLS crypto              : NO
+    libgcrypt                    : [1;32mYES[0m [1;36m1.8.5[0m
+    nettle                       : NO
+    crypto afalg                 : NO
+    rng-none                     : NO
+    Linux keyring                : YES
+
+  Dependencies
+    SDL support                  : YES
+    SDL image support            : [1;32mYES[0m [1;36m2.0.5[0m
+    GTK support                  : YES
+    pixman                       : [1;32mYES[0m [1;36m0.38.4[0m
+    VTE support                  : [1;32mYES[0m [1;36m0.60.3[0m
+    slirp support                : [1;32mYES[0m [1;36m4.1.0[0m
+    libtasn1                     : [1;32mYES[0m [1;36m4.16.0[0m
+    PAM                          : NO
+    iconv support                : YES
+    curses support               : YES
+    virgl support                : [1;32mYES[0m [1;36m0.8.2[0m
+    curl support                 : [1;32mYES[0m [1;36m7.68.0[0m
+    Multipath support            : YES
+    VNC support                  : YES
+    VNC SASL support             : YES
+    VNC JPEG support             : [1;32mYES[0m [1;36m2.0.3[0m
+    VNC PNG support              : [1;32mYES[0m [1;36m1.6.37[0m
+    brlapi support               : YES
+    vde support                  : NO
+    netmap support               : NO
+    Linux AIO support            : YES
+    Linux io_uring support       : [1;32mYES[0m [1;36m0.6[0m
+    ATTR/XATTR support           : YES
+    RDMA support                 : NO
+    PVRDMA support               : NO
+    fdt support                  : internal
+    libcap-ng support            : YES
+    bpf support                  : NO
+    spice support                : NO
+    rbd support                  : YES
+    xfsctl support               : NO
+    smartcard support            : [1;32mYES[0m [1;36m2.6.1[0m
+    U2F support                  : NO
+    libusb                       : [1;32mYES[0m [1;36m1.0.23[0m
+    usb net redir                : [1;32mYES[0m [1;36m0.8.0[0m
+    OpenGL support               : YES
+    GBM                          : NO
+    libiscsi support             : [1;32mYES[0m [1;36m1.18.0[0m
+    libnfs support               : [1;32mYES[0m [1;36m4.0.0[0m
+    seccomp support              : [1;32mYES[0m [1;36m2.5.1[0m
+    GlusterFS support            : [1;32mYES[0m [1;36m7.7.2[0m
+    TPM support                  : YES
+    libssh support               : NO
+    lzo support                  : YES
+    snappy support               : YES
+    bzip2 support                : YES
+    lzfse support                : NO
+    zstd support                 : [1;32mYES[0m [1;36m1.4.4[0m
+    NUMA host support            : YES
+    libxml2                      : [1;32mYES[0m [1;36m2.9.10[0m
+    capstone                     : internal
+    libpmem support              : [1;32mYES[0m [1;36m1.8[0m
+    libdaxctl support            : [1;32mYES[0m [1;36m67+[0m
+    libudev                      : [1;32mYES[0m [1;36m245[0m
+    FUSE lseek                   : YES
+
+  Subprojects
+    libvhost-user                : YES
+
+Found ninja-1.10.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /home/anna/AMDSEV/qemu/build/meson-private/tmpj_cxnf3r
+Command line:  cc -m64 -mcx16 /home/anna/AMDSEV/qemu/build/meson-private/tmpj_cxnf3r/testfile.c -o /home/anna/AMDSEV/qemu/build/meson-private/tmpj_cxnf3r/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Command line for building ['libcommon.fa'] is long, using a response file

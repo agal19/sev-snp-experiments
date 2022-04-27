@@ -1,0 +1,461 @@
+.\" Man page generated from reStructuredText.
+.
+.TH "VIRTIOFSD" "1" "Apr 27, 2022" "6.1.50" "QEMU"
+.SH NAME
+virtiofsd \- QEMU virtio-fs shared file system daemon
+.
+.nr rst2man-indent-level 0
+.
+.de1 rstReportMargin
+\\$1 \\n[an-margin]
+level \\n[rst2man-indent-level]
+level margin: \\n[rst2man-indent\\n[rst2man-indent-level]]
+-
+\\n[rst2man-indent0]
+\\n[rst2man-indent1]
+\\n[rst2man-indent2]
+..
+.de1 INDENT
+.\" .rstReportMargin pre:
+. RS \\$1
+. nr rst2man-indent\\n[rst2man-indent-level] \\n[an-margin]
+. nr rst2man-indent-level +1
+.\" .rstReportMargin post:
+..
+.de UNINDENT
+. RE
+.\" indent \\n[an-margin]
+.\" old: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.nr rst2man-indent-level -1
+.\" new: \\n[rst2man-indent\\n[rst2man-indent-level]]
+.in \\n[rst2man-indent\\n[rst2man-indent-level]]u
+..
+.SH SYNOPSIS
+.sp
+\fBvirtiofsd\fP [\fIOPTIONS\fP]
+.SH DESCRIPTION
+.sp
+Share a host directory tree with a guest through a virtio\-fs device.  This
+program is a vhost\-user backend that implements the virtio\-fs device.  Each
+virtio\-fs device instance requires its own virtiofsd process.
+.sp
+This program is designed to work with QEMU\(aqs \fB\-\-device vhost\-user\-fs\-pci\fP
+but should work with any virtual machine monitor (VMM) that supports
+vhost\-user.  See the Examples section below.
+.sp
+This program must be run as the root user.  The program drops privileges where
+possible during startup although it must be able to create and access files
+with any uid/gid:
+.INDENT 0.0
+.IP \(bu 2
+The ability to invoke syscalls is limited using seccomp(2).
+.IP \(bu 2
+Linux capabilities(7) are dropped.
+.UNINDENT
+.sp
+In "namespace" sandbox mode the program switches into a new file system
+namespace and invokes pivot_root(2) to make the shared directory tree its root.
+A new pid and net namespace is also created to isolate the process.
+.sp
+In "chroot" sandbox mode the program invokes chroot(2) to make the shared
+directory tree its root. This mode is intended for container environments where
+the container runtime has already set up the namespaces and the program does
+not have permission to create namespaces itself.
+.sp
+Both sandbox modes prevent "file system escapes" due to symlinks and other file
+system objects that might lead to files outside the shared directory.
+.SH OPTIONS
+.INDENT 0.0
+.TP
+.B \-h, \-\-help
+Print help.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B \-V, \-\-version
+Print version.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B \-d
+Enable debug output.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B \-\-syslog
+Print log messages to syslog instead of stderr.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B \-o OPTION
+.INDENT 7.0
+.IP \(bu 2
+debug \-
+Enable debug output.
+.IP \(bu 2
+flock|no_flock \-
+Enable/disable flock.  The default is \fBno_flock\fP\&.
+.IP \(bu 2
+modcaps=CAPLIST
+Modify the list of capabilities allowed; CAPLIST is a colon separated
+list of capabilities, each preceded by either + or \-, e.g.
+\(aq\(aq+sys_admin:\-chown\(aq\(aq.
+.IP \(bu 2
+log_level=LEVEL \-
+Print only log messages matching LEVEL or more severe.  LEVEL is one of
+\fBerr\fP, \fBwarn\fP, \fBinfo\fP, or \fBdebug\fP\&.  The default is \fBinfo\fP\&.
+.IP \(bu 2
+posix_lock|no_posix_lock \-
+Enable/disable remote POSIX locks.  The default is \fBno_posix_lock\fP\&.
+.IP \(bu 2
+readdirplus|no_readdirplus \-
+Enable/disable readdirplus.  The default is \fBreaddirplus\fP\&.
+.IP \(bu 2
+sandbox=namespace|chroot \-
+Sandbox mode:
+\- namespace: Create mount, pid, and net namespaces and pivot_root(2) into
+the shared directory.
+\- chroot: chroot(2) into shared directory (use in containers).
+The default is "namespace".
+.IP \(bu 2
+source=PATH \-
+Share host directory tree located at PATH.  This option is required.
+.IP \(bu 2
+timeout=TIMEOUT \-
+I/O timeout in seconds.  The default depends on cache= option.
+.IP \(bu 2
+writeback|no_writeback \-
+Enable/disable writeback cache. The cache allows the FUSE client to buffer
+and merge write requests.  The default is \fBno_writeback\fP\&.
+.IP \(bu 2
+xattr|no_xattr \-
+Enable/disable extended attributes (xattr) on files and directories.  The
+default is \fBno_xattr\fP\&.
+.IP \(bu 2
+posix_acl|no_posix_acl \-
+Enable/disable posix acl support.  Posix ACLs are disabled by default.
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.TP
+.B \-\-socket\-path=PATH
+Listen on vhost\-user UNIX domain socket at PATH.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B \-\-socket\-group=GROUP
+Set the vhost\-user UNIX domain socket gid to GROUP.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B \-\-fd=FDNUM
+Accept connections from vhost\-user UNIX domain socket file descriptor FDNUM.
+The file descriptor must already be listening for connections.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B \-\-thread\-pool\-size=NUM
+Restrict the number of worker threads per request queue to NUM.  The default
+is 64.
+.UNINDENT
+.INDENT 0.0
+.TP
+.B \-\-cache=none|auto|always
+Select the desired trade\-off between coherency and performance.  \fBnone\fP
+forbids the FUSE client from caching to achieve best coherency at the cost of
+performance.  \fBauto\fP acts similar to NFS with a 1 second metadata cache
+timeout.  \fBalways\fP sets a long cache lifetime at the expense of coherency.
+The default is \fBauto\fP\&.
+.UNINDENT
+.SH EXTENDED ATTRIBUTE (XATTR) MAPPING
+.sp
+By default the name of xattr\(aqs used by the client are passed through to the server
+file system.  This can be a problem where either those xattr names are used
+by something on the server (e.g. selinux client/server confusion) or if the
+virtiofsd is running in a container with restricted privileges where it cannot
+access some attributes.
+.SS Mapping syntax
+.sp
+A mapping of xattr names can be made using \-o xattrmap=mapping where the \fBmapping\fP
+string consists of a series of rules.
+.sp
+The first matching rule terminates the mapping.
+The set of rules must include a terminating rule to match any remaining attributes
+at the end.
+.sp
+Each rule consists of a number of fields separated with a separator that is the
+first non\-white space character in the rule.  This separator must then be used
+for the whole rule.
+White space may be added before and after each rule.
+.sp
+Using \(aq:\(aq as the separator a rule is of the form:
+.sp
+\fB:type:scope:key:prepend:\fP
+.sp
+\fBscope\fP is:
+.INDENT 0.0
+.IP \(bu 2
+.INDENT 2.0
+.TP
+.B \(aqclient\(aq \- match \(aqkey\(aq against a xattr name from the client for
+setxattr/getxattr/removexattr
+.UNINDENT
+.IP \(bu 2
+.INDENT 2.0
+.TP
+.B \(aqserver\(aq \- match \(aqprepend\(aq against a xattr name from the server
+for listxattr
+.UNINDENT
+.IP \(bu 2
+.INDENT 2.0
+.TP
+.B \(aqall\(aq \- can be used to make a single rule where both the server
+and client matches are triggered.
+.UNINDENT
+.UNINDENT
+.sp
+\fBtype\fP is one of:
+.INDENT 0.0
+.IP \(bu 2
+\(aqprefix\(aq \- is designed to prepend and strip a prefix;  the modified
+attributes then being passed on to the client/server.
+.IP \(bu 2
+\(aqok\(aq \- Causes the rule set to be terminated when a match is found
+while allowing matching xattr\(aqs through unchanged.
+It is intended both as a way of explicitly terminating
+the list of rules, and to allow some xattr\(aqs to skip following rules.
+.IP \(bu 2
+\(aqbad\(aq \- If a client tries to use a name matching \(aqkey\(aq it\(aqs
+denied using EPERM; when the server passes an attribute
+name matching \(aqprepend\(aq it\(aqs hidden.  In many ways it\(aqs use is very like
+\(aqok\(aq as either an explicit terminator or for special handling of certain
+patterns.
+.UNINDENT
+.sp
+\fBkey\fP is a string tested as a prefix on an attribute name originating
+on the client.  It maybe empty in which case a \(aqclient\(aq rule
+will always match on client names.
+.sp
+\fBprepend\fP is a string tested as a prefix on an attribute name originating
+on the server, and used as a new prefix.  It may be empty
+in which case a \(aqserver\(aq rule will always match on all names from
+the server.
+.sp
+e.g.:
+.INDENT 0.0
+.INDENT 3.5
+\fB:prefix:client:trusted.:user.virtiofs.:\fP
+.sp
+will match \(aqtrusted.\(aq attributes in client calls and prefix them before
+passing them to the server.
+.sp
+\fB:prefix:server::user.virtiofs.:\fP
+.sp
+will strip \(aquser.virtiofs.\(aq from all server replies.
+.sp
+\fB:prefix:all:trusted.:user.virtiofs.:\fP
+.sp
+combines the previous two cases into a single rule.
+.sp
+\fB:ok:client:user.::\fP
+.sp
+will allow get/set xattr for \(aquser.\(aq xattr\(aqs and ignore
+following rules.
+.sp
+\fB:ok:server::security.:\fP
+.sp
+will pass \(aqsecurty.\(aq xattr\(aqs in listxattr from the server
+and ignore following rules.
+.sp
+\fB:ok:all:::\fP
+.sp
+will terminate the rule search passing any remaining attributes
+in both directions.
+.sp
+\fB:bad:server::security.:\fP
+.sp
+would hide \(aqsecurity.\(aq xattr\(aqs in listxattr from the server.
+.UNINDENT
+.UNINDENT
+.sp
+A simpler \(aqmap\(aq type provides a shorter syntax for the common case:
+.sp
+\fB:map:key:prepend:\fP
+.sp
+The \(aqmap\(aq type adds a number of separate rules to add \fBprepend\fP as a prefix
+to the matched \fBkey\fP (or all attributes if \fBkey\fP is empty).
+There may be at most one \(aqmap\(aq rule and it must be the last rule in the set.
+.sp
+Note: When the \(aqsecurity.capability\(aq xattr is remapped, the daemon has to do
+extra work to remove it during many operations, which the host kernel normally
+does itself.
+.SS Security considerations
+.sp
+Operating systems typically partition the xattr namespace using
+well defined name prefixes. Each partition may have different
+access controls applied. For example, on Linux there are multiple
+partitions
+.INDENT 0.0
+.INDENT 3.5
+.INDENT 0.0
+.IP \(bu 2
+\fBsystem.*\fP \- access varies depending on attribute & filesystem
+.IP \(bu 2
+\fBsecurity.*\fP \- only processes with CAP_SYS_ADMIN
+.IP \(bu 2
+\fBtrusted.*\fP \- only processes with CAP_SYS_ADMIN
+.IP \(bu 2
+\fBuser.*\fP \- any process granted by file permissions / ownership
+.UNINDENT
+.UNINDENT
+.UNINDENT
+.sp
+While other OS such as FreeBSD have different name prefixes
+and access control rules.
+.sp
+When remapping attributes on the host, it is important to
+ensure that the remapping does not allow a guest user to
+evade the guest access control rules.
+.sp
+Consider if \fBtrusted.*\fP from the guest was remapped to
+\fBuser.virtiofs.trusted*\fP in the host. An unprivileged
+user in a Linux guest has the ability to write to xattrs
+under \fBuser.*\fP\&. Thus the user can evade the access
+control restriction on \fBtrusted.*\fP by instead writing
+to \fBuser.virtiofs.trusted.*\fP\&.
+.sp
+As noted above, the partitions used and access controls
+applied, will vary across guest OS, so it is not wise to
+try to predict what the guest OS will use.
+.sp
+The simplest way to avoid an insecure configuration is
+to remap all xattrs at once, to a given fixed prefix.
+This is shown in example (1) below.
+.sp
+If selectively mapping only a subset of xattr prefixes,
+then rules must be added to explicitly block direct
+access to the target of the remapping. This is shown
+in example (2) below.
+.SS Mapping examples
+.INDENT 0.0
+.IP 1. 3
+Prefix all attributes with \(aquser.virtiofs.\(aq
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+\-o xattrmap=":prefix:all::user.virtiofs.::bad:all:::"
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+This uses two rules, using : as the field separator;
+the first rule prefixes and strips \(aquser.virtiofs.\(aq,
+the second rule hides any non\-prefixed attributes that
+the host set.
+.sp
+This is equivalent to the \(aqmap\(aq rule:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+\-o xattrmap=":map::user.virtiofs.:"
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.IP 2. 3
+Prefix \(aqtrusted.\(aq attributes, allow others through
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+"/prefix/all/trusted./user.virtiofs./
+ /bad/server//trusted./
+ /bad/client/user.virtiofs.//
+ /ok/all///"
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+Here there are four rules, using / as the field
+separator, and also demonstrating that new lines can
+be included between rules.
+The first rule is the prefixing of \(aqtrusted.\(aq and
+stripping of \(aquser.virtiofs.\(aq.
+The second rule hides unprefixed \(aqtrusted.\(aq attributes
+on the host.
+The third rule stops a guest from explicitly setting
+the \(aquser.virtiofs.\(aq path directly to prevent access
+control bypass on the target of the earlier prefix
+remapping.
+Finally, the fourth rule lets all remaining attributes
+through.
+.sp
+This is equivalent to the \(aqmap\(aq rule:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+\-o xattrmap="/map/trusted./user.virtiofs./"
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.INDENT 0.0
+.IP 3. 3
+Hide \(aqsecurity.\(aq attributes, and allow everything else
+.UNINDENT
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+"/bad/all/security./security./
+ /ok/all///\(aq
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.sp
+The first rule combines what could be separate client and server
+rules into a single \(aqall\(aq rule, matching \(aqsecurity.\(aq in either
+client arguments or lists returned from the host.  This stops
+the client seeing any \(aqsecurity.\(aq attributes on the server and
+stops it setting any.
+.SH EXAMPLES
+.sp
+Export \fB/var/lib/fs/vm001/\fP on vhost\-user UNIX domain socket
+\fB/var/run/vm001\-vhost\-fs.sock\fP:
+.INDENT 0.0
+.INDENT 3.5
+.sp
+.nf
+.ft C
+host# virtiofsd \-\-socket\-path=/var/run/vm001\-vhost\-fs.sock \-o source=/var/lib/fs/vm001
+host# qemu\-system\-x86_64 \e
+      \-chardev socket,id=char0,path=/var/run/vm001\-vhost\-fs.sock \e
+      \-device vhost\-user\-fs\-pci,chardev=char0,tag=myfs \e
+      \-object memory\-backend\-memfd,id=mem,size=4G,share=on \e
+      \-numa node,memdev=mem \e
+      ...
+guest# mount \-t virtiofs myfs /mnt
+.ft P
+.fi
+.UNINDENT
+.UNINDENT
+.SH AUTHOR
+Stefan Hajnoczi <stefanha@redhat.com>, Masayoshi Mizuma <m.mizuma@jp.fujitsu.com>
+.SH COPYRIGHT
+2021, The QEMU Project Developers
+.\" Generated by docutils manpage writer.
+.

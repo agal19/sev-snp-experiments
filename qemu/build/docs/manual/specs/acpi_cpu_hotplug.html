@@ -1,0 +1,492 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>QEMU&lt;-&gt;ACPI BIOS CPU hotplug interface &mdash; QEMU  documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/qemu_32x32.png"/>
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/theme_overrides.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="QEMU&lt;-&gt;ACPI BIOS memory hotplug interface" href="acpi_mem_hotplug.html" />
+    <link rel="prev" title="APEI tables generating and CPER record" href="acpi_hest_ghes.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: #802400" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> QEMU
+          
+
+          
+            
+            <img src="../_static/qemu_128x128.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                6.1.50
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about/index.html">About QEMU</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../system/index.html">System Emulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../user/index.html">User Mode Emulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/index.html">Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../interop/index.html">System Emulation Management and Interoperability</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">System Emulation Guest Hardware Specifications</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ppc-xive.html">POWER9 XIVE interrupt controller</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ppc-spapr-xive.html">XIVE for sPAPR (pseries machines)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ppc-spapr-numa.html">NUMA mechanics for sPAPR (pseries machines)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ppc-spapr-numa.html#how-the-pseries-linux-guest-calculates-numa-distances">How the pseries Linux guest calculates NUMA distances</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ppc-spapr-numa.html#pseries-numa-mechanics">pseries NUMA mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ppc-spapr-numa.html#legacy-5-1-and-older-pseries-numa-mechanics">Legacy (5.1 and older) pseries NUMA mechanics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="acpi_hw_reduced_hotplug.html">QEMU and ACPI BIOS Generic Event Device interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tpm.html">QEMU TPM Device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="acpi_hest_ghes.html">APEI tables generating and CPER record</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">QEMU&lt;-&gt;ACPI BIOS CPU hotplug interface</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#legacy-acpi-cpu-hotplug-interface-registers">Legacy ACPI CPU hotplug interface registers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#modern-acpi-cpu-hotplug-interface-registers">Modern ACPI CPU hotplug interface registers</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#read-access-behavior">Read access behavior</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#write-access-behavior">Write access behavior</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#typical-usecases">Typical usecases</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#x86-detecting-and-enabling-modern-cpu-hotplug-interface">(x86) Detecting and enabling modern CPU hotplug interface</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#get-a-cpu-with-pending-event">Get a cpu with pending event</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#enumerate-cpus-present-non-present-cpus">Enumerate CPUs present/non present CPUs</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="acpi_mem_hotplug.html">QEMU&lt;-&gt;ACPI BIOS memory hotplug interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="acpi_pci_hotplug.html">QEMU&lt;-&gt;ACPI BIOS PCI hotplug interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="acpi_nvdimm.html">QEMU&lt;-&gt;ACPI BIOS NVDIMM interface</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../devel/index.html">Developer Information</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">QEMU</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">System Emulation Guest Hardware Specifications</a> &raquo;</li>
+        
+      <li>QEMU&lt;-&gt;ACPI BIOS CPU hotplug interface</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://gitlab.com/qemu-project/qemu/blob/master/docs/specs/acpi_cpu_hotplug.rst" class="fa fa-gitlab"> Edit on GitLab</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="qemu-acpi-bios-cpu-hotplug-interface">
+<h1>QEMU&lt;-&gt;ACPI BIOS CPU hotplug interface<a class="headerlink" href="#qemu-acpi-bios-cpu-hotplug-interface" title="Permalink to this headline">¶</a></h1>
+<p>QEMU supports CPU hotplug via ACPI. This document
+describes the interface between QEMU and the ACPI BIOS.</p>
+<p>ACPI BIOS GPE.2 handler is dedicated for notifying OS about CPU hot-add
+and hot-remove events.</p>
+<div class="section" id="legacy-acpi-cpu-hotplug-interface-registers">
+<h2>Legacy ACPI CPU hotplug interface registers<a class="headerlink" href="#legacy-acpi-cpu-hotplug-interface-registers" title="Permalink to this headline">¶</a></h2>
+<p>CPU present bitmap for:</p>
+<ul class="simple">
+<li>ICH9-LPC (IO port 0x0cd8-0xcf7, 1-byte access)</li>
+<li>PIIX-PM  (IO port 0xaf00-0xaf1f, 1-byte access)</li>
+<li>One bit per CPU. Bit position reflects corresponding CPU APIC ID. Read-only.</li>
+<li>The first DWORD in bitmap is used in write mode to switch from legacy
+to modern CPU hotplug interface, write 0 into it to do switch.</li>
+</ul>
+<p>QEMU sets corresponding CPU bit on hot-add event and issues SCI
+with GPE.2 event set. CPU present map is read by ACPI BIOS GPE.2 handler
+to notify OS about CPU hot-add events. CPU hot-remove isn’t supported.</p>
+</div>
+<div class="section" id="modern-acpi-cpu-hotplug-interface-registers">
+<h2>Modern ACPI CPU hotplug interface registers<a class="headerlink" href="#modern-acpi-cpu-hotplug-interface-registers" title="Permalink to this headline">¶</a></h2>
+<p>Register block base address:</p>
+<ul class="simple">
+<li>ICH9-LPC IO port 0x0cd8</li>
+<li>PIIX-PM  IO port 0xaf00</li>
+</ul>
+<p>Register block size:</p>
+<ul class="simple">
+<li>ACPI_CPU_HOTPLUG_REG_LEN = 12</li>
+</ul>
+<p>All accesses to registers described below, imply little-endian byte order.</p>
+<p>Reserved registers behavior:</p>
+<ul class="simple">
+<li>write accesses are ignored</li>
+<li>read accesses return all bits set to 0.</li>
+</ul>
+<p>The last stored value in ‘CPU selector’ must refer to a possible CPU, otherwise</p>
+<ul class="simple">
+<li>reads from any register return 0</li>
+<li>writes to any other register are ignored until valid value is stored into it</li>
+</ul>
+<p>On QEMU start, ‘CPU selector’ is initialized to a valid value, on reset it
+keeps the current value.</p>
+<div class="section" id="read-access-behavior">
+<h3>Read access behavior<a class="headerlink" href="#read-access-behavior" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>offset [0x0-0x3]</dt>
+<dd><p class="first">Command data 2: (DWORD access)</p>
+<p>If value last stored in ‘Command field’ is:</p>
+<dl class="last docutils">
+<dt>0:</dt>
+<dd>reads as 0x0</dd>
+<dt>3:</dt>
+<dd>upper 32 bits of architecture specific CPU ID value</dd>
+<dt>other values:</dt>
+<dd>reserved</dd>
+</dl>
+</dd>
+<dt>offset [0x4]</dt>
+<dd><p class="first">CPU device status fields: (1 byte access)</p>
+<p>bits:</p>
+<dl class="last docutils">
+<dt>0:</dt>
+<dd>Device is enabled and may be used by guest</dd>
+<dt>1:</dt>
+<dd>Device insert event, used to distinguish device for which
+no device check event to OSPM was issued.
+It’s valid only when bit 0 is set.</dd>
+<dt>2:</dt>
+<dd>Device remove event, used to distinguish device for which
+no device eject request to OSPM was issued. Firmware must
+ignore this bit.</dd>
+<dt>3:</dt>
+<dd>reserved and should be ignored by OSPM</dd>
+<dt>4:</dt>
+<dd>if set to 1, OSPM requests firmware to perform device eject.</dd>
+<dt>5-7:</dt>
+<dd>reserved and should be ignored by OSPM</dd>
+</dl>
+</dd>
+<dt>offset [0x5-0x7]</dt>
+<dd>reserved</dd>
+<dt>offset [0x8]</dt>
+<dd><p class="first">Command data: (DWORD access)</p>
+<p>If value last stored in ‘Command field’ is one of:</p>
+<dl class="last docutils">
+<dt>0:</dt>
+<dd>contains ‘CPU selector’ value of a CPU with pending event[s]</dd>
+<dt>3:</dt>
+<dd>lower 32 bits of architecture specific CPU ID value
+(in x86 case: APIC ID)</dd>
+<dt>otherwise:</dt>
+<dd>contains 0</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<div class="section" id="write-access-behavior">
+<h3>Write access behavior<a class="headerlink" href="#write-access-behavior" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt>offset [0x0-0x3]</dt>
+<dd><p class="first">CPU selector: (DWORD access)</p>
+<p class="last">Selects active CPU device. All following accesses to other
+registers will read/store data from/to selected CPU.
+Valid values: [0 .. max_cpus)</p>
+</dd>
+<dt>offset [0x4]</dt>
+<dd><p class="first">CPU device control fields: (1 byte access)</p>
+<p>bits:</p>
+<dl class="last docutils">
+<dt>0:</dt>
+<dd>reserved, OSPM must clear it before writing to register.</dd>
+<dt>1:</dt>
+<dd>if set to 1 clears device insert event, set by OSPM
+after it has emitted device check event for the
+selected CPU device</dd>
+<dt>2:</dt>
+<dd>if set to 1 clears device remove event, set by OSPM
+after it has emitted device eject request for the
+selected CPU device.</dd>
+<dt>3:</dt>
+<dd>if set to 1 initiates device eject, set by OSPM when it
+triggers CPU device removal and calls _EJ0 method or by firmware
+when bit #4 is set. In case bit #4 were set, it’s cleared as
+part of device eject.</dd>
+<dt>4:</dt>
+<dd>if set to 1, OSPM hands over device eject to firmware.
+Firmware shall issue device eject request as described above
+(bit #3) and OSPM should not touch device eject bit (#3) in case
+it’s asked firmware to perform CPU device eject.</dd>
+<dt>5-7:</dt>
+<dd>reserved, OSPM must clear them before writing to register</dd>
+</dl>
+</dd>
+<dt>offset[0x5]</dt>
+<dd><p class="first">Command field: (1 byte access)</p>
+<p>value:</p>
+<dl class="last docutils">
+<dt>0:</dt>
+<dd>selects a CPU device with inserting/removing events and
+following reads from ‘Command data’ register return
+selected CPU (‘CPU selector’ value).
+If no CPU with events found, the current ‘CPU selector’ doesn’t
+change and corresponding insert/remove event flags are not modified.</dd>
+<dt>1:</dt>
+<dd>following writes to ‘Command data’ register set OST event
+register in QEMU</dd>
+<dt>2:</dt>
+<dd>following writes to ‘Command data’ register set OST status
+register in QEMU</dd>
+<dt>3:</dt>
+<dd>following reads from ‘Command data’ and ‘Command data 2’ return
+architecture specific CPU ID value for currently selected CPU.</dd>
+<dt>other values:</dt>
+<dd>reserved</dd>
+</dl>
+</dd>
+<dt>offset [0x6-0x7]</dt>
+<dd>reserved</dd>
+<dt>offset [0x8]</dt>
+<dd><p class="first">Command data: (DWORD access)</p>
+<p>If last stored ‘Command field’ value is:</p>
+<dl class="last docutils">
+<dt>1:</dt>
+<dd>stores value into OST event register</dd>
+<dt>2:</dt>
+<dd>stores value into OST status register, triggers
+ACPI_DEVICE_OST QMP event from QEMU to external applications
+with current values of OST event and status registers.</dd>
+<dt>other values:</dt>
+<dd>reserved</dd>
+</dl>
+</dd>
+</dl>
+</div>
+</div>
+<div class="section" id="typical-usecases">
+<h2>Typical usecases<a class="headerlink" href="#typical-usecases" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="x86-detecting-and-enabling-modern-cpu-hotplug-interface">
+<h3>(x86) Detecting and enabling modern CPU hotplug interface<a class="headerlink" href="#x86-detecting-and-enabling-modern-cpu-hotplug-interface" title="Permalink to this headline">¶</a></h3>
+<p>QEMU starts with legacy CPU hotplug interface enabled. Detecting and
+switching to modern interface is based on the 2 legacy CPU hotplug features:</p>
+<ol class="arabic simple">
+<li>Writes into CPU bitmap are ignored.</li>
+<li>CPU bitmap always has bit #0 set, corresponding to boot CPU.</li>
+</ol>
+<p>Use following steps to detect and enable modern CPU hotplug interface:</p>
+<ol class="arabic simple">
+<li>Store 0x0 to the ‘CPU selector’ register, attempting to switch to modern mode</li>
+<li>Store 0x0 to the ‘CPU selector’ register, to ensure valid selector value</li>
+<li>Store 0x0 to the ‘Command field’ register</li>
+<li>Read the ‘Command data 2’ register.
+If read value is 0x0, the modern interface is enabled.
+Otherwise legacy or no CPU hotplug interface available</li>
+</ol>
+</div>
+<div class="section" id="get-a-cpu-with-pending-event">
+<h3>Get a cpu with pending event<a class="headerlink" href="#get-a-cpu-with-pending-event" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Store 0x0 to the ‘CPU selector’ register.</li>
+<li>Store 0x0 to the ‘Command field’ register.</li>
+<li>Read the ‘CPU device status fields’ register.</li>
+<li>If both bit #1 and bit #2 are clear in the value read, there is no CPU
+with a pending event and selected CPU remains unchanged.</li>
+<li>Otherwise, read the ‘Command data’ register. The value read is the
+selector of the CPU with the pending event (which is already selected).</li>
+</ol>
+</div>
+<div class="section" id="enumerate-cpus-present-non-present-cpus">
+<h3>Enumerate CPUs present/non present CPUs<a class="headerlink" href="#enumerate-cpus-present-non-present-cpus" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Set the present CPU count to 0.</li>
+<li>Set the iterator to 0.</li>
+<li>Store 0x0 to the ‘CPU selector’ register, to ensure that it’s in
+a valid state and that access to other registers won’t be ignored.</li>
+<li>Store 0x0 to the ‘Command field’ register to make ‘Command data’
+register return ‘CPU selector’ value of selected CPU</li>
+<li>Read the ‘CPU device status fields’ register.</li>
+<li>If bit #0 is set, increment the present CPU count.</li>
+<li>Increment the iterator.</li>
+<li>Store the iterator to the ‘CPU selector’ register.</li>
+<li>Read the ‘Command data’ register.</li>
+<li>If the value read is not zero, goto 05.</li>
+<li>Otherwise store 0x0 to the ‘CPU selector’ register, to put it
+into a valid state and exit.
+The iterator at this point equals “max_cpus”.</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="acpi_mem_hotplug.html" class="btn btn-neutral float-right" title="QEMU&lt;-&gt;ACPI BIOS memory hotplug interface" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="acpi_hest_ghes.html" class="btn btn-neutral float-left" title="APEI tables generating and CPER record" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2021, The QEMU Project Developers
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+<!-- Empty para to force a blank line after "Built with Sphinx ..." -->
+<p></p>
+
+<p>This documentation is for QEMU version 6.1.50.</p>
+
+
+<p><a href="../about/license.html">QEMU and this manual are released under the
+GNU General Public License, version 2.</a></p>
+
+ 
+
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
