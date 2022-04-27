@@ -1,0 +1,15 @@
+
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib/OUTPUT/X64/Xcode5ExceptionHandlerAsm.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib/OUTPUT/X64/ArchExceptionHandler.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib/OUTPUT/X64/Xcode5ExceptionHandlerAsm.nasm.trim.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib/OUTPUT/PeiDxeSmmCpuException.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib/OUTPUT/PeiCpuException.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib/OUTPUT/CpuExceptionCommon.obj.deps
+
+               

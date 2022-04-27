@@ -1,0 +1,13 @@
+
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/VmgExitLib/OUTPUT/X64/TdVmcallCpuid.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/VmgExitLib/OUTPUT/VmTdExitVeHandler.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/VmgExitLib/OUTPUT/PeiDxeVmgExitVcHandler.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/VmgExitLib/OUTPUT/VmgExitLib.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/VmgExitLib/OUTPUT/VmgExitVcHandler.obj.deps
+
+               

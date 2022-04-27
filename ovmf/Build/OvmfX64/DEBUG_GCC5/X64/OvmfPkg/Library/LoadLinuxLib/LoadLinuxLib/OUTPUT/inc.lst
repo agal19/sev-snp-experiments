@@ -1,0 +1,10 @@
+-I/home/anna/AMDSEV/ovmf/OvmfPkg/Library/LoadLinuxLib/X64
+-I/home/anna/AMDSEV/ovmf/OvmfPkg/Library/LoadLinuxLib
+-I/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/LoadLinuxLib/LoadLinuxLib/DEBUG
+-I/home/anna/AMDSEV/ovmf/MdePkg
+-I/home/anna/AMDSEV/ovmf/MdePkg/Include
+-I/home/anna/AMDSEV/ovmf/MdePkg/Test/UnitTest/Include
+-I/home/anna/AMDSEV/ovmf/MdePkg/Include/X64
+-I/home/anna/AMDSEV/ovmf/OvmfPkg
+-I/home/anna/AMDSEV/ovmf/OvmfPkg/Include
+-I/home/anna/AMDSEV/ovmf/OvmfPkg/Csm/Include

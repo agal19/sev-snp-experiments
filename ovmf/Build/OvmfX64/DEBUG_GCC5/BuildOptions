@@ -1,0 +1,4 @@
+gCommandLineDefines: {'DEBUG_ON_SERIAL_PORT': 'TRUE', 'ARCH': 'X64'}
+BuildOptionPcd: []
+Active Platform: /home/anna/AMDSEV/ovmf/OvmfPkg/OvmfPkgX64.dsc
+Flash Image Definition: /home/anna/AMDSEV/ovmf/OvmfPkg/OvmfPkgX64.fdf

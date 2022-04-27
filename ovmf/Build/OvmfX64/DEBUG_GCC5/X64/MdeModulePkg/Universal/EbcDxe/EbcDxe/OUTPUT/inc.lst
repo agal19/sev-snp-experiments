@@ -1,0 +1,10 @@
+-I/home/anna/AMDSEV/ovmf/MdeModulePkg/Universal/EbcDxe/X64
+-I/home/anna/AMDSEV/ovmf/MdeModulePkg/Universal/EbcDxe
+-I/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Universal/EbcDxe/EbcDxe/DEBUG
+-I/home/anna/AMDSEV/ovmf/MdePkg
+-I/home/anna/AMDSEV/ovmf/MdePkg/Include
+-I/home/anna/AMDSEV/ovmf/MdePkg/Test/UnitTest/Include
+-I/home/anna/AMDSEV/ovmf/MdePkg/Include/X64
+-I/home/anna/AMDSEV/ovmf/MdeModulePkg
+-I/home/anna/AMDSEV/ovmf/MdeModulePkg/Include
+-I/home/anna/AMDSEV/ovmf/MdeModulePkg/Library/BrotliCustomDecompressLib/brotli/c/include

@@ -1,0 +1,2507 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Sec/SecMain/OUTPUT/SecMain.lib(SecMain.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Sec/SecMain/OUTPUT/SecMain.lib(AmdSev.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Sec/SecMain/OUTPUT/SecMain.lib(SecEntry.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Sec/SecMain/OUTPUT/SecMain.lib(AutoGen.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/PeiServicesTablePointerLibIdt/PeiServicesTablePointerLibIdt/OUTPUT/PeiServicesTablePointerLibIdt.lib(PeiServicesTablePointer.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib(RegisterFilterLibNull.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/SecVmgExitLib/OUTPUT/SecVmgExitLib.lib(VmgExitLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/SecVmgExitLib/OUTPUT/SecVmgExitLib.lib(VmgExitVcHandler.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/SecVmgExitLib/OUTPUT/SecVmgExitLib.lib(SecVmgExitVcHandler.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/SecVmgExitLib/OUTPUT/SecVmgExitLib.lib(VmTdExitVeHandler.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/SecVmgExitLib/OUTPUT/SecVmgExitLib.lib(TdVmcallCpuid.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib/OUTPUT/PeiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuFlushTlb.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/TdxLib/TdxLib/OUTPUT/TdxLib.lib(AcceptPages.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/TdxLib/TdxLib/OUTPUT/TdxLib.lib(Rtmr.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/TdxLib/TdxLib/OUTPUT/TdxLib.lib(TdInfo.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/PeiHobLib/PeiHobLib/OUTPUT/PeiHobLib.lib(HobLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/CcProbeLib/CcProbeLib/OUTPUT/CcProbeLib.lib(CcProbeLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/BaseMemEncryptSevLib/SecMemEncryptSevLib/OUTPUT/SecMemEncryptSevLib.lib(SecMemEncryptSevLibInternal.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/BaseMemEncryptSevLib/SecMemEncryptSevLib/OUTPUT/SecMemEncryptSevLib.lib(MemEncryptSevLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/BaseMemEncryptSevLib/SecMemEncryptSevLib/OUTPUT/SecMemEncryptSevLib.lib(SecVirtualMemory.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/BaseMemEncryptSevLib/SecMemEncryptSevLib/OUTPUT/SecMemEncryptSevLib.lib(SecSnpSystemRamValidate.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/BaseMemEncryptSevLib/SecMemEncryptSevLib/OUTPUT/SecMemEncryptSevLib.lib(SnpPageStateChangeInternal.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/BaseMemEncryptSevLib/SecMemEncryptSevLib/OUTPUT/SecMemEncryptSevLib.lib(VirtualMemory.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/BaseXApicX2ApicLib/BaseXApicX2ApicLib/OUTPUT/BaseXApicX2ApicLib.lib(BaseXApicX2ApicLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLibMmioBuffer.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoHighLevel.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLibGcc.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLibInternalTdx.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoLibFifo.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoFifoSev.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/BaseUefiCpuLib/BaseUefiCpuLib/OUTPUT/BaseUefiCpuLib.lib(InitializeFpu.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/BaseUefiCpuLib/BaseUefiCpuLib/OUTPUT/BaseUefiCpuLib.lib(BaseUefiCpuLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/PeiServicesLib/PeiServicesLib/OUTPUT/PeiServicesLib.lib(PeiServicesLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem64Wrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem32Wrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem16Wrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem8Wrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ZeroMemWrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CompareMemWrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem64Wrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem32Wrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem16Wrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMemWrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CopyMemWrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(IsZeroBufferWrapper.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(MemLibGuid.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem16.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem8.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CompareMem.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ZeroMem.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem16.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CopyMem.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(IsZeroBuffer.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(QuickSort.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(TdCall.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(TdVmcall.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(TdProbe.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86PatchInstruction.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86SpeculationBarrier.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInlinePriv.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/PcAtChipsetPkg/Library/SerialIoLib/SerialIoLib/OUTPUT/PcAtSerialPortLib.lib(SerialPortLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib(DebugLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePciCf8Lib/BasePciCf8Lib/OUTPUT/BasePciCf8Lib.lib(PciCf8Lib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePciLibCf8/BasePciLibCf8/OUTPUT/BasePciLibCf8.lib(PciLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/AcpiTimerLib/BaseRomAcpiTimerLib/OUTPUT/BaseRomAcpiTimerLib.lib(AcpiTimerLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/AcpiTimerLib/BaseRomAcpiTimerLib/OUTPUT/BaseRomAcpiTimerLib.lib(BaseRomAcpiTimerLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/QemuFwCfgLib/QemuFwCfgSecLib/OUTPUT/QemuFwCfgSecLib.lib(QemuFwCfgLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/QemuFwCfgLib/QemuFwCfgSecLib/OUTPUT/QemuFwCfgSecLib.lib(QemuFwCfgSec.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull/OUTPUT/PeCoffExtraActionLibNull.lib(PeCoffExtraActionLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib(PeCoffGetEntryPoint.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseExtractGuidedSectionLib/BaseExtractGuidedSectionLib/OUTPUT/BaseExtractGuidedSectionLib.lib(BaseExtractGuidedSectionLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MtrrLib/MtrrLib/OUTPUT/MtrrLib.lib(MtrrLib.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/QemuFwCfgSimpleParserLib/QemuFwCfgSimpleParserLib/OUTPUT/QemuFwCfgSimpleParserLib.lib(QemuFwCfgSimpleParser.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull/OUTPUT/DebugAgentLibNull.lib(DebugAgentLibNull.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(BasePeCoff.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(PeCoffLoaderEx.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/SecPeiCpuExceptionHandlerLib.lib(ExceptionHandlerAsm.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/SecPeiCpuExceptionHandlerLib.lib(ArchExceptionHandler.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/SecPeiCpuExceptionHandlerLib.lib(CpuExceptionCommon.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/SecPeiCpuExceptionHandlerLib.lib(SecPeiCpuException.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib(LzmaDecompress.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib(LzFind.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib(LzmaDec.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib(GuidedSectionExtraction.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformInitLib/PlatformInitLib/OUTPUT/PlatformInitLib.lib(Cmos.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformInitLib/PlatformInitLib/OUTPUT/PlatformInitLib.lib(MemDetect.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformInitLib/PlatformInitLib/OUTPUT/PlatformInitLib.lib(Platform.obj)
+                              (--whole-archive)
+/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformInitLib/PlatformInitLib/OUTPUT/PlatformInitLib.lib(IntelTdx.obj)
+                              (--whole-archive)
+
+Merging program properties
+
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (0x3) and /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Sec/SecMain/OUTPUT/SecMain.lib(SecEntry.obj) (not found)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc6UZVfX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccoQwksU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc6g4ggV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccuTJ4mV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccZObiYX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccuxqkQX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccq82vlX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccSGVMiW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccKEuPQW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccyebugW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccU5zYOX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccbniHLX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccZwQdaX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc2rqMKV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc8LGy1X.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccvSwewT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccWT5ofW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccRSkPVW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccvMrMEW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc3kLdFX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc6DuGFT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc6HN8gU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccIjjFET.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccqQ3cVX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccd4vMFT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccWlmE0U.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccGtjM1U.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccFvEKRX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccIh7eaU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccSvtcTT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccg0nsVT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cchN1G7V.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccQ3OeSW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccA4iIyT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccjBFoPX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccRKnm2T.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccvbUPeU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccPX2OZV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccCZdhBW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccKZIILU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccE0CAxX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccHfLW2W.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cckKgZjX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccy7pC6U.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc6kvqiW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccih051U.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccwI0cNU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccNB8RwT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccXZSEcW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccRYENYX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccY6JmYW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccMxAyWX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccPZTCJW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccw7OtCT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccfrEASW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc0VI96T.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccP3wFZU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccnVKevX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cczWOKyV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccK6AwNV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccy7JrEV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccqlD9zT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccEXQvQU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc4vyuzU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccGsHxLT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc8iQyXX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccH6QdiV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccqnyMNX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccAJE39W.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccDb1WYU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccHezxzT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccdScLOU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccwJehDU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccT2iHrW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccg5ZonU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccTM3aCU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc4ZuCgU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cclJHVkW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccmPZLJW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccL9McIV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccW6d0YX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccc6jnEU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccWs6muX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccJKffXT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccDz9ldX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cciFVkDX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccqCXtTV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccHWN12W.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc6S6NcW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccFADTUT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccVSBkzT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccnFA37X.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccapahYX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccC7nE4W.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccd9SVAT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cchxL4mV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc8IV9AW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccf2D6hU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccypdN8V.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccrzUOKV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cczzhBFW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccG94qsX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccVy4MXW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccHMcJuX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc9nRRPW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccsTr6GX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccUU9jFT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc4csFfU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccvAo1vV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccYirgBU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccBqE3qU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccHqdaIX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccc1ee4T.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccSKvpmU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccrZTjnW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccgq3hqV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccEeZZRW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccli2JFT.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccBFrA8U.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cceif8hW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccFVC16T.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc0gooOX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccvkGtwV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccAi7HnW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccIn7MBX.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccihrrKW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cczZCnwV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccP6APQV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/cc9dLprU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccrbwAKU.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccsPMqdW.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccxaxkNV.debug.temp.o (0x3)
+Removed property 0xc0000002 to merge /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o (not found) and /tmp/ccN7e7WU.debug.temp.o (0x3)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.StrnLenS.str1.1
+                0x0000000000000000       0x5d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.StrnLenS
+                0x0000000000000000       0x54 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2c /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2c /tmp/cc6UZVfX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6UZVfX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc6UZVfX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccoQwksU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccoQwksU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccoQwksU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc6g4ggV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6g4ggV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc6g4ggV.debug.temp.o
+ .debug_info    0x0000000000000000     0x1187 /tmp/ccuTJ4mV.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x197 /tmp/ccuTJ4mV.debug.temp.o
+ .debug_line    0x0000000000000000      0x34f /tmp/ccuTJ4mV.debug.temp.o
+ .debug_str     0x0000000000000000     0x1187 /tmp/ccuTJ4mV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccuTJ4mV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuTJ4mV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccuTJ4mV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccZObiYX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZObiYX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccZObiYX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccuxqkQX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccuxqkQX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccuxqkQX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccq82vlX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccq82vlX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccq82vlX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccSGVMiW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSGVMiW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccSGVMiW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccKEuPQW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKEuPQW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccKEuPQW.debug.temp.o
+ .debug_info    0x0000000000000000      0x783 /tmp/ccyebugW.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x171 /tmp/ccyebugW.debug.temp.o
+ .debug_line    0x0000000000000000      0x278 /tmp/ccyebugW.debug.temp.o
+ .debug_str     0x0000000000000000      0x7ee /tmp/ccyebugW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccyebugW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccyebugW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccyebugW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccU5zYOX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccU5zYOX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccU5zYOX.debug.temp.o
+ .debug_info    0x0000000000000000      0x1ed /tmp/ccbniHLX.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xdb /tmp/ccbniHLX.debug.temp.o
+ .debug_line    0x0000000000000000      0x163 /tmp/ccbniHLX.debug.temp.o
+ .debug_str     0x0000000000000000      0x354 /tmp/ccbniHLX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccbniHLX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccbniHLX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccbniHLX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccZwQdaX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccZwQdaX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccZwQdaX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc2rqMKV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc2rqMKV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc2rqMKV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc8LGy1X.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8LGy1X.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc8LGy1X.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccvSwewT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvSwewT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccvSwewT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccWT5ofW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWT5ofW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccWT5ofW.debug.temp.o
+ .debug_info    0x0000000000000000      0x320 /tmp/ccRSkPVW.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf7 /tmp/ccRSkPVW.debug.temp.o
+ .debug_line    0x0000000000000000      0x27b /tmp/ccRSkPVW.debug.temp.o
+ .debug_str     0x0000000000000000      0x617 /tmp/ccRSkPVW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccRSkPVW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRSkPVW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccRSkPVW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccvMrMEW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvMrMEW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccvMrMEW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc3kLdFX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc3kLdFX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc3kLdFX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc6DuGFT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6DuGFT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc6DuGFT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc6HN8gU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6HN8gU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc6HN8gU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccIjjFET.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIjjFET.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccIjjFET.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccqQ3cVX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqQ3cVX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccqQ3cVX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccd4vMFT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccd4vMFT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccd4vMFT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccWlmE0U.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWlmE0U.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccWlmE0U.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccGtjM1U.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGtjM1U.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccGtjM1U.debug.temp.o
+ .debug_info    0x0000000000000000      0x26b /tmp/ccFvEKRX.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc2 /tmp/ccFvEKRX.debug.temp.o
+ .debug_line    0x0000000000000000      0x152 /tmp/ccFvEKRX.debug.temp.o
+ .debug_str     0x0000000000000000      0x371 /tmp/ccFvEKRX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccFvEKRX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFvEKRX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccFvEKRX.debug.temp.o
+ .debug_info    0x0000000000000000      0x26a /tmp/ccIh7eaU.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x103 /tmp/ccIh7eaU.debug.temp.o
+ .debug_line    0x0000000000000000      0x190 /tmp/ccIh7eaU.debug.temp.o
+ .debug_str     0x0000000000000000      0x3e8 /tmp/ccIh7eaU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccIh7eaU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIh7eaU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccIh7eaU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccSvtcTT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSvtcTT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccSvtcTT.debug.temp.o
+ .debug_info    0x0000000000000000     0x1913 /tmp/ccg0nsVT.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1f3 /tmp/ccg0nsVT.debug.temp.o
+ .debug_line    0x0000000000000000      0x328 /tmp/ccg0nsVT.debug.temp.o
+ .debug_str     0x0000000000000000     0x168d /tmp/ccg0nsVT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccg0nsVT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccg0nsVT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccg0nsVT.debug.temp.o
+ .debug_info    0x0000000000000000      0x18d /tmp/cchN1G7V.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb6 /tmp/cchN1G7V.debug.temp.o
+ .debug_line    0x0000000000000000      0x159 /tmp/cchN1G7V.debug.temp.o
+ .debug_str     0x0000000000000000      0x33d /tmp/cchN1G7V.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cchN1G7V.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchN1G7V.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cchN1G7V.debug.temp.o
+ .debug_info    0x0000000000000000      0x18d /tmp/ccQ3OeSW.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb6 /tmp/ccQ3OeSW.debug.temp.o
+ .debug_line    0x0000000000000000      0x159 /tmp/ccQ3OeSW.debug.temp.o
+ .debug_str     0x0000000000000000      0x33d /tmp/ccQ3OeSW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccQ3OeSW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccQ3OeSW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccQ3OeSW.debug.temp.o
+ .debug_info    0x0000000000000000      0x18d /tmp/ccA4iIyT.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb6 /tmp/ccA4iIyT.debug.temp.o
+ .debug_line    0x0000000000000000      0x159 /tmp/ccA4iIyT.debug.temp.o
+ .debug_str     0x0000000000000000      0x33d /tmp/ccA4iIyT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccA4iIyT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccA4iIyT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccA4iIyT.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c2 /tmp/ccjBFoPX.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xcb /tmp/ccjBFoPX.debug.temp.o
+ .debug_line    0x0000000000000000      0x158 /tmp/ccjBFoPX.debug.temp.o
+ .debug_str     0x0000000000000000      0x344 /tmp/ccjBFoPX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccjBFoPX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccjBFoPX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccjBFoPX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccRKnm2T.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRKnm2T.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccRKnm2T.debug.temp.o
+ .debug_info    0x0000000000000000      0x1a3 /tmp/ccvbUPeU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xaf /tmp/ccvbUPeU.debug.temp.o
+ .debug_line    0x0000000000000000      0x15a /tmp/ccvbUPeU.debug.temp.o
+ .debug_str     0x0000000000000000      0x35c /tmp/ccvbUPeU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccvbUPeU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvbUPeU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccvbUPeU.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/ccPX2OZV.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccPX2OZV.debug.temp.o
+ .debug_line    0x0000000000000000      0x158 /tmp/ccPX2OZV.debug.temp.o
+ .debug_str     0x0000000000000000      0x33b /tmp/ccPX2OZV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccPX2OZV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPX2OZV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccPX2OZV.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/ccCZdhBW.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccCZdhBW.debug.temp.o
+ .debug_line    0x0000000000000000      0x158 /tmp/ccCZdhBW.debug.temp.o
+ .debug_str     0x0000000000000000      0x33b /tmp/ccCZdhBW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccCZdhBW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccCZdhBW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccCZdhBW.debug.temp.o
+ .debug_info    0x0000000000000000      0x186 /tmp/ccKZIILU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccKZIILU.debug.temp.o
+ .debug_line    0x0000000000000000      0x158 /tmp/ccKZIILU.debug.temp.o
+ .debug_str     0x0000000000000000      0x33b /tmp/ccKZIILU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccKZIILU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccKZIILU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccKZIILU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccE0CAxX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccE0CAxX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccE0CAxX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccHfLW2W.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHfLW2W.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccHfLW2W.debug.temp.o
+ .debug_info    0x0000000000000000      0x17f /tmp/cckKgZjX.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xaf /tmp/cckKgZjX.debug.temp.o
+ .debug_line    0x0000000000000000      0x15c /tmp/cckKgZjX.debug.temp.o
+ .debug_str     0x0000000000000000      0x33d /tmp/cckKgZjX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cckKgZjX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cckKgZjX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cckKgZjX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccy7pC6U.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccy7pC6U.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccy7pC6U.debug.temp.o
+ .debug_info    0x0000000000000000      0x457 /tmp/cc6kvqiW.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x13e /tmp/cc6kvqiW.debug.temp.o
+ .debug_line    0x0000000000000000      0x12d /tmp/cc6kvqiW.debug.temp.o
+ .debug_str     0x0000000000000000      0x4f3 /tmp/cc6kvqiW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc6kvqiW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6kvqiW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc6kvqiW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccih051U.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccih051U.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccih051U.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccwI0cNU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccwI0cNU.debug.temp.o
+ .debug_line    0x0000000000000000      0x130 /tmp/ccwI0cNU.debug.temp.o
+ .debug_str     0x0000000000000000      0x436 /tmp/ccwI0cNU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccwI0cNU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwI0cNU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccwI0cNU.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccNB8RwT.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccNB8RwT.debug.temp.o
+ .debug_line    0x0000000000000000      0x130 /tmp/ccNB8RwT.debug.temp.o
+ .debug_str     0x0000000000000000      0x44d /tmp/ccNB8RwT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccNB8RwT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccNB8RwT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccNB8RwT.debug.temp.o
+ .debug_info    0x0000000000000000      0x1c3 /tmp/ccXZSEcW.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccXZSEcW.debug.temp.o
+ .debug_line    0x0000000000000000      0x130 /tmp/ccXZSEcW.debug.temp.o
+ .debug_str     0x0000000000000000      0x436 /tmp/ccXZSEcW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccXZSEcW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccXZSEcW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccXZSEcW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccRYENYX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccRYENYX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccRYENYX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccY6JmYW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccY6JmYW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccY6JmYW.debug.temp.o
+ .debug_info    0x0000000000000000      0x26c /tmp/ccMxAyWX.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xeb /tmp/ccMxAyWX.debug.temp.o
+ .debug_line    0x0000000000000000      0x169 /tmp/ccMxAyWX.debug.temp.o
+ .debug_str     0x0000000000000000      0x4b0 /tmp/ccMxAyWX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccMxAyWX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccMxAyWX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccMxAyWX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccPZTCJW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccPZTCJW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccPZTCJW.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccw7OtCT.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccw7OtCT.debug.temp.o
+ .debug_line    0x0000000000000000      0x12c /tmp/ccw7OtCT.debug.temp.o
+ .debug_str     0x0000000000000000      0x43c /tmp/ccw7OtCT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccw7OtCT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccw7OtCT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccw7OtCT.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccfrEASW.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccfrEASW.debug.temp.o
+ .debug_line    0x0000000000000000      0x12c /tmp/ccfrEASW.debug.temp.o
+ .debug_str     0x0000000000000000      0x43c /tmp/ccfrEASW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccfrEASW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccfrEASW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccfrEASW.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/cc0VI96T.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/cc0VI96T.debug.temp.o
+ .debug_line    0x0000000000000000      0x12f /tmp/cc0VI96T.debug.temp.o
+ .debug_str     0x0000000000000000      0x44d /tmp/cc0VI96T.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc0VI96T.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0VI96T.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc0VI96T.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccP3wFZU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccP3wFZU.debug.temp.o
+ .debug_line    0x0000000000000000      0x12f /tmp/ccP3wFZU.debug.temp.o
+ .debug_str     0x0000000000000000      0x44d /tmp/ccP3wFZU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccP3wFZU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccP3wFZU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccP3wFZU.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccnVKevX.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccnVKevX.debug.temp.o
+ .debug_line    0x0000000000000000      0x12f /tmp/ccnVKevX.debug.temp.o
+ .debug_str     0x0000000000000000      0x44c /tmp/ccnVKevX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccnVKevX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccnVKevX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccnVKevX.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/cczWOKyV.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/cczWOKyV.debug.temp.o
+ .debug_line    0x0000000000000000      0x12e /tmp/cczWOKyV.debug.temp.o
+ .debug_str     0x0000000000000000      0x43d /tmp/cczWOKyV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cczWOKyV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczWOKyV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cczWOKyV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccK6AwNV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccK6AwNV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccK6AwNV.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccy7JrEV.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccy7JrEV.debug.temp.o
+ .debug_line    0x0000000000000000      0x12c /tmp/ccy7JrEV.debug.temp.o
+ .debug_str     0x0000000000000000      0x43c /tmp/ccy7JrEV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccy7JrEV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccy7JrEV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccy7JrEV.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccqlD9zT.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccqlD9zT.debug.temp.o
+ .debug_line    0x0000000000000000      0x12c /tmp/ccqlD9zT.debug.temp.o
+ .debug_str     0x0000000000000000      0x43c /tmp/ccqlD9zT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccqlD9zT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqlD9zT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccqlD9zT.debug.temp.o
+ .debug_info    0x0000000000000000      0x1e7 /tmp/ccEXQvQU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/ccEXQvQU.debug.temp.o
+ .debug_line    0x0000000000000000      0x130 /tmp/ccEXQvQU.debug.temp.o
+ .debug_str     0x0000000000000000      0x44c /tmp/ccEXQvQU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccEXQvQU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEXQvQU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccEXQvQU.debug.temp.o
+ .debug_info    0x0000000000000000      0x1e7 /tmp/cc4vyuzU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc0 /tmp/cc4vyuzU.debug.temp.o
+ .debug_line    0x0000000000000000      0x130 /tmp/cc4vyuzU.debug.temp.o
+ .debug_str     0x0000000000000000      0x44c /tmp/cc4vyuzU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc4vyuzU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4vyuzU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc4vyuzU.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccGsHxLT.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccGsHxLT.debug.temp.o
+ .debug_line    0x0000000000000000      0x131 /tmp/ccGsHxLT.debug.temp.o
+ .debug_str     0x0000000000000000      0x445 /tmp/ccGsHxLT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccGsHxLT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccGsHxLT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccGsHxLT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc8iQyXX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8iQyXX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc8iQyXX.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/ccH6QdiV.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccH6QdiV.debug.temp.o
+ .debug_line    0x0000000000000000      0x134 /tmp/ccH6QdiV.debug.temp.o
+ .debug_str     0x0000000000000000      0x446 /tmp/ccH6QdiV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccH6QdiV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccH6QdiV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccH6QdiV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccqnyMNX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqnyMNX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccqnyMNX.debug.temp.o
+ .debug_info    0x0000000000000000      0x1e5 /tmp/ccAJE39W.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb3 /tmp/ccAJE39W.debug.temp.o
+ .debug_line    0x0000000000000000      0x137 /tmp/ccAJE39W.debug.temp.o
+ .debug_str     0x0000000000000000      0x459 /tmp/ccAJE39W.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccAJE39W.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAJE39W.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccAJE39W.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccDb1WYU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDb1WYU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccDb1WYU.debug.temp.o
+ .debug_info    0x0000000000000000      0x1cf /tmp/ccHezxzT.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccHezxzT.debug.temp.o
+ .debug_line    0x0000000000000000      0x12e /tmp/ccHezxzT.debug.temp.o
+ .debug_str     0x0000000000000000      0x43d /tmp/ccHezxzT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccHezxzT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHezxzT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccHezxzT.debug.temp.o
+ .debug_info    0x0000000000000000      0x1f1 /tmp/ccdScLOU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb3 /tmp/ccdScLOU.debug.temp.o
+ .debug_line    0x0000000000000000      0x137 /tmp/ccdScLOU.debug.temp.o
+ .debug_str     0x0000000000000000      0x45f /tmp/ccdScLOU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccdScLOU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccdScLOU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccdScLOU.debug.temp.o
+ .debug_info    0x0000000000000000      0x1db /tmp/ccwJehDU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb1 /tmp/ccwJehDU.debug.temp.o
+ .debug_line    0x0000000000000000      0x12f /tmp/ccwJehDU.debug.temp.o
+ .debug_str     0x0000000000000000      0x442 /tmp/ccwJehDU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccwJehDU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccwJehDU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccwJehDU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccT2iHrW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccT2iHrW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccT2iHrW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccg5ZonU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccg5ZonU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccg5ZonU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccTM3aCU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccTM3aCU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccTM3aCU.debug.temp.o
+ .debug_info    0x0000000000000000      0x427 /tmp/cc4ZuCgU.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x139 /tmp/cc4ZuCgU.debug.temp.o
+ .debug_line    0x0000000000000000      0x12f /tmp/cc4ZuCgU.debug.temp.o
+ .debug_str     0x0000000000000000      0x54c /tmp/cc4ZuCgU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc4ZuCgU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4ZuCgU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc4ZuCgU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cclJHVkW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cclJHVkW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cclJHVkW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccmPZLJW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccmPZLJW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccmPZLJW.debug.temp.o
+ .debug_info    0x0000000000000000      0x216 /tmp/ccL9McIV.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xd5 /tmp/ccL9McIV.debug.temp.o
+ .debug_line    0x0000000000000000      0x12e /tmp/ccL9McIV.debug.temp.o
+ .debug_str     0x0000000000000000      0x474 /tmp/ccL9McIV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccL9McIV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccL9McIV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccL9McIV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccW6d0YX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccW6d0YX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccW6d0YX.debug.temp.o
+ .debug_info    0x0000000000000000      0x28d /tmp/ccc6jnEU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xf7 /tmp/ccc6jnEU.debug.temp.o
+ .debug_line    0x0000000000000000      0x170 /tmp/ccc6jnEU.debug.temp.o
+ .debug_str     0x0000000000000000      0x4b7 /tmp/ccc6jnEU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccc6jnEU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccc6jnEU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccc6jnEU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccWs6muX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccWs6muX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccWs6muX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccJKffXT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccJKffXT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccJKffXT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccDz9ldX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccDz9ldX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccDz9ldX.debug.temp.o
+ .debug_info    0x0000000000000000      0x20e /tmp/cciFVkDX.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xe0 /tmp/cciFVkDX.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/cciFVkDX.debug.temp.o
+ .debug_str     0x0000000000000000      0x458 /tmp/cciFVkDX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cciFVkDX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cciFVkDX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cciFVkDX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccqCXtTV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccqCXtTV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccqCXtTV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccHWN12W.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHWN12W.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccHWN12W.debug.temp.o
+ .debug_info    0x0000000000000000      0x209 /tmp/cc6S6NcW.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xe0 /tmp/cc6S6NcW.debug.temp.o
+ .debug_line    0x0000000000000000      0x16b /tmp/cc6S6NcW.debug.temp.o
+ .debug_str     0x0000000000000000      0x456 /tmp/cc6S6NcW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc6S6NcW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc6S6NcW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc6S6NcW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccFADTUT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFADTUT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccFADTUT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccVSBkzT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVSBkzT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccVSBkzT.debug.temp.o
+ .debug_info    0x0000000000000000      0x20d /tmp/ccnFA37X.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xe9 /tmp/ccnFA37X.debug.temp.o
+ .debug_line    0x0000000000000000      0x169 /tmp/ccnFA37X.debug.temp.o
+ .debug_str     0x0000000000000000      0x448 /tmp/ccnFA37X.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccnFA37X.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccnFA37X.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccnFA37X.debug.temp.o
+ .debug_info    0x0000000000000000      0x212 /tmp/ccapahYX.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xe9 /tmp/ccapahYX.debug.temp.o
+ .debug_line    0x0000000000000000      0x16c /tmp/ccapahYX.debug.temp.o
+ .debug_str     0x0000000000000000      0x44e /tmp/ccapahYX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccapahYX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccapahYX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccapahYX.debug.temp.o
+ .debug_info    0x0000000000000000      0x1ee /tmp/ccC7nE4W.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xbe /tmp/ccC7nE4W.debug.temp.o
+ .debug_line    0x0000000000000000      0x136 /tmp/ccC7nE4W.debug.temp.o
+ .debug_str     0x0000000000000000      0x462 /tmp/ccC7nE4W.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccC7nE4W.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccC7nE4W.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccC7nE4W.debug.temp.o
+ .debug_info    0x0000000000000000      0x208 /tmp/ccd9SVAT.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xd5 /tmp/ccd9SVAT.debug.temp.o
+ .debug_line    0x0000000000000000      0x171 /tmp/ccd9SVAT.debug.temp.o
+ .debug_str     0x0000000000000000      0x47b /tmp/ccd9SVAT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccd9SVAT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccd9SVAT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccd9SVAT.debug.temp.o
+ .debug_info    0x0000000000000000      0x1ee /tmp/cchxL4mV.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xbe /tmp/cchxL4mV.debug.temp.o
+ .debug_line    0x0000000000000000      0x137 /tmp/cchxL4mV.debug.temp.o
+ .debug_str     0x0000000000000000      0x464 /tmp/cchxL4mV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cchxL4mV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cchxL4mV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cchxL4mV.debug.temp.o
+ .debug_info    0x0000000000000000      0x208 /tmp/cc8IV9AW.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xd5 /tmp/cc8IV9AW.debug.temp.o
+ .debug_line    0x0000000000000000      0x172 /tmp/cc8IV9AW.debug.temp.o
+ .debug_str     0x0000000000000000      0x47d /tmp/cc8IV9AW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc8IV9AW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc8IV9AW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc8IV9AW.debug.temp.o
+ .debug_info    0x0000000000000000      0x213 /tmp/ccf2D6hU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xb3 /tmp/ccf2D6hU.debug.temp.o
+ .debug_line    0x0000000000000000      0x12e /tmp/ccf2D6hU.debug.temp.o
+ .debug_str     0x0000000000000000      0x44b /tmp/ccf2D6hU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccf2D6hU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccf2D6hU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccf2D6hU.debug.temp.o
+ .debug_info    0x0000000000000000      0x1fb /tmp/ccypdN8V.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xc7 /tmp/ccypdN8V.debug.temp.o
+ .debug_line    0x0000000000000000      0x173 /tmp/ccypdN8V.debug.temp.o
+ .debug_str     0x0000000000000000      0x483 /tmp/ccypdN8V.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccypdN8V.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccypdN8V.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccypdN8V.debug.temp.o
+ .debug_info    0x0000000000000000      0x1b2 /tmp/ccrzUOKV.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xa0 /tmp/ccrzUOKV.debug.temp.o
+ .debug_line    0x0000000000000000      0x13a /tmp/ccrzUOKV.debug.temp.o
+ .debug_str     0x0000000000000000      0x441 /tmp/ccrzUOKV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccrzUOKV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrzUOKV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccrzUOKV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cczzhBFW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczzhBFW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cczzhBFW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccG94qsX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccG94qsX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccG94qsX.debug.temp.o
+ .debug_info    0x0000000000000000      0x1b2 /tmp/ccVy4MXW.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0x9e /tmp/ccVy4MXW.debug.temp.o
+ .debug_line    0x0000000000000000      0x12e /tmp/ccVy4MXW.debug.temp.o
+ .debug_str     0x0000000000000000      0x42b /tmp/ccVy4MXW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccVy4MXW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccVy4MXW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccVy4MXW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccHMcJuX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHMcJuX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccHMcJuX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc9nRRPW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9nRRPW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc9nRRPW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccsTr6GX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsTr6GX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccsTr6GX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccUU9jFT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccUU9jFT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccUU9jFT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc4csFfU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc4csFfU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc4csFfU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccvAo1vV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvAo1vV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccvAo1vV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccYirgBU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccYirgBU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccYirgBU.debug.temp.o
+ .debug_info    0x0000000000000000      0x21e /tmp/ccBqE3qU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xdf /tmp/ccBqE3qU.debug.temp.o
+ .debug_line    0x0000000000000000      0x149 /tmp/ccBqE3qU.debug.temp.o
+ .debug_str     0x0000000000000000      0x3cd /tmp/ccBqE3qU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccBqE3qU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBqE3qU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccBqE3qU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccHqdaIX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccHqdaIX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccHqdaIX.debug.temp.o
+ .debug_info    0x0000000000000000     0x1b5e /tmp/ccc1ee4T.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x226 /tmp/ccc1ee4T.debug.temp.o
+ .debug_line    0x0000000000000000      0x314 /tmp/ccc1ee4T.debug.temp.o
+ .debug_str     0x0000000000000000     0x196f /tmp/ccc1ee4T.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccc1ee4T.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccc1ee4T.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccc1ee4T.debug.temp.o
+ .debug_info    0x0000000000000000      0x285 /tmp/ccSKvpmU.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x10b /tmp/ccSKvpmU.debug.temp.o
+ .debug_line    0x0000000000000000      0x18c /tmp/ccSKvpmU.debug.temp.o
+ .debug_str     0x0000000000000000      0x6c7 /tmp/ccSKvpmU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccSKvpmU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccSKvpmU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccSKvpmU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccrZTjnW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrZTjnW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccrZTjnW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccgq3hqV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccgq3hqV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccgq3hqV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccEeZZRW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccEeZZRW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccEeZZRW.debug.temp.o
+ .debug_info    0x0000000000000000     0x1bea /tmp/ccli2JFT.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x297 /tmp/ccli2JFT.debug.temp.o
+ .debug_line    0x0000000000000000      0x2e3 /tmp/ccli2JFT.debug.temp.o
+ .debug_str     0x0000000000000000     0x11f9 /tmp/ccli2JFT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccli2JFT.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccli2JFT.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccli2JFT.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccBFrA8U.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccBFrA8U.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccBFrA8U.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cceif8hW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cceif8hW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cceif8hW.debug.temp.o
+ .debug_info    0x0000000000000000     0x135a /tmp/ccFVC16T.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1eb /tmp/ccFVC16T.debug.temp.o
+ .debug_line    0x0000000000000000      0x1c2 /tmp/ccFVC16T.debug.temp.o
+ .debug_str     0x0000000000000000      0xe43 /tmp/ccFVC16T.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccFVC16T.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccFVC16T.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccFVC16T.debug.temp.o
+ .debug_info    0x0000000000000000      0x207 /tmp/cc0gooOX.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xce /tmp/cc0gooOX.debug.temp.o
+ .debug_line    0x0000000000000000      0x145 /tmp/cc0gooOX.debug.temp.o
+ .debug_str     0x0000000000000000      0x390 /tmp/cc0gooOX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc0gooOX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc0gooOX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc0gooOX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccvkGtwV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccvkGtwV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccvkGtwV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccAi7HnW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccAi7HnW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccAi7HnW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccIn7MBX.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccIn7MBX.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccIn7MBX.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccihrrKW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccihrrKW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccihrrKW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cczZCnwV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cczZCnwV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cczZCnwV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccP6APQV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccP6APQV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccP6APQV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/cc9dLprU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/cc9dLprU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/cc9dLprU.debug.temp.o
+ .debug_info    0x0000000000000000      0x3c4 /tmp/ccrbwAKU.debug.temp.o
+ .debug_abbrev  0x0000000000000000       0xfb /tmp/ccrbwAKU.debug.temp.o
+ .debug_line    0x0000000000000000      0x242 /tmp/ccrbwAKU.debug.temp.o
+ .debug_str     0x0000000000000000      0xa2c /tmp/ccrbwAKU.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccrbwAKU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccrbwAKU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccrbwAKU.debug.temp.o
+ .debug_info    0x0000000000000000      0xde6 /tmp/ccsPMqdW.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x223 /tmp/ccsPMqdW.debug.temp.o
+ .debug_line    0x0000000000000000      0x482 /tmp/ccsPMqdW.debug.temp.o
+ .debug_str     0x0000000000000000     0x17b0 /tmp/ccsPMqdW.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccsPMqdW.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccsPMqdW.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccsPMqdW.debug.temp.o
+ .debug_info    0x0000000000000000      0xa41 /tmp/ccxaxkNV.debug.temp.o
+ .debug_abbrev  0x0000000000000000      0x1ac /tmp/ccxaxkNV.debug.temp.o
+ .debug_line    0x0000000000000000      0x39d /tmp/ccxaxkNV.debug.temp.o
+ .debug_str     0x0000000000000000     0x148b /tmp/ccxaxkNV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccxaxkNV.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccxaxkNV.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccxaxkNV.debug.temp.o
+ .comment       0x0000000000000000       0x2c /tmp/ccN7e7WU.debug.temp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /tmp/ccN7e7WU.debug.temp.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /tmp/ccN7e7WU.debug.temp.o
+ .text          0x0000000000000000        0x7 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuFlushTlb.obj)
+ .text          0x0000000000000000        0x2 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib(CpuSleep.obj)
+ .text          0x0000000000000000      0x116 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib(IoFifoSev.obj)
+ .text          0x0000000000000000       0x17 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem64.obj)
+ .text          0x0000000000000000       0x16 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem32.obj)
+ .text          0x0000000000000000       0x17 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem16.obj)
+ .text          0x0000000000000000       0x16 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ScanMem8.obj)
+ .text          0x0000000000000000       0x1d /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CompareMem.obj)
+ .text          0x0000000000000000       0x12 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem64.obj)
+ .text          0x0000000000000000       0x11 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem32.obj)
+ .text          0x0000000000000000       0x12 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem16.obj)
+ .text          0x0000000000000000       0x2a /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(IsZeroBuffer.obj)
+ .text          0x0000000000000000      0x204 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .data          0x0000000000000000        0xa /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+ .text          0x0000000000000000        0xf /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+ .text          0x0000000000000000       0x13 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+ .text          0x0000000000000000        0x6 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+ .text          0x0000000000000000        0x4 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Lfence.obj)
+ .text          0x0000000000000000        0x3 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+ .text          0x0000000000000000       0x61 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+ .text          0x0000000000000000       0x36 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+ .text          0x0000000000000000        0xb /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XSetBv.obj)
+ .data          0x0000000000000000        0x0 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/SecPeiCpuExceptionHandlerLib.lib(ExceptionHandlerAsm.obj)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+START GROUP
+LOAD /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+LOAD /tmp/cc6UZVfX.debug.temp.o
+LOAD /tmp/ccoQwksU.debug.temp.o
+LOAD /tmp/cc6g4ggV.debug.temp.o
+LOAD /tmp/ccuTJ4mV.debug.temp.o
+LOAD /tmp/ccZObiYX.debug.temp.o
+LOAD /tmp/ccuxqkQX.debug.temp.o
+LOAD /tmp/ccq82vlX.debug.temp.o
+LOAD /tmp/ccSGVMiW.debug.temp.o
+LOAD /tmp/ccKEuPQW.debug.temp.o
+LOAD /tmp/ccyebugW.debug.temp.o
+LOAD /tmp/ccU5zYOX.debug.temp.o
+LOAD /tmp/ccbniHLX.debug.temp.o
+LOAD /tmp/ccZwQdaX.debug.temp.o
+LOAD /tmp/cc2rqMKV.debug.temp.o
+LOAD /tmp/cc8LGy1X.debug.temp.o
+LOAD /tmp/ccvSwewT.debug.temp.o
+LOAD /tmp/ccWT5ofW.debug.temp.o
+LOAD /tmp/ccRSkPVW.debug.temp.o
+LOAD /tmp/ccvMrMEW.debug.temp.o
+LOAD /tmp/cc3kLdFX.debug.temp.o
+LOAD /tmp/cc6DuGFT.debug.temp.o
+LOAD /tmp/cc6HN8gU.debug.temp.o
+LOAD /tmp/ccIjjFET.debug.temp.o
+LOAD /tmp/ccqQ3cVX.debug.temp.o
+LOAD /tmp/ccd4vMFT.debug.temp.o
+LOAD /tmp/ccWlmE0U.debug.temp.o
+LOAD /tmp/ccGtjM1U.debug.temp.o
+LOAD /tmp/ccFvEKRX.debug.temp.o
+LOAD /tmp/ccIh7eaU.debug.temp.o
+LOAD /tmp/ccSvtcTT.debug.temp.o
+LOAD /tmp/ccg0nsVT.debug.temp.o
+LOAD /tmp/cchN1G7V.debug.temp.o
+LOAD /tmp/ccQ3OeSW.debug.temp.o
+LOAD /tmp/ccA4iIyT.debug.temp.o
+LOAD /tmp/ccjBFoPX.debug.temp.o
+LOAD /tmp/ccRKnm2T.debug.temp.o
+LOAD /tmp/ccvbUPeU.debug.temp.o
+LOAD /tmp/ccPX2OZV.debug.temp.o
+LOAD /tmp/ccCZdhBW.debug.temp.o
+LOAD /tmp/ccKZIILU.debug.temp.o
+LOAD /tmp/ccE0CAxX.debug.temp.o
+LOAD /tmp/ccHfLW2W.debug.temp.o
+LOAD /tmp/cckKgZjX.debug.temp.o
+LOAD /tmp/ccy7pC6U.debug.temp.o
+LOAD /tmp/cc6kvqiW.debug.temp.o
+LOAD /tmp/ccih051U.debug.temp.o
+LOAD /tmp/ccwI0cNU.debug.temp.o
+LOAD /tmp/ccNB8RwT.debug.temp.o
+LOAD /tmp/ccXZSEcW.debug.temp.o
+LOAD /tmp/ccRYENYX.debug.temp.o
+LOAD /tmp/ccY6JmYW.debug.temp.o
+LOAD /tmp/ccMxAyWX.debug.temp.o
+LOAD /tmp/ccPZTCJW.debug.temp.o
+LOAD /tmp/ccw7OtCT.debug.temp.o
+LOAD /tmp/ccfrEASW.debug.temp.o
+LOAD /tmp/cc0VI96T.debug.temp.o
+LOAD /tmp/ccP3wFZU.debug.temp.o
+LOAD /tmp/ccnVKevX.debug.temp.o
+LOAD /tmp/cczWOKyV.debug.temp.o
+LOAD /tmp/ccK6AwNV.debug.temp.o
+LOAD /tmp/ccy7JrEV.debug.temp.o
+LOAD /tmp/ccqlD9zT.debug.temp.o
+LOAD /tmp/ccEXQvQU.debug.temp.o
+LOAD /tmp/cc4vyuzU.debug.temp.o
+LOAD /tmp/ccGsHxLT.debug.temp.o
+LOAD /tmp/cc8iQyXX.debug.temp.o
+LOAD /tmp/ccH6QdiV.debug.temp.o
+LOAD /tmp/ccqnyMNX.debug.temp.o
+LOAD /tmp/ccAJE39W.debug.temp.o
+LOAD /tmp/ccDb1WYU.debug.temp.o
+LOAD /tmp/ccHezxzT.debug.temp.o
+LOAD /tmp/ccdScLOU.debug.temp.o
+LOAD /tmp/ccwJehDU.debug.temp.o
+LOAD /tmp/ccT2iHrW.debug.temp.o
+LOAD /tmp/ccg5ZonU.debug.temp.o
+LOAD /tmp/ccTM3aCU.debug.temp.o
+LOAD /tmp/cc4ZuCgU.debug.temp.o
+LOAD /tmp/cclJHVkW.debug.temp.o
+LOAD /tmp/ccmPZLJW.debug.temp.o
+LOAD /tmp/ccL9McIV.debug.temp.o
+LOAD /tmp/ccW6d0YX.debug.temp.o
+LOAD /tmp/ccc6jnEU.debug.temp.o
+LOAD /tmp/ccWs6muX.debug.temp.o
+LOAD /tmp/ccJKffXT.debug.temp.o
+LOAD /tmp/ccDz9ldX.debug.temp.o
+LOAD /tmp/cciFVkDX.debug.temp.o
+LOAD /tmp/ccqCXtTV.debug.temp.o
+LOAD /tmp/ccHWN12W.debug.temp.o
+LOAD /tmp/cc6S6NcW.debug.temp.o
+LOAD /tmp/ccFADTUT.debug.temp.o
+LOAD /tmp/ccVSBkzT.debug.temp.o
+LOAD /tmp/ccnFA37X.debug.temp.o
+LOAD /tmp/ccapahYX.debug.temp.o
+LOAD /tmp/ccC7nE4W.debug.temp.o
+LOAD /tmp/ccd9SVAT.debug.temp.o
+LOAD /tmp/cchxL4mV.debug.temp.o
+LOAD /tmp/cc8IV9AW.debug.temp.o
+LOAD /tmp/ccf2D6hU.debug.temp.o
+LOAD /tmp/ccypdN8V.debug.temp.o
+LOAD /tmp/ccrzUOKV.debug.temp.o
+LOAD /tmp/cczzhBFW.debug.temp.o
+LOAD /tmp/ccG94qsX.debug.temp.o
+LOAD /tmp/ccVy4MXW.debug.temp.o
+LOAD /tmp/ccHMcJuX.debug.temp.o
+LOAD /tmp/cc9nRRPW.debug.temp.o
+LOAD /tmp/ccsTr6GX.debug.temp.o
+LOAD /tmp/ccUU9jFT.debug.temp.o
+LOAD /tmp/cc4csFfU.debug.temp.o
+LOAD /tmp/ccvAo1vV.debug.temp.o
+LOAD /tmp/ccYirgBU.debug.temp.o
+LOAD /tmp/ccBqE3qU.debug.temp.o
+LOAD /tmp/ccHqdaIX.debug.temp.o
+LOAD /tmp/ccc1ee4T.debug.temp.o
+LOAD /tmp/ccSKvpmU.debug.temp.o
+LOAD /tmp/ccrZTjnW.debug.temp.o
+LOAD /tmp/ccgq3hqV.debug.temp.o
+LOAD /tmp/ccEeZZRW.debug.temp.o
+LOAD /tmp/ccli2JFT.debug.temp.o
+LOAD /tmp/ccBFrA8U.debug.temp.o
+LOAD /tmp/cceif8hW.debug.temp.o
+LOAD /tmp/ccFVC16T.debug.temp.o
+LOAD /tmp/cc0gooOX.debug.temp.o
+LOAD /tmp/ccvkGtwV.debug.temp.o
+LOAD /tmp/ccAi7HnW.debug.temp.o
+LOAD /tmp/ccIn7MBX.debug.temp.o
+LOAD /tmp/ccihrrKW.debug.temp.o
+LOAD /tmp/cczZCnwV.debug.temp.o
+LOAD /tmp/ccP6APQV.debug.temp.o
+LOAD /tmp/cc9dLprU.debug.temp.o
+LOAD /tmp/ccrbwAKU.debug.temp.o
+LOAD /tmp/ccsPMqdW.debug.temp.o
+LOAD /tmp/ccxaxkNV.debug.temp.o
+LOAD /tmp/ccN7e7WU.debug.temp.o
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Sec/SecMain/OUTPUT/SecMain.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/PeiServicesTablePointerLibIdt/PeiServicesTablePointerLibIdt/OUTPUT/PeiServicesTablePointerLibIdt.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/RegisterFilterLibNull/RegisterFilterLibNull/OUTPUT/FilterLibNull.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/SecVmgExitLib/OUTPUT/SecVmgExitLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib/OUTPUT/PeiMemoryAllocationLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/BaseCpuLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/TdxLib/TdxLib/OUTPUT/TdxLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/PeiHobLib/PeiHobLib/OUTPUT/PeiHobLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/CcProbeLib/CcProbeLib/OUTPUT/CcProbeLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/BaseMemEncryptSevLib/SecMemEncryptSevLib/OUTPUT/SecMemEncryptSevLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/BaseXApicX2ApicLib/BaseXApicX2ApicLib/OUTPUT/BaseXApicX2ApicLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/OUTPUT/BaseIoLibIntrinsicSev.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/BaseUefiCpuLib/BaseUefiCpuLib/OUTPUT/BaseUefiCpuLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/PeiServicesLib/PeiServicesLib/OUTPUT/PeiServicesLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/PcAtChipsetPkg/Library/SerialIoLib/SerialIoLib/OUTPUT/PcAtSerialPortLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseDebugLibSerialPort/BaseDebugLibSerialPort/OUTPUT/BaseDebugLibSerialPort.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePciCf8Lib/BasePciCf8Lib/OUTPUT/BasePciCf8Lib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePciLibCf8/BasePciLibCf8/OUTPUT/BasePciLibCf8.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/AcpiTimerLib/BaseRomAcpiTimerLib/OUTPUT/BaseRomAcpiTimerLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/QemuFwCfgLib/QemuFwCfgSecLib/OUTPUT/QemuFwCfgSecLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull/OUTPUT/PeCoffExtraActionLibNull.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseExtractGuidedSectionLib/BaseExtractGuidedSectionLib/OUTPUT/BaseExtractGuidedSectionLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MtrrLib/MtrrLib/OUTPUT/MtrrLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/QemuFwCfgSimpleParserLib/QemuFwCfgSimpleParserLib/OUTPUT/QemuFwCfgSimpleParserLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull/OUTPUT/DebugAgentLibNull.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/SecPeiCpuExceptionHandlerLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdeModulePkg/Library/LzmaCustomDecompressLib/LzmaCustomDecompressLib/OUTPUT/LzmaDecompressLib.lib
+LOAD /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/PlatformInitLib/PlatformInitLib/OUTPUT/PlatformInitLib.lib
+END GROUP
+                0x0000000000000228                PECOFF_HEADER_SIZE = 0x228
+                0x0000000000000228                . = PECOFF_HEADER_SIZE
+
+.text           0x0000000000000240     0xa85e
+ *(.text .text.* .stub .gnu.linkonce.t.*)
+ .text.LzmaDec_TryDummy
+                0x0000000000000240      0x5ae /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.LzmaDec_WriteRem
+                0x00000000000007ee       0x80 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.LzmaDec_DecodeReal2
+                0x000000000000086e      0xbe0 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SzFree   0x000000000000144e        0x5 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.GetExtractGuidedSectionHandlerInfo
+                0x0000000000001453       0x47 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.DebugPrintEnabled
+                0x000000000000149a        0x3 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.BasePrintLibFillBuffer
+                0x000000000000149d       0x2a /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.AsmWriteMsr64
+                0x00000000000014c7        0xa /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.AsmReadMsr64
+                0x00000000000014d1        0xe /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.AsciiStrnLenS
+                0x00000000000014df       0x26 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SetInterruptState
+                0x0000000000001505        0xa /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SaveAndDisableInterrupts
+                0x000000000000150f        0xb /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.CpuDeadLoop
+                0x000000000000151a       0x20 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.UpdateAddressState
+                0x000000000000153a       0x31 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SevEsIsEnabled
+                0x000000000000156b       0x1b /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.FindFfsSectionInstance
+                0x0000000000001586       0x6b /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.GetDecodedSizeOfBuf
+                0x00000000000015f1       0x1c /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.IoWrite8
+                0x000000000000160d       0x72 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SerialPortInitialize
+                0x000000000000167f       0x44 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.IoRead8  0x00000000000016c3       0x6c /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SerialPortWrite.part.0
+                0x000000000000172f       0x43 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.DebugAssert
+                0x0000000000001772       0x5a /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.InitializeCpuExceptionHandlers.constprop.0
+                0x00000000000017cc       0x85 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SzAlloc  0x0000000000001851       0x4b /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.PeCoffLoaderGetPdbPointer
+                0x000000000000189c      0x147 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.PeCoffLoaderGetEntryPoint
+                0x00000000000019e3       0x7d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.AsmWriteIdtr
+                0x0000000000001a60        0x4 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.WriteUnaligned64
+                0x0000000000001a64       0x38 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.ReadUnaligned64
+                0x0000000000001a9c       0x2e /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.CompareGuid
+                0x0000000000001aca       0x50 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.LzmaGuidedSectionGetInfo
+                0x0000000000001b1a      0x173 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.ReadUnaligned16
+                0x0000000000001c8d        0x4 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.AsciiStrLen
+                0x0000000000001c91       0x4a /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000001cdb      0xa7d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.BasePrintLibSPrint.constprop.0
+                0x0000000000002758       0x27 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.AsciiSPrint.constprop.0
+                0x000000000000277f       0x30 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.IoWrite32
+                0x00000000000027af       0x75 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.IoRead32
+                0x0000000000002824       0x6c /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.GetRegisterPointer
+                0x0000000000002890       0xb5 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.DebugPrintMarker.part.0.constprop.0
+                0x0000000000002945       0x40 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.DebugPrint
+                0x0000000000002985       0x31 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.TdxDecodeInstruction
+                0x00000000000029b6       0x78 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.FindFfsFileAndSection
+                0x0000000000002a2e       0xc2 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.InternalPrintMessage
+                0x0000000000002af0       0x67 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.DumpModuleImageInfo
+                0x0000000000002b57      0x131 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.LocalApicReadMsrReg64.part.0
+                0x0000000000002c88       0x20 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.TdSharedPageMask
+                0x0000000000002ca8       0x92 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.TdAcceptPages
+                0x0000000000002d3a      0x235 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.TdIsEnabled
+                0x0000000000002f6f       0xbf /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.LocalApicReadMsrReg64
+                0x000000000000302e       0x82 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.LocalApicBaseAddressMsrSupported
+                0x00000000000030b0       0x3d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.GetApicMode
+                0x00000000000030ed       0x51 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.GetLocalApicBaseAddress
+                0x000000000000313e       0x29 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.WriteLocalApicReg
+                0x0000000000003167      0x153 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.ReadLocalApicReg
+                0x00000000000032ba       0xd6 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.GetApicId
+                0x0000000000003390       0xc3 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.ValidateMmioMemory.isra.0
+                0x0000000000003453      0x1b2 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.CopyMem  0x0000000000003605       0x8d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.LzmaUefiDecompress
+                0x0000000000003692      0x459 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.LzmaGuidedSectionExtraction
+                0x0000000000003aeb       0xf7 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.DecodeModRm
+                0x0000000000003be2      0x243 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.Dr7ReadExit
+                0x0000000000003e25       0x49 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SetMem.part.0
+                0x0000000000003e6e       0x50 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.VmgInit  0x0000000000003ebe       0x1a /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.ZeroMem.part.0
+                0x0000000000003ed8       0x61 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SecStartupPhase2
+                0x0000000000003f39      0x71f /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SnpPageStateFailureTerminate
+                0x0000000000004658       0x3a /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.VmgExit  0x0000000000004692       0xa1 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.Dr7WriteExit
+                0x0000000000004733       0x78 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.InvdExit
+                0x00000000000047ab       0x20 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.WbinvdExit
+                0x00000000000047cb       0x20 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.MonitorExit
+                0x00000000000047eb       0x8e /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.MwaitExit
+                0x0000000000004879       0x68 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.UnsupportedExit
+                0x00000000000048e1       0x2b /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.IoioExit
+                0x000000000000490c      0x37d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.MsrExit  0x0000000000004c89       0xe6 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.RdtscpExit
+                0x0000000000004d6f       0x9d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.MmioExit.lto_priv.0
+                0x0000000000004e0c      0x64c /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.RdpmcExit
+                0x0000000000005458       0x94 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.RdtscExit
+                0x00000000000054ec       0x7f /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.VmmCallExit
+                0x000000000000556b       0x9c /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.GetCpuidHyp
+                0x0000000000005607       0xfa /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.CpuidExit
+                0x0000000000005701      0x3e3 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SevEsProtocolFailure
+                0x0000000000005ae4       0x48 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.CommonExceptionHandler
+                0x0000000000005b2c      0xf7c /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                0x0000000000005b2c                CommonExceptionHandler
+ .text.InternalAssertJumpBuffer
+                0x0000000000006aa8       0x33 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                0x0000000000006aa8                InternalAssertJumpBuffer
+ .text.TemporaryRamMigration
+                0x0000000000006adb       0xde /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .text.SecCoreStartupWithStack
+                0x0000000000006bb9      0xf9d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                0x0000000000006bb9                SecCoreStartupWithStack
+ *fill*         0x0000000000007b56        0xa 
+ .text          0x0000000000007b60       0x9a /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Sec/SecMain/OUTPUT/SecMain.lib(SecEntry.obj)
+                0x0000000000007b60                _ModuleEntryPoint
+ *fill*         0x0000000000007bfa        0x6 
+ .text          0x0000000000007c00       0x8d /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Library/VmgExitLib/SecVmgExitLib/OUTPUT/SecVmgExitLib.lib(TdVmcallCpuid.obj)
+                0x0000000000007c00                TdVmCallCpuid
+ *fill*         0x0000000000007c8d        0x3 
+ .text          0x0000000000007c90       0x1d /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/BaseUefiCpuLib/BaseUefiCpuLib/OUTPUT/BaseUefiCpuLib.lib(InitializeFpu.obj)
+                0x0000000000007c90                InitializeFloatingPointUnits
+ *fill*         0x0000000000007cad        0x3 
+ .text          0x0000000000007cb0       0x1d /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(ZeroMem.obj)
+                0x0000000000007cb0                InternalMemZeroMem
+ *fill*         0x0000000000007ccd        0x3 
+ .text          0x0000000000007cd0       0x11 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(SetMem.obj)
+                0x0000000000007cd0                InternalMemSetMem
+ *fill*         0x0000000000007ce1        0xf 
+ .text          0x0000000000007cf0       0x3c /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseMemoryLibRepStr/BaseMemoryLibRepStr/OUTPUT/BaseMemoryLibRepStr.lib(CopyMem.obj)
+                0x0000000000007cf0                InternalMemCopyMem
+ *fill*         0x0000000000007d2c        0x4 
+ .text          0x0000000000007d30       0x2f /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+                0x0000000000007d30                AsmCpuidEx
+ *fill*         0x0000000000007d5f        0x1 
+ .text          0x0000000000007d60       0x27 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+                0x0000000000007d60                AsmCpuid
+ *fill*         0x0000000000007d87        0x9 
+ .text          0x0000000000007d90       0xac /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+                0x0000000000007d90                InternalLongJump
+ *fill*         0x0000000000007e3c        0x4 
+ .text          0x0000000000007e40       0xc2 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+                0x0000000000007e40                SetJump
+ *fill*         0x0000000000007f02        0xe 
+ .text          0x0000000000007f10       0x13 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+                0x0000000000007f10                AsmEnableCache
+ *fill*         0x0000000000007f23        0xd 
+ .text          0x0000000000007f30       0x58 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(TdCall.obj)
+                0x0000000000007f30                TdCall
+ *fill*         0x0000000000007f88        0x8 
+ .text          0x0000000000007f90       0x81 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(TdVmcall.obj)
+                0x0000000000007f90                TdVmCall
+ *fill*         0x0000000000008011        0xf 
+ .text          0x0000000000008020       0x1b /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Pvalidate.obj)
+                0x0000000000008020                AsmPvalidate
+ *fill*         0x000000000000803b        0x5 
+ .text          0x0000000000008040        0xe /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RmpAdjust.obj)
+                0x0000000000008040                AsmRmpAdjust
+ *fill*         0x000000000000804e        0x2 
+ .text          0x0000000000008050        0xb /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(XGetBv.obj)
+                0x0000000000008050                AsmXGetBv
+ *fill*         0x000000000000805b        0x5 
+ .text          0x0000000000008060        0x5 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(VmgExit.obj)
+                0x0000000000008060                AsmVmgExit
+ *fill*         0x0000000000008065        0xb 
+ .text          0x0000000000008070      0x412 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/SecPeiCpuExceptionHandlerLib.lib(ExceptionHandlerAsm.obj)
+                0x0000000000008281                CommonInterruptEntry
+                0x0000000000008457                AsmGetTemplateAddressMap
+                0x000000000000847b                AsmVectorNumFixup
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.DebugAssert.str1.1
+                0x0000000000008482       0x20 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.SzAlloc.str1.1
+                0x00000000000084a2       0x67 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.PeCoffLoaderGetPdbPointer.str1.1
+                0x0000000000008509       0x70 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.WriteUnaligned64.str1.1
+                0x0000000000008579       0x3a /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                                         0x51 (size before relaxing)
+ .rodata.LzmaGuidedSectionGetInfo.str1.1
+                0x00000000000085b3       0xf5 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.AsciiStrLen.str1.1
+                0x00000000000086a8       0x6f /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.BasePrintLibSPrintMarker.constprop.0.str1.1
+                0x0000000000008717      0x176 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000888d        0x3 
+ .rodata.BasePrintLibSPrintMarker.constprop.0
+                0x0000000000008890       0xec /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.GetRegisterPointer.str1.1
+                0x000000000000897c       0x59 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x00000000000089d5        0x3 
+ .rodata.GetRegisterPointer
+                0x00000000000089d8       0x40 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.TdxDecodeInstruction.str1.1
+                0x0000000000008a18       0x26 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                                         0x28 (size before relaxing)
+ .rodata.FindFfsFileAndSection.str1.1
+                0x0000000000008a3e       0x26 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                                         0x2c (size before relaxing)
+ .rodata.DumpModuleImageInfo.str1.1
+                0x0000000000008a3e       0x85 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.TdSharedPageMask.str1.1
+                0x0000000000008ac3       0x21 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.TdAcceptPages.str1.1
+                0x0000000000008ae4      0x1e7 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.GetApicMode.str1.1
+                0x0000000000008ccb       0x6b /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.WriteLocalApicReg.str1.1
+                0x0000000000008d36       0xc8 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.ReadLocalApicReg.str1.1
+                0x0000000000008dfe       0x14 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.ValidateMmioMemory.isra.0.str1.1
+                0x0000000000008e12       0x22 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.CopyMem.str1.1
+                0x0000000000008e34       0xcc /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.LzmaGuidedSectionExtraction.str1.1
+                0x0000000000008f00       0x1d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.SetMem.part.0.str1.1
+                0x0000000000008f1d       0x82 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.ZeroMem.part.0.str1.1
+                0x0000000000008f9f       0x81 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.SecStartupPhase2.str1.1
+                0x0000000000009020      0x464 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.SnpPageStateFailureTerminate.str1.1
+                0x0000000000009484       0x5d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.VmgExit.str1.1
+                0x00000000000094e1       0xac /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.MmioExit.lto_priv.0.str1.1
+                0x000000000000958d       0x1a /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x00000000000095a7        0x1 
+ .rodata.MmioExit.lto_priv.0
+                0x00000000000095a8       0x48 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.CpuidExit
+                0x00000000000095f0       0x70 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.SevEsProtocolFailure.str1.1
+                0x0000000000009660       0x2c /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.CommonExceptionHandler.str1.1
+                0x000000000000968c      0x608 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.CommonExceptionHandler
+                0x0000000000009c94       0xdc /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.InternalAssertJumpBuffer.str1.1
+                0x0000000000009d70       0x76 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.TemporaryRamMigration.str1.1
+                0x0000000000009de6       0x2c /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.SecCoreStartupWithStack.str1.1
+                0x0000000000009e12      0x60d /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000a41f        0x1 
+ .rodata        0x000000000000a420       0x60 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.SecCoreStartupWithStack
+                0x000000000000a480       0x30 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata._gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
+                0x000000000000a4b0        0x4 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                0x000000000000a4b0                _gPcd_FixedAtBuild_PcdControlFlowEnforcementPropertyMask
+ *fill*         0x000000000000a4b4        0x4 
+ .rodata.mDoFarReturnFlag
+                0x000000000000a4b8        0x8 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                0x000000000000a4b8                mDoFarReturnFlag
+ .rodata.__FUNCTION__.9012
+                0x000000000000a4c0       0x18 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.__FUNCTION__.4411
+                0x000000000000a4d8        0xf /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000a4e7        0x9 
+ .rodata.__FUNCTION__.4448
+                0x000000000000a4f0       0x15 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000a505        0xb 
+ .rodata.__FUNCTION__.4823
+                0x000000000000a510       0x11 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000a521        0x7 
+ .rodata.mExceptionReservedStr
+                0x000000000000a528        0x9 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x000000000000a531      0x1eb /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .rodata.mErrorCodeFlag
+                0x000000000000a71c        0x4 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                0x000000000000a71c                mErrorCodeFlag
+ .rodata.mHexStr
+                0x000000000000a720       0x10 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000a730       0x10 
+ .rodata.mWarningString
+                0x000000000000a740       0x96 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000a7d6        0xa 
+ .rodata.mErrorString
+                0x000000000000a7e0      0x2b5 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000aa95        0x3 
+ .rodata        0x000000000000aa98        0x6 /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/BaseUefiCpuLib/BaseUefiCpuLib/OUTPUT/BaseUefiCpuLib.lib(InitializeFpu.obj)
+ *(.got .got.*)
+ .got           0x000000000000aa9e        0x0 SecMain.obj (symbol from plugin)
+ .got.plt       0x000000000000aa9e        0x0 SecMain.obj (symbol from plugin)
+ *:AutoGen.obj(.data.g*Guid)
+
+.plt            0x000000000000aaa0        0x0
+ .plt           0x000000000000aaa0        0x0 SecMain.obj (symbol from plugin)
+
+.plt.got        0x000000000000aaa0        0x0
+ .plt.got       0x000000000000aaa0        0x0 SecMain.obj (symbol from plugin)
+
+.data           0x000000000000aac0     0x1171
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local.mTemporaryRamSupportPpi
+                0x000000000000aac0        0x8 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000aac8        0x8 
+ .data.gEfiTemporaryRamSupportPpiGuid
+                0x000000000000aad0       0x10 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .data.mIdtEntryTemplate
+                0x000000000000aae0       0x10 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .data.rel.local.mPrivateDispatchTable
+                0x000000000000aaf0       0x18 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ *fill*         0x000000000000ab08       0x18 
+ .data.rel.ro.local.mExceptionNameStr
+                0x000000000000ab20       0xf0 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .data.gLzmaCustomDecompressGuid
+                0x000000000000ac10       0x10 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .data.rel.ro   0x000000000000ac20        0x0 SecMain.obj (symbol from plugin)
+ *(.bss .bss.*)
+ .bss.gVmpl0Data
+                0x000000000000ac20     0x1000 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .bss.mNumberOfDuplicatedAcceptedPages
+                0x000000000000bc20        0x8 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .bss.mTdSharedPageMask
+                0x000000000000bc28        0x8 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .bss.mTdDataReturned
+                0x000000000000bc30        0x1 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+
+.eh_frame       0x000000000000bc40        0x0
+ *(.eh_frame)
+ .eh_frame      0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+ .eh_frame      0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+
+.dynbss         0x000000000000bc40        0x0
+ .dynbss        0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+
+.gnu.version_d  0x000000000000bc40        0x0
+ .gnu.version_d
+                0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+
+.gnu.version    0x000000000000bc40        0x0
+ .gnu.version   0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+
+.gnu.version_r  0x000000000000bc40        0x0
+ .gnu.version_r
+                0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+
+.rela           0x000000000000bc40      0x678
+ *(.rela .rela.*)
+ .rela.plt      0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+ .rela.got      0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+ .rela.bss      0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+ .rela.data.rel.ro
+                0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+ .rela.ifunc    0x000000000000bc40        0x0 SecMain.obj (symbol from plugin)
+ .rela.text     0x000000000000bc40      0x360 SecMain.obj (symbol from plugin)
+ .rela.data.rel.local.mTemporaryRamSupportPpi
+                0x000000000000bfa0       0x18 SecMain.obj (symbol from plugin)
+ .rela.data.rel.local.mPrivateDispatchTable
+                0x000000000000bfb8       0x30 SecMain.obj (symbol from plugin)
+ .rela.data.rel.ro.local.mExceptionNameStr
+                0x000000000000bfe8      0x2d0 SecMain.obj (symbol from plugin)
+
+.hii
+ *(.hii)
+
+.build-id       0x000000000000c2b8       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x000000000000c2b8       0x24 SecMain.obj (symbol from plugin)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.interp)
+ *(.dynsym)
+ *(.dynstr)
+ *(.dynamic)
+ *(.hash .gnu.hash)
+ *(.comment)
+OUTPUT(/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/OvmfPkg/Sec/SecMain/DEBUG/SecMain.dll elf64-x86-64)
+
+.debug_info     0x0000000000000000    0x30825
+ .debug_info    0x0000000000000000     0xb178 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .debug_info    0x000000000000b178     0x2061 /tmp/cc6UZVfX.debug.temp.o
+                0x000000000000b178                SecMain.c.2d758d24
+ .debug_info    0x000000000000d1d9      0xabc /tmp/ccoQwksU.debug.temp.o
+                0x000000000000d1d9                AmdSev.c.f2c15069
+ .debug_info    0x000000000000dc95      0x67d /tmp/cc6g4ggV.debug.temp.o
+                0x000000000000dc95                AutoGen.c.463dbdb1
+ .debug_info    0x000000000000e312      0x3c1 /tmp/ccZObiYX.debug.temp.o
+                0x000000000000e312                RegisterFilterLibNull.c.02c48ffe
+ .debug_info    0x000000000000e6d3      0x706 /tmp/ccuxqkQX.debug.temp.o
+                0x000000000000e6d3                VmgExitLib.c.3660a8bb
+ .debug_info    0x000000000000edd9     0x315b /tmp/ccq82vlX.debug.temp.o
+                0x000000000000edd9                VmgExitVcHandler.c.f8249dd4
+ .debug_info    0x0000000000011f34     0x1edf /tmp/ccSGVMiW.debug.temp.o
+                0x0000000000011f34                SecVmgExitVcHandler.c.6939ed0d
+ .debug_info    0x0000000000013e13     0x1fed /tmp/ccKEuPQW.debug.temp.o
+                0x0000000000013e13                VmTdExitVeHandler.c.51af78c8
+ .debug_info    0x0000000000015e00      0x262 /tmp/ccU5zYOX.debug.temp.o
+                0x0000000000015e00                AcceptPages.c.9c75c928
+ .debug_info    0x0000000000016062      0x3d2 /tmp/ccZwQdaX.debug.temp.o
+                0x0000000000016062                TdInfo.c.be004508
+ .debug_info    0x0000000000016434      0xe8f /tmp/cc2rqMKV.debug.temp.o
+                0x0000000000016434                HobLib.c.a5ed4530
+ .debug_info    0x00000000000172c3      0x311 /tmp/cc8LGy1X.debug.temp.o
+                0x00000000000172c3                CcProbeLib.c.dd21735c
+ .debug_info    0x00000000000175d4      0x498 /tmp/ccvSwewT.debug.temp.o
+                0x00000000000175d4                SecMemEncryptSevLibInternal.c.c3296a23
+ .debug_info    0x0000000000017a6c      0x36b /tmp/ccWT5ofW.debug.temp.o
+                0x0000000000017a6c                MemEncryptSevLib.c.2956b30a
+ .debug_info    0x0000000000017dd7      0x247 /tmp/ccvMrMEW.debug.temp.o
+                0x0000000000017dd7                SecSnpSystemRamValidate.c.af62ad99
+ .debug_info    0x000000000001801e      0x9a8 /tmp/cc3kLdFX.debug.temp.o
+                0x000000000001801e                SnpPageStateChangeInternal.c.6cb4fe02
+ .debug_info    0x00000000000189c6      0x7dc /tmp/cc6DuGFT.debug.temp.o
+                0x00000000000189c6                VirtualMemory.c.f22f594c
+ .debug_info    0x00000000000191a2     0x169d /tmp/cc6HN8gU.debug.temp.o
+                0x00000000000191a2                BaseXApicX2ApicLib.c.12057760
+ .debug_info    0x000000000001a83f      0x3ac /tmp/ccIjjFET.debug.temp.o
+                0x000000000001a83f                IoLibMmioBuffer.c.f5888ee8
+ .debug_info    0x000000000001abeb     0x109e /tmp/ccqQ3cVX.debug.temp.o
+                0x000000000001abeb                IoHighLevel.c.a919fae0
+ .debug_info    0x000000000001bc89      0x2b4 /tmp/ccd4vMFT.debug.temp.o
+                0x000000000001bc89                IoLibGcc.c.d3d1dc93
+ .debug_info    0x000000000001bf3d      0x374 /tmp/ccWlmE0U.debug.temp.o
+                0x000000000001bf3d                IoLib.c.e3a566fd
+ .debug_info    0x000000000001c2b1      0x6c8 /tmp/ccGtjM1U.debug.temp.o
+                0x000000000001c2b1                IoLibInternalTdx.c.e2e2f9d0
+ .debug_info    0x000000000001c979      0x90e /tmp/ccSvtcTT.debug.temp.o
+                0x000000000001c979                PcdLib.c.5be067b5
+ .debug_info    0x000000000001d287      0x17a /tmp/ccRKnm2T.debug.temp.o
+                0x000000000001d287                ZeroMemWrapper.c.1b60136a
+ .debug_info    0x000000000001d401      0x1bb /tmp/ccE0CAxX.debug.temp.o
+                0x000000000001d401                SetMemWrapper.c.a500efe4
+ .debug_info    0x000000000001d5bc      0x18d /tmp/ccHfLW2W.debug.temp.o
+                0x000000000001d5bc                CopyMemWrapper.c.f521e8f2
+ .debug_info    0x000000000001d749      0x265 /tmp/ccy7pC6U.debug.temp.o
+                0x000000000001d749                MemLibGuid.c.5f9d361e
+ .debug_info    0x000000000001d9ae      0x238 /tmp/ccih051U.debug.temp.o
+                0x000000000001d9ae                SwitchStack.c.6e4243bd
+ .debug_info    0x000000000001dbe6      0x2b1 /tmp/ccRYENYX.debug.temp.o
+                0x000000000001dbe6                LongJump.c.cd7ea5a1
+ .debug_info    0x000000000001de97      0x2a5 /tmp/ccY6JmYW.debug.temp.o
+                0x000000000001de97                SetJump.c.229f2ccf
+ .debug_info    0x000000000001e13c      0x1db /tmp/ccPZTCJW.debug.temp.o
+                0x000000000001e13c                RShiftU64.c.c0e17dab
+ .debug_info    0x000000000001e317      0x1db /tmp/ccK6AwNV.debug.temp.o
+                0x000000000001e317                LShiftU64.c.1b41d4a3
+ .debug_info    0x000000000001e4f2      0x1f3 /tmp/cc8iQyXX.debug.temp.o
+                0x000000000001e4f2                HighBitSet32.c.edafa43c
+ .debug_info    0x000000000001e6e5      0x1c3 /tmp/ccqnyMNX.debug.temp.o
+                0x000000000001e6e5                GetPowerOfTwo32.c.ea0fb438
+ .debug_info    0x000000000001e8a8      0x1e5 /tmp/ccDb1WYU.debug.temp.o
+                0x000000000001e8a8                DivU64x32Remainder.c.9b8b64e8
+ .debug_info    0x000000000001ea8d      0x89f /tmp/ccT2iHrW.debug.temp.o
+                0x000000000001ea8d                BitField.c.e12cca01
+ .debug_info    0x000000000001f32c      0x1d0 /tmp/ccg5ZonU.debug.temp.o
+                0x000000000001f32c                CpuDeadLoop.c.1f09ddaf
+ .debug_info    0x000000000001f4fc      0x1e0 /tmp/ccTM3aCU.debug.temp.o
+                0x000000000001f4fc                Cpu.c.b55980cd
+ .debug_info    0x000000000001f6dc     0x1004 /tmp/cclJHVkW.debug.temp.o
+                0x000000000001f6dc                SafeString.c.f28b9ab6
+ .debug_info    0x00000000000206e0      0x7f3 /tmp/ccmPZLJW.debug.temp.o
+                0x00000000000206e0                String.c.54eda43e
+ .debug_info    0x0000000000020ed3      0x455 /tmp/ccW6d0YX.debug.temp.o
+                0x0000000000020ed3                TdProbe.c.a506236f
+ .debug_info    0x0000000000021328      0x43c /tmp/ccWs6muX.debug.temp.o
+                0x0000000000021328                Math64.c.8ec7bd7a
+ .debug_info    0x0000000000021764      0x2f0 /tmp/ccJKffXT.debug.temp.o
+                0x0000000000021764                Unaligned.c.fb5c0df8
+ .debug_info    0x0000000000021a54      0x20e /tmp/ccDz9ldX.debug.temp.o
+                0x0000000000021a54                X86WriteIdtr.c.f4077279
+ .debug_info    0x0000000000021c62      0x8b8 /tmp/ccqCXtTV.debug.temp.o
+                0x0000000000021c62                X86Thunk.c.511486ab
+ .debug_info    0x000000000002251a      0x209 /tmp/ccHWN12W.debug.temp.o
+                0x000000000002251a                X86ReadIdtr.c.ceef3058
+ .debug_info    0x0000000000022723      0x5c0 /tmp/ccFADTUT.debug.temp.o
+                0x0000000000022723                X86Msr.c.2a9846fc
+ .debug_info    0x0000000000022ce3      0x374 /tmp/ccVSBkzT.debug.temp.o
+                0x0000000000022ce3                X86GetInterruptState.c.1a853ca5
+ .debug_info    0x0000000000023057      0x458 /tmp/cczzhBFW.debug.temp.o
+                0x0000000000023057                GccInline.c.5e41727a
+ .debug_info    0x00000000000234af      0x7d3 /tmp/ccG94qsX.debug.temp.o
+                0x00000000000234af                GccInlinePriv.c.daac6041
+ .debug_info    0x0000000000023c82      0x18d /tmp/ccHMcJuX.debug.temp.o
+                0x0000000000023c82                BaseDebugPrintErrorLevelLib.c.2b42fa63
+ .debug_info    0x0000000000023e0f      0x763 /tmp/cc9nRRPW.debug.temp.o
+                0x0000000000023e0f                PrintLibInternal.c.9209965f
+ .debug_info    0x0000000000024572      0x658 /tmp/ccsTr6GX.debug.temp.o
+                0x0000000000024572                PrintLib.c.bd74b7c9
+ .debug_info    0x0000000000024bca      0x43e /tmp/ccUU9jFT.debug.temp.o
+                0x0000000000024bca                SerialPortLib.c.0705111e
+ .debug_info    0x0000000000025008      0x3bd /tmp/cc4csFfU.debug.temp.o
+                0x0000000000025008                DebugLib.c.4714c63a
+ .debug_info    0x00000000000253c5      0xd30 /tmp/ccvAo1vV.debug.temp.o
+                0x00000000000253c5                PciCf8Lib.c.02e3bc71
+ .debug_info    0x00000000000260f5      0x877 /tmp/ccYirgBU.debug.temp.o
+                0x00000000000260f5                PciLib.c.14452baa
+ .debug_info    0x000000000002696c      0x303 /tmp/ccHqdaIX.debug.temp.o
+                0x000000000002696c                BaseRomAcpiTimerLib.c.fd434edd
+ .debug_info    0x0000000000026c6f      0x319 /tmp/ccrZTjnW.debug.temp.o
+                0x0000000000026c6f                PeCoffExtraActionLib.c.497617bd
+ .debug_info    0x0000000000026f88      0xa9a /tmp/ccgq3hqV.debug.temp.o
+                0x0000000000026f88                PeCoffGetEntryPoint.c.be50c774
+ .debug_info    0x0000000000027a22      0x61e /tmp/ccEeZZRW.debug.temp.o
+                0x0000000000027a22                BaseExtractGuidedSectionLib.c.553ed0d6
+ .debug_info    0x0000000000028040      0x5ee /tmp/ccBFrA8U.debug.temp.o
+                0x0000000000028040                QemuFwCfgSimpleParser.c.1f8323c2
+ .debug_info    0x000000000002862e      0x1b0 /tmp/cceif8hW.debug.temp.o
+                0x000000000002862e                DebugAgentLibNull.c.3b97da7a
+ .debug_info    0x00000000000287de     0x2215 /tmp/ccvkGtwV.debug.temp.o
+                0x00000000000287de                ArchExceptionHandler.c.d018d8a8
+ .debug_info    0x000000000002a9f3      0x491 /tmp/ccAi7HnW.debug.temp.o
+                0x000000000002a9f3                CpuExceptionCommon.c.9b9e5afe
+ .debug_info    0x000000000002ae84     0x1e28 /tmp/ccIn7MBX.debug.temp.o
+                0x000000000002ae84                SecPeiCpuException.c.cf72eefd
+ .debug_info    0x000000000002ccac      0x552 /tmp/ccihrrKW.debug.temp.o
+                0x000000000002ccac                LzmaDecompress.c.d39e5515
+ .debug_info    0x000000000002d1fe     0x1480 /tmp/cczZCnwV.debug.temp.o
+                0x000000000002d1fe                LzFind.c.3f086832
+ .debug_info    0x000000000002e67e      0xf43 /tmp/ccP6APQV.debug.temp.o
+                0x000000000002e67e                LzmaDec.c.b74a7482
+ .debug_info    0x000000000002f5c1      0x391 /tmp/cc9dLprU.debug.temp.o
+                0x000000000002f5c1                GuidedSectionExtraction.c.1f6d74a4
+ .debug_info    0x000000000002f952      0xed3 /tmp/ccN7e7WU.debug.temp.o
+                0x000000000002f952                IntelTdx.c.cef2ad67
+
+.debug_abbrev   0x0000000000000000     0x5f4f
+ .debug_abbrev  0x0000000000000000      0x2d3 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000002d3      0x2da /tmp/cc6UZVfX.debug.temp.o
+ .debug_abbrev  0x00000000000005ad      0x226 /tmp/ccoQwksU.debug.temp.o
+ .debug_abbrev  0x00000000000007d3      0x111 /tmp/cc6g4ggV.debug.temp.o
+ .debug_abbrev  0x00000000000008e4      0x117 /tmp/ccZObiYX.debug.temp.o
+ .debug_abbrev  0x00000000000009fb      0x19a /tmp/ccuxqkQX.debug.temp.o
+ .debug_abbrev  0x0000000000000b95      0x322 /tmp/ccq82vlX.debug.temp.o
+ .debug_abbrev  0x0000000000000eb7      0x1ff /tmp/ccSGVMiW.debug.temp.o
+ .debug_abbrev  0x00000000000010b6      0x2a3 /tmp/ccKEuPQW.debug.temp.o
+ .debug_abbrev  0x0000000000001359       0xfb /tmp/ccU5zYOX.debug.temp.o
+ .debug_abbrev  0x0000000000001454      0x129 /tmp/ccZwQdaX.debug.temp.o
+ .debug_abbrev  0x000000000000157d      0x1d0 /tmp/cc2rqMKV.debug.temp.o
+ .debug_abbrev  0x000000000000174d       0xfe /tmp/cc8LGy1X.debug.temp.o
+ .debug_abbrev  0x000000000000184b      0x155 /tmp/ccvSwewT.debug.temp.o
+ .debug_abbrev  0x00000000000019a0      0x104 /tmp/ccWT5ofW.debug.temp.o
+ .debug_abbrev  0x0000000000001aa4      0x114 /tmp/ccvMrMEW.debug.temp.o
+ .debug_abbrev  0x0000000000001bb8      0x1ec /tmp/cc3kLdFX.debug.temp.o
+ .debug_abbrev  0x0000000000001da4      0x14e /tmp/cc6DuGFT.debug.temp.o
+ .debug_abbrev  0x0000000000001ef2      0x235 /tmp/cc6HN8gU.debug.temp.o
+ .debug_abbrev  0x0000000000002127      0x10f /tmp/ccIjjFET.debug.temp.o
+ .debug_abbrev  0x0000000000002236       0xe3 /tmp/ccqQ3cVX.debug.temp.o
+ .debug_abbrev  0x0000000000002319       0xea /tmp/ccd4vMFT.debug.temp.o
+ .debug_abbrev  0x0000000000002403      0x11d /tmp/ccWlmE0U.debug.temp.o
+ .debug_abbrev  0x0000000000002520      0x155 /tmp/ccGtjM1U.debug.temp.o
+ .debug_abbrev  0x0000000000002675      0x177 /tmp/ccSvtcTT.debug.temp.o
+ .debug_abbrev  0x00000000000027ec       0xb1 /tmp/ccRKnm2T.debug.temp.o
+ .debug_abbrev  0x000000000000289d       0xc6 /tmp/ccE0CAxX.debug.temp.o
+ .debug_abbrev  0x0000000000002963       0xb6 /tmp/ccHfLW2W.debug.temp.o
+ .debug_abbrev  0x0000000000002a19       0xce /tmp/ccy7pC6U.debug.temp.o
+ .debug_abbrev  0x0000000000002ae7       0xf4 /tmp/ccih051U.debug.temp.o
+ .debug_abbrev  0x0000000000002bdb       0xd1 /tmp/ccRYENYX.debug.temp.o
+ .debug_abbrev  0x0000000000002cac       0xd1 /tmp/ccY6JmYW.debug.temp.o
+ .debug_abbrev  0x0000000000002d7d       0xb1 /tmp/ccPZTCJW.debug.temp.o
+ .debug_abbrev  0x0000000000002e2e       0xb1 /tmp/ccK6AwNV.debug.temp.o
+ .debug_abbrev  0x0000000000002edf       0xc0 /tmp/cc8iQyXX.debug.temp.o
+ .debug_abbrev  0x0000000000002f9f       0xb1 /tmp/ccqnyMNX.debug.temp.o
+ .debug_abbrev  0x0000000000003050       0xb3 /tmp/ccDb1WYU.debug.temp.o
+ .debug_abbrev  0x0000000000003103       0xf9 /tmp/ccT2iHrW.debug.temp.o
+ .debug_abbrev  0x00000000000031fc       0xb6 /tmp/ccg5ZonU.debug.temp.o
+ .debug_abbrev  0x00000000000032b2       0xd5 /tmp/ccTM3aCU.debug.temp.o
+ .debug_abbrev  0x0000000000003387      0x138 /tmp/cclJHVkW.debug.temp.o
+ .debug_abbrev  0x00000000000034bf      0x126 /tmp/ccmPZLJW.debug.temp.o
+ .debug_abbrev  0x00000000000035e5      0x149 /tmp/ccW6d0YX.debug.temp.o
+ .debug_abbrev  0x000000000000372e       0xf9 /tmp/ccWs6muX.debug.temp.o
+ .debug_abbrev  0x0000000000003827       0xb3 /tmp/ccJKffXT.debug.temp.o
+ .debug_abbrev  0x00000000000038da       0xe0 /tmp/ccDz9ldX.debug.temp.o
+ .debug_abbrev  0x00000000000039ba      0x184 /tmp/ccqCXtTV.debug.temp.o
+ .debug_abbrev  0x0000000000003b3e       0xe0 /tmp/ccHWN12W.debug.temp.o
+ .debug_abbrev  0x0000000000003c1e       0xea /tmp/ccFADTUT.debug.temp.o
+ .debug_abbrev  0x0000000000003d08      0x11b /tmp/ccVSBkzT.debug.temp.o
+ .debug_abbrev  0x0000000000003e23      0x164 /tmp/cczzhBFW.debug.temp.o
+ .debug_abbrev  0x0000000000003f87      0x17e /tmp/ccG94qsX.debug.temp.o
+ .debug_abbrev  0x0000000000004105       0xc6 /tmp/ccHMcJuX.debug.temp.o
+ .debug_abbrev  0x00000000000041cb      0x149 /tmp/cc9nRRPW.debug.temp.o
+ .debug_abbrev  0x0000000000004314      0x138 /tmp/ccsTr6GX.debug.temp.o
+ .debug_abbrev  0x000000000000444c      0x16e /tmp/ccUU9jFT.debug.temp.o
+ .debug_abbrev  0x00000000000045ba      0x154 /tmp/cc4csFfU.debug.temp.o
+ .debug_abbrev  0x000000000000470e      0x117 /tmp/ccvAo1vV.debug.temp.o
+ .debug_abbrev  0x0000000000004825       0xf9 /tmp/ccYirgBU.debug.temp.o
+ .debug_abbrev  0x000000000000491e       0xe0 /tmp/ccHqdaIX.debug.temp.o
+ .debug_abbrev  0x00000000000049fe       0xe3 /tmp/ccrZTjnW.debug.temp.o
+ .debug_abbrev  0x0000000000004ae1      0x1a3 /tmp/ccgq3hqV.debug.temp.o
+ .debug_abbrev  0x0000000000004c84      0x155 /tmp/ccEeZZRW.debug.temp.o
+ .debug_abbrev  0x0000000000004dd9      0x16b /tmp/ccBFrA8U.debug.temp.o
+ .debug_abbrev  0x0000000000004f44       0xd4 /tmp/cceif8hW.debug.temp.o
+ .debug_abbrev  0x0000000000005018      0x274 /tmp/ccvkGtwV.debug.temp.o
+ .debug_abbrev  0x000000000000528c      0x146 /tmp/ccAi7HnW.debug.temp.o
+ .debug_abbrev  0x00000000000053d2      0x226 /tmp/ccIn7MBX.debug.temp.o
+ .debug_abbrev  0x00000000000055f8      0x16b /tmp/ccihrrKW.debug.temp.o
+ .debug_abbrev  0x0000000000005763      0x264 /tmp/cczZCnwV.debug.temp.o
+ .debug_abbrev  0x00000000000059c7      0x227 /tmp/ccP6APQV.debug.temp.o
+ .debug_abbrev  0x0000000000005bee      0x120 /tmp/cc9dLprU.debug.temp.o
+ .debug_abbrev  0x0000000000005d0e      0x241 /tmp/ccN7e7WU.debug.temp.o
+
+.debug_loc      0x0000000000000000    0x162ab
+ .debug_loc     0x0000000000000000    0x162ab /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+
+.debug_aranges  0x0000000000000000      0x5b0
+ .debug_aranges
+                0x0000000000000000      0x5b0 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+
+.debug_ranges   0x0000000000000000     0x52d0
+ .debug_ranges  0x0000000000000000     0x52d0 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+
+.debug_line     0x0000000000000000    0x10bbf
+ .debug_line    0x0000000000000000     0x83cd /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+ .debug_line    0x00000000000083cd      0x3ae /tmp/cc6UZVfX.debug.temp.o
+ .debug_line    0x000000000000877b      0x2b8 /tmp/ccoQwksU.debug.temp.o
+ .debug_line    0x0000000000008a33      0x1f2 /tmp/cc6g4ggV.debug.temp.o
+ .debug_line    0x0000000000008c25      0x1a9 /tmp/ccZObiYX.debug.temp.o
+ .debug_line    0x0000000000008dce      0x2a6 /tmp/ccuxqkQX.debug.temp.o
+ .debug_line    0x0000000000009074      0x3d5 /tmp/ccq82vlX.debug.temp.o
+ .debug_line    0x0000000000009449      0x302 /tmp/ccSGVMiW.debug.temp.o
+ .debug_line    0x000000000000974b      0x2b0 /tmp/ccKEuPQW.debug.temp.o
+ .debug_line    0x00000000000099fb      0x16a /tmp/ccU5zYOX.debug.temp.o
+ .debug_line    0x0000000000009b65      0x168 /tmp/ccZwQdaX.debug.temp.o
+ .debug_line    0x0000000000009ccd      0x29e /tmp/cc2rqMKV.debug.temp.o
+ .debug_line    0x0000000000009f6b      0x193 /tmp/cc8LGy1X.debug.temp.o
+ .debug_line    0x000000000000a0fe      0x202 /tmp/ccvSwewT.debug.temp.o
+ .debug_line    0x000000000000a300      0x2c0 /tmp/ccWT5ofW.debug.temp.o
+ .debug_line    0x000000000000a5c0      0x1bd /tmp/ccvMrMEW.debug.temp.o
+ .debug_line    0x000000000000a77d      0x287 /tmp/cc3kLdFX.debug.temp.o
+ .debug_line    0x000000000000aa04      0x304 /tmp/cc6DuGFT.debug.temp.o
+ .debug_line    0x000000000000ad08      0x203 /tmp/cc6HN8gU.debug.temp.o
+ .debug_line    0x000000000000af0b      0x158 /tmp/ccIjjFET.debug.temp.o
+ .debug_line    0x000000000000b063      0x154 /tmp/ccqQ3cVX.debug.temp.o
+ .debug_line    0x000000000000b1b7      0x196 /tmp/ccd4vMFT.debug.temp.o
+ .debug_line    0x000000000000b34d      0x193 /tmp/ccWlmE0U.debug.temp.o
+ .debug_line    0x000000000000b4e0      0x17d /tmp/ccGtjM1U.debug.temp.o
+ .debug_line    0x000000000000b65d      0x17a /tmp/ccSvtcTT.debug.temp.o
+ .debug_line    0x000000000000b7d7      0x157 /tmp/ccRKnm2T.debug.temp.o
+ .debug_line    0x000000000000b92e      0x156 /tmp/ccE0CAxX.debug.temp.o
+ .debug_line    0x000000000000ba84      0x157 /tmp/ccHfLW2W.debug.temp.o
+ .debug_line    0x000000000000bbdb      0x153 /tmp/ccy7pC6U.debug.temp.o
+ .debug_line    0x000000000000bd2e      0x16b /tmp/ccih051U.debug.temp.o
+ .debug_line    0x000000000000be99      0x168 /tmp/ccRYENYX.debug.temp.o
+ .debug_line    0x000000000000c001      0x167 /tmp/ccY6JmYW.debug.temp.o
+ .debug_line    0x000000000000c168      0x12e /tmp/ccPZTCJW.debug.temp.o
+ .debug_line    0x000000000000c296      0x12e /tmp/ccK6AwNV.debug.temp.o
+ .debug_line    0x000000000000c3c4      0x131 /tmp/cc8iQyXX.debug.temp.o
+ .debug_line    0x000000000000c4f5      0x134 /tmp/ccqnyMNX.debug.temp.o
+ .debug_line    0x000000000000c629      0x137 /tmp/ccDb1WYU.debug.temp.o
+ .debug_line    0x000000000000c760      0x12d /tmp/ccT2iHrW.debug.temp.o
+ .debug_line    0x000000000000c88d      0x130 /tmp/ccg5ZonU.debug.temp.o
+ .debug_line    0x000000000000c9bd      0x128 /tmp/ccTM3aCU.debug.temp.o
+ .debug_line    0x000000000000cae5      0x12f /tmp/cclJHVkW.debug.temp.o
+ .debug_line    0x000000000000cc14      0x12b /tmp/ccmPZLJW.debug.temp.o
+ .debug_line    0x000000000000cd3f      0x170 /tmp/ccW6d0YX.debug.temp.o
+ .debug_line    0x000000000000ceaf      0x12b /tmp/ccWs6muX.debug.temp.o
+ .debug_line    0x000000000000cfda      0x12e /tmp/ccJKffXT.debug.temp.o
+ .debug_line    0x000000000000d108      0x16c /tmp/ccDz9ldX.debug.temp.o
+ .debug_line    0x000000000000d274      0x168 /tmp/ccqCXtTV.debug.temp.o
+ .debug_line    0x000000000000d3dc      0x16b /tmp/ccHWN12W.debug.temp.o
+ .debug_line    0x000000000000d547      0x12b /tmp/ccFADTUT.debug.temp.o
+ .debug_line    0x000000000000d672      0x174 /tmp/ccVSBkzT.debug.temp.o
+ .debug_line    0x000000000000d7e6      0x16d /tmp/cczzhBFW.debug.temp.o
+ .debug_line    0x000000000000d953      0x171 /tmp/ccG94qsX.debug.temp.o
+ .debug_line    0x000000000000dac4      0x17c /tmp/ccHMcJuX.debug.temp.o
+ .debug_line    0x000000000000dc40      0x15a /tmp/cc9nRRPW.debug.temp.o
+ .debug_line    0x000000000000dd9a      0x13c /tmp/ccsTr6GX.debug.temp.o
+ .debug_line    0x000000000000ded6      0x1c8 /tmp/ccUU9jFT.debug.temp.o
+ .debug_line    0x000000000000e09e      0x1d4 /tmp/cc4csFfU.debug.temp.o
+ .debug_line    0x000000000000e272      0x140 /tmp/ccvAo1vV.debug.temp.o
+ .debug_line    0x000000000000e3b2      0x13d /tmp/ccYirgBU.debug.temp.o
+ .debug_line    0x000000000000e4ef      0x27f /tmp/ccHqdaIX.debug.temp.o
+ .debug_line    0x000000000000e76e      0x1b5 /tmp/ccrZTjnW.debug.temp.o
+ .debug_line    0x000000000000e923      0x1b5 /tmp/ccgq3hqV.debug.temp.o
+ .debug_line    0x000000000000ead8      0x303 /tmp/ccEeZZRW.debug.temp.o
+ .debug_line    0x000000000000eddb      0x1b6 /tmp/ccBFrA8U.debug.temp.o
+ .debug_line    0x000000000000ef91      0x1a7 /tmp/cceif8hW.debug.temp.o
+ .debug_line    0x000000000000f138      0x3b8 /tmp/ccvkGtwV.debug.temp.o
+ .debug_line    0x000000000000f4f0      0x359 /tmp/ccAi7HnW.debug.temp.o
+ .debug_line    0x000000000000f849      0x3b6 /tmp/ccIn7MBX.debug.temp.o
+ .debug_line    0x000000000000fbff      0x394 /tmp/ccihrrKW.debug.temp.o
+ .debug_line    0x000000000000ff93      0x2f2 /tmp/cczZCnwV.debug.temp.o
+ .debug_line    0x0000000000010285      0x2f4 /tmp/ccP6APQV.debug.temp.o
+ .debug_line    0x0000000000010579      0x2f9 /tmp/cc9dLprU.debug.temp.o
+ .debug_line    0x0000000000010872      0x34d /tmp/ccN7e7WU.debug.temp.o
+
+.debug_str      0x0000000000000000     0xb166
+ .debug_str     0x0000000000000000      0x2d3 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o
+                                        0x2e5 (size before relaxing)
+ .debug_str     0x00000000000002d3     0x1bf1 /tmp/cc6UZVfX.debug.temp.o
+                                       0x1f42 (size before relaxing)
+ .debug_str     0x0000000000001ec4      0x36c /tmp/ccoQwksU.debug.temp.o
+                                        0xd41 (size before relaxing)
+ .debug_str     0x0000000000002230      0x749 /tmp/cc6g4ggV.debug.temp.o
+                                        0xf92 (size before relaxing)
+ .debug_str     0x0000000000002979      0x200 /tmp/ccZObiYX.debug.temp.o
+                                        0x482 (size before relaxing)
+ .debug_str     0x0000000000002b79      0x321 /tmp/ccuxqkQX.debug.temp.o
+                                        0x7d2 (size before relaxing)
+ .debug_str     0x0000000000002e9a      0xada /tmp/ccq82vlX.debug.temp.o
+                                       0x1358 (size before relaxing)
+ .debug_str     0x0000000000003974       0x53 /tmp/ccSGVMiW.debug.temp.o
+                                        0xbdd (size before relaxing)
+ .debug_str     0x00000000000039c7      0x20c /tmp/ccKEuPQW.debug.temp.o
+                                        0xbc7 (size before relaxing)
+ .debug_str     0x0000000000003bd3      0x126 /tmp/ccU5zYOX.debug.temp.o
+                                        0x3dc (size before relaxing)
+ .debug_str     0x0000000000003cf9       0x88 /tmp/ccZwQdaX.debug.temp.o
+                                        0x4a5 (size before relaxing)
+ .debug_str     0x0000000000003d81      0x5b0 /tmp/cc2rqMKV.debug.temp.o
+                                        0xc00 (size before relaxing)
+ .debug_str     0x0000000000004331       0xa1 /tmp/cc8LGy1X.debug.temp.o
+                                        0x510 (size before relaxing)
+ .debug_str     0x00000000000043d2      0x18e /tmp/ccvSwewT.debug.temp.o
+                                        0x6c4 (size before relaxing)
+ .debug_str     0x0000000000004560       0xc7 /tmp/ccWT5ofW.debug.temp.o
+                                        0x697 (size before relaxing)
+ .debug_str     0x0000000000004627       0xbb /tmp/ccvMrMEW.debug.temp.o
+                                        0x464 (size before relaxing)
+ .debug_str     0x00000000000046e2      0x1d0 /tmp/cc3kLdFX.debug.temp.o
+                                        0x883 (size before relaxing)
+ .debug_str     0x00000000000048b2      0x23b /tmp/cc6DuGFT.debug.temp.o
+                                        0x815 (size before relaxing)
+ .debug_str     0x0000000000004aed      0xac6 /tmp/cc6HN8gU.debug.temp.o
+                                        0xeb4 (size before relaxing)
+ .debug_str     0x00000000000055b3      0x14e /tmp/ccIjjFET.debug.temp.o
+                                        0x3d0 (size before relaxing)
+ .debug_str     0x0000000000005701      0x43e /tmp/ccqQ3cVX.debug.temp.o
+                                        0x71c (size before relaxing)
+ .debug_str     0x0000000000005b3f       0x44 /tmp/ccd4vMFT.debug.temp.o
+                                        0x39a (size before relaxing)
+ .debug_str     0x0000000000005b83       0x41 /tmp/ccWlmE0U.debug.temp.o
+                                        0x3d0 (size before relaxing)
+ .debug_str     0x0000000000005bc4      0x170 /tmp/ccGtjM1U.debug.temp.o
+                                        0x4ae (size before relaxing)
+ .debug_str     0x0000000000005d34      0x3cf /tmp/ccSvtcTT.debug.temp.o
+                                        0x673 (size before relaxing)
+ .debug_str     0x0000000000006103       0xb6 /tmp/ccRKnm2T.debug.temp.o
+                                        0x333 (size before relaxing)
+ .debug_str     0x00000000000061b9       0x52 /tmp/ccE0CAxX.debug.temp.o
+                                        0x33f (size before relaxing)
+ .debug_str     0x000000000000620b       0x6a /tmp/ccHfLW2W.debug.temp.o
+                                        0x34b (size before relaxing)
+ .debug_str     0x0000000000006275       0xee /tmp/ccy7pC6U.debug.temp.o
+                                        0x3df (size before relaxing)
+ .debug_str     0x0000000000006363       0xe3 /tmp/ccih051U.debug.temp.o
+                                        0x499 (size before relaxing)
+ .debug_str     0x0000000000006446       0x39 /tmp/ccRYENYX.debug.temp.o
+                                        0x46a (size before relaxing)
+ .debug_str     0x000000000000647f       0x51 /tmp/ccY6JmYW.debug.temp.o
+                                        0x473 (size before relaxing)
+ .debug_str     0x00000000000064d0       0x42 /tmp/ccPZTCJW.debug.temp.o
+                                        0x440 (size before relaxing)
+ .debug_str     0x0000000000006512       0x3a /tmp/ccK6AwNV.debug.temp.o
+                                        0x440 (size before relaxing)
+ .debug_str     0x000000000000654c       0x53 /tmp/cc8iQyXX.debug.temp.o
+                                        0x454 (size before relaxing)
+ .debug_str     0x000000000000659f       0x50 /tmp/ccqnyMNX.debug.temp.o
+                                        0x440 (size before relaxing)
+ .debug_str     0x00000000000065ef       0x5f /tmp/ccDb1WYU.debug.temp.o
+                                        0x459 (size before relaxing)
+ .debug_str     0x000000000000664e       0xc7 /tmp/ccT2iHrW.debug.temp.o
+                                        0x629 (size before relaxing)
+ .debug_str     0x0000000000006715       0x48 /tmp/ccg5ZonU.debug.temp.o
+                                        0x43c (size before relaxing)
+ .debug_str     0x000000000000675d       0x5f /tmp/ccTM3aCU.debug.temp.o
+                                        0x456 (size before relaxing)
+ .debug_str     0x00000000000067bc      0x2ea /tmp/cclJHVkW.debug.temp.o
+                                        0x808 (size before relaxing)
+ .debug_str     0x0000000000006aa6      0x2e0 /tmp/ccmPZLJW.debug.temp.o
+                                        0x7bd (size before relaxing)
+ .debug_str     0x0000000000006d86      0x13a /tmp/ccW6d0YX.debug.temp.o
+                                        0x54a (size before relaxing)
+ .debug_str     0x0000000000006ec0      0x198 /tmp/ccWs6muX.debug.temp.o
+                                        0x5ba (size before relaxing)
+ .debug_str     0x0000000000007058       0xbe /tmp/ccJKffXT.debug.temp.o
+                                        0x4b3 (size before relaxing)
+ .debug_str     0x0000000000007116       0x4a /tmp/ccDz9ldX.debug.temp.o
+                                        0x458 (size before relaxing)
+ .debug_str     0x0000000000007160      0x1eb /tmp/ccqCXtTV.debug.temp.o
+                                        0x66c (size before relaxing)
+ .debug_str     0x000000000000734b       0x48 /tmp/ccHWN12W.debug.temp.o
+                                        0x456 (size before relaxing)
+ .debug_str     0x0000000000007393      0x17c /tmp/ccFADTUT.debug.temp.o
+                                        0x595 (size before relaxing)
+ .debug_str     0x000000000000750f       0x5e /tmp/ccVSBkzT.debug.temp.o
+                                        0x4a1 (size before relaxing)
+ .debug_str     0x000000000000756d      0x177 /tmp/cczzhBFW.debug.temp.o
+                                        0x57e (size before relaxing)
+ .debug_str     0x00000000000076e4      0x28d /tmp/ccG94qsX.debug.temp.o
+                                        0x6dc (size before relaxing)
+ .debug_str     0x0000000000007971      0x10b /tmp/ccHMcJuX.debug.temp.o
+                                        0x3bb (size before relaxing)
+ .debug_str     0x0000000000007a7c      0x313 /tmp/cc9nRRPW.debug.temp.o
+                                        0x6c4 (size before relaxing)
+ .debug_str     0x0000000000007d8f      0x185 /tmp/ccsTr6GX.debug.temp.o
+                                        0x55a (size before relaxing)
+ .debug_str     0x0000000000007f14      0x280 /tmp/ccUU9jFT.debug.temp.o
+                                        0x545 (size before relaxing)
+ .debug_str     0x0000000000008194      0x1b4 /tmp/cc4csFfU.debug.temp.o
+                                        0x57c (size before relaxing)
+ .debug_str     0x0000000000008348      0x2ff /tmp/ccvAo1vV.debug.temp.o
+                                        0x5d0 (size before relaxing)
+ .debug_str     0x0000000000008647      0x281 /tmp/ccYirgBU.debug.temp.o
+                                        0x534 (size before relaxing)
+ .debug_str     0x00000000000088c8      0x13f /tmp/ccHqdaIX.debug.temp.o
+                                        0x543 (size before relaxing)
+ .debug_str     0x0000000000008a07      0x11f /tmp/ccrZTjnW.debug.temp.o
+                                        0x51e (size before relaxing)
+ .debug_str     0x0000000000008b26      0x5f7 /tmp/ccgq3hqV.debug.temp.o
+                                        0x8fd (size before relaxing)
+ .debug_str     0x000000000000911d      0x2cc /tmp/ccEeZZRW.debug.temp.o
+                                        0x778 (size before relaxing)
+ .debug_str     0x00000000000093e9      0x565 /tmp/ccBFrA8U.debug.temp.o
+                                        0x825 (size before relaxing)
+ .debug_str     0x000000000000994e      0x11d /tmp/cceif8hW.debug.temp.o
+                                        0x38f (size before relaxing)
+ .debug_str     0x0000000000009a6b      0x43c /tmp/ccvkGtwV.debug.temp.o
+                                        0xd5f (size before relaxing)
+ .debug_str     0x0000000000009ea7      0x11e /tmp/ccAi7HnW.debug.temp.o
+                                        0x683 (size before relaxing)
+ .debug_str     0x0000000000009fc5      0x189 /tmp/ccIn7MBX.debug.temp.o
+                                        0xc88 (size before relaxing)
+ .debug_str     0x000000000000a14e      0x298 /tmp/ccihrrKW.debug.temp.o
+                                        0x788 (size before relaxing)
+ .debug_str     0x000000000000a3e6      0x712 /tmp/cczZCnwV.debug.temp.o
+                                        0xc4b (size before relaxing)
+ .debug_str     0x000000000000aaf8      0x3e1 /tmp/ccP6APQV.debug.temp.o
+                                        0x994 (size before relaxing)
+ .debug_str     0x000000000000aed9       0xb0 /tmp/cc9dLprU.debug.temp.o
+                                        0x58e (size before relaxing)
+ .debug_str     0x000000000000af89      0x1dd /tmp/ccN7e7WU.debug.temp.o
+                                       0x13a1 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x1508
+ .debug_frame   0x0000000000000000     0x1508 /tmp/SecMain.dll.y1JB2U.ltrans0.ltrans.o

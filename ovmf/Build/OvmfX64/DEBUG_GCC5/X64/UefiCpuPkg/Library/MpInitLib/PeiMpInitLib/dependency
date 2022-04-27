@@ -1,0 +1,19 @@
+
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MpInitLib/PeiMpInitLib/OUTPUT/X64/MpFuncs.nasm.trim.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MpInitLib/PeiMpInitLib/OUTPUT/X64/AmdSev.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MpInitLib/PeiMpInitLib/OUTPUT/X64/MpFuncs.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MpInitLib/PeiMpInitLib/OUTPUT/Microcode.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MpInitLib/PeiMpInitLib/OUTPUT/AmdSev.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MpInitLib/PeiMpInitLib/OUTPUT/MpLib.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MpInitLib/PeiMpInitLib/OUTPUT/PeiMpLib.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/MpInitLib/PeiMpInitLib/OUTPUT/MpLibTdx.obj.deps
+
+               

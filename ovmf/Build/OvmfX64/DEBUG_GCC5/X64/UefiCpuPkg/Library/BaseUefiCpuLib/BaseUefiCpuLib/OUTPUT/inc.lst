@@ -1,0 +1,9 @@
+-I/home/anna/AMDSEV/ovmf/UefiCpuPkg/Library/BaseUefiCpuLib/X64
+-I/home/anna/AMDSEV/ovmf/UefiCpuPkg/Library/BaseUefiCpuLib
+-I/home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/BaseUefiCpuLib/BaseUefiCpuLib/DEBUG
+-I/home/anna/AMDSEV/ovmf/MdePkg
+-I/home/anna/AMDSEV/ovmf/MdePkg/Include
+-I/home/anna/AMDSEV/ovmf/MdePkg/Test/UnitTest/Include
+-I/home/anna/AMDSEV/ovmf/MdePkg/Include/X64
+-I/home/anna/AMDSEV/ovmf/UefiCpuPkg
+-I/home/anna/AMDSEV/ovmf/UefiCpuPkg/Include

@@ -1,0 +1,11 @@
+
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/X64/ArchExceptionHandler.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/X64/ExceptionHandlerAsm.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/SecPeiCpuException.obj.deps
+
+-include /home/anna/AMDSEV/ovmf/Build/OvmfX64/DEBUG_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/SecPeiCpuExceptionHandlerLib/OUTPUT/CpuExceptionCommon.obj.deps
+
+               
